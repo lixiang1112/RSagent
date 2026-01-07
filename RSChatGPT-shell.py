@@ -11,7 +11,7 @@ from langchain.agents.tools import Tool
 from langchain.chains.conversation.memory import ConversationBufferMemory
 import numpy as np
 from Prefix import  RS_CHATGPT_PREFIX, RS_CHATGPT_FORMAT_INSTRUCTIONS, RS_CHATGPT_SUFFIX
-from RStask import ImageEdgeFunction,CaptionFunction,LanduseFunction,DetectionFunction,CountingFuncnction,SceneFunction,InstanceFunction
+from RStask import ImageEdgeFunction,CaptionFunction,LanduseFunction,DetectionFunction,CountingFuncnction,SceneFunction,InstanceFunction,ChangeDetectionFunction
 
 
 
@@ -45,6 +45,44 @@ class EdgeDetection:
         updated_image_path=get_new_image_name(inputs, func_name="edge")
         self.func.inference(inputs,updated_image_path)
         return updated_image_path
+
+class ChangeDetection:
+    def __init__(self, device):
+        print("Initializing Change Detection Function....")
+        self.func = ChangeDetectionFunction(device)
+    @prompts(name="Change Detection On Image Pair",
+             description="useful when you want to detect changes between two remote sensing images taken at different times. "
+                         "like: detect changes between these two images, or compare these images for changes, "
+                         "or find what has changed between the before and after images, or identify the differences between two temporal images. "
+                         "The input to this tool should be a comma separated string of two or three parts: "
+                         "representing the pre_image_path (before), post_image_path (after), and optionally change_description. "
+                         "Example: 'image1.png,image2.png' or 'image1.png,image2.png,buildings have been constructed'")
+    def inference(self, inputs):
+        # Clean up the input - remove any trailing text after newlines or special markers
+        inputs = inputs.split('\n')[0].strip()  # Take only the first line
+        inputs = inputs.split('Observation:')[0].strip()  # Remove any Observation text
+        inputs = inputs.strip('`').strip()  # Remove backticks
+        
+        parts = inputs.split(",")
+        if len(parts) < 2:
+            return "Error: Need at least two images for change detection. Format: pre_image_path,post_image_path[,change_description]"
+        
+        pre_image_path = parts[0].strip()
+        post_image_path = parts[1].strip()
+        change_caption = parts[2].strip() if len(parts) > 2 else None
+        
+        # 生成输出文件名
+        updated_image_path = get_new_image_name(post_image_path, func_name="change_detection")
+        
+        # 执行变化检测
+        result_text = self.func.inference(
+            pre_image_path, 
+            post_image_path, 
+            updated_image_path,
+            change_caption=change_caption
+        )
+        
+        return f"{result_text}. Output: {updated_image_path}"
 
 class ObjectCounting:
     def __init__(self, device):
@@ -178,7 +216,8 @@ class RSChatGPT:
             verbose=True,
             memory=self.memory,
             return_intermediate_steps=True,stop=["\nObservation:", "\n\tObservation:"],
-            agent_kwargs={'prefix': PREFIX, 'format_instructions': FORMAT_INSTRUCTIONS,'suffix': SUFFIX}, )
+            agent_kwargs={'prefix': PREFIX, 'format_instructions': FORMAT_INSTRUCTIONS,'suffix': SUFFIX},
+            handle_parsing_errors=True, )
 
     def run_text(self, text, state):
         res = self.agent({"input": text.strip()})
@@ -222,12 +261,14 @@ class RSChatGPT:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--openai_key', type=str,required=True)
-    parser.add_argument('--image_dir', type=str,required=True)
+    parser.add_argument('--openai_key', type=str,default="sk-kQ11Ptt3RYbeTj7zBVSADbqXth7mA7Jj5dEmaWgtYiO04zdu")
+    parser.add_argument('--image_dir', type=str,default="/root/Remote-Sensing-ChatGPT/image/test_000004_pre.png")
     parser.add_argument('--gpt_name', type=str, default="gpt-3.5-turbo",choices=['gpt-3.5-turbo-1106','gpt-3.5-turbo','gpt-4','gpt-4-0125-preview','gpt-4-turbo-preview','gpt-4-1106-preview'])
-    parser.add_argument('--proxy_url', type=str, default=None)
-    parser.add_argument('--load', type=str,help='Image Captioning is basic models that is required. You can select from [ImageCaptioning,ObjectDetection,LandUseSegmentation,InstanceSegmentation,ObjectCounting,SceneClassification,EdgeDetection]',
-                        default="ImageCaptioning_cuda:0,SceneClassification_cuda:0,ObjectDetection_cuda:0,LandUseSegmentation_cuda:0,InstanceSegmentation_cuda:0,ObjectCounting_cuda:0,EdgeDetection_cpu")
+    parser.add_argument('--proxy_url', type=str, default="https://api.chatanywhere.tech")
+    # parser.add_argument('--load', type=str,help='Image Captioning is basic models that is required. You can select from [ImageCaptioning,ObjectDetection,LandUseSegmentation,InstanceSegmentation,ObjectCounting,SceneClassification,EdgeDetection]',
+    #                     default="ImageCaptioning_cuda:0,SceneClassification_cuda:0,ObjectDetection_cuda:0,LandUseSegmentation_cuda:0,InstanceSegmentation_cuda:0,ObjectCounting_cuda:0,EdgeDetection_cpu")
+    parser.add_argument('--load', type=str,help='Image Captioning is basic models that is required. You can select from [ImageCaptioning,ObjectDetection,LandUseSegmentation,InstanceSegmentation,ObjectCounting,SceneClassification,EdgeDetection,ChangeDetection]',
+                        default="ImageCaptioning_cuda:0,SceneClassification_cuda:0,ObjectDetection_cuda:0,ObjectCounting_cuda:0,EdgeDetection_cpu,ChangeDetection_cuda:0")
     args = parser.parse_args()
     state = []
     load_dict = {e.split('_')[0].strip(): e.split('_')[1].strip() for e in args.load.split(',')}

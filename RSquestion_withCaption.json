@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 1,
+    "query": "帮我看看这张新拍的卫星图，和以前那张相比，地面都动了哪些地方？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000010.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000010.png"
+    ],
+    "image_name": "train_000010.png",
+    "caption_A": "The aerial image shows a landscape with patches of dense green vegetation interspersed with open areas, possibly indicating a mix of forest and agricultural land.",
+    "caption_B": "The aerial image shows a rural landscape with a winding road, scattered trees, and a small structure near the bottom left corner.",
+    "change_caption": "a lane appears on the left and several houses are built at the bottom ."
+  },
+  {
+    "id": 2,
+    "query": "照片里一共有多少艘船，数字告诉我即可。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001533.png",
+    "image_name": "test_001533.png",
+    "caption_A": "The aerial image shows a dense forest with a mix of green and brown vegetation, indicating a variety of tree species and possibly some areas of dry or dead foliage.",
+    "caption_B": "The aerial image shows a dense forest with a mix of green and darker areas, indicating varying vegetation or possibly shadows from trees.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 3,
+    "query": "这张图到处都灰蒙蒙的，能不能把有明显边界的轮廓给我描出来？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001866.png",
+    "image_name": "test_001866.png",
+    "caption_A": "The aerial image shows a curved road with a single lane, bordered by trees and surrounded by an open, flat landscape.",
+    "caption_B": "The aerial image shows a curving road surrounded by dry, barren land with sparse vegetation and a few scattered trees.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 4,
+    "query": "想知道这张图整体是在拍什么场景，是城市还是农村还是别的？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000541.png",
+    "image_name": "train_000541.png",
+    "caption_A": "The aerial image shows a rural area with a dirt road, some buildings, and scattered vegetation.",
+    "caption_B": "The aerial image shows a small commercial area with a parking lot, a building with a purple roof, and a road intersecting with a driveway leading to another building. There is also a truck parked near the intersection.",
+    "change_caption": "a square house with a parking lot is built in place of the vegetation ."
+  },
+  {
+    "id": 5,
+    "query": "图里好像有几架飞机，能框出来告诉我位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000759.png",
+    "image_name": "val_000759.png",
+    "caption_A": "The aerial image shows a landscape with a mix of light and dark areas, possibly indicating different types of vegetation or soil composition, with some scattered darker spots that could be trees or other natural features.",
+    "caption_B": "The aerial image shows a road intersection with a single tree in the center, surrounded by open fields and a small patch of greenery.",
+    "change_caption": "the wasteland is leveled and a crossroad appears below ."
+  },
+  {
+    "id": 6,
+    "query": "用一句话描述这张遥感图里最主要的内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000627.png",
+    "image_name": "val_000627.png",
+    "caption_A": "The aerial image shows a residential neighborhood with houses, driveways, and parked vehicles, surrounded by trees and open land.",
+    "caption_B": "The aerial image shows a residential area with multiple houses, driveways, and parked vehicles, surrounded by trees and open land.",
+    "change_caption": "some houses appear along the roads ."
+  },
+  {
+    "id": 7,
+    "query": "把去年和今年的同一地区影像叠在一起，看看哪里出现新建筑。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000013.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000013.png"
+    ],
+    "image_name": "train_000013.png",
+    "caption_A": "The aerial image shows a forested area with patches of cleared land, possibly indicating logging or development activities.",
+    "caption_B": "The aerial image shows a curving road surrounded by dense forest and open land, with a circular area on the left side that appears to be a parking or rest stop.",
+    "change_caption": "a new road appears in the center and some trees are removed ."
+  },
+  {
+    "id": 8,
+    "query": "数一下图里圆形储油罐的数量，我懒得一个个点。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005805.png",
+    "image_name": "train_005805.png",
+    "caption_A": "The aerial image shows a small rural intersection with several buildings, including houses and possibly a barn, surrounded by open land and a road running alongside a railway track.",
+    "caption_B": "The aerial image shows a small industrial or commercial area with several buildings, including a large warehouse-like structure and smaller facilities, surrounded by paved roads and parking lots.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 9,
+    "query": "这张图边缘太模糊了，能把地物的边界线提取出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002336.png",
+    "image_name": "train_002336.png",
+    "caption_A": "The aerial image shows a large, open field with a distinct linear pattern that could be a road or a drainage ditch, surrounded by a few scattered trees and a body of water in the top left corner.",
+    "caption_B": "The aerial image shows a residential neighborhood with houses, driveways, and a mix of paved roads and open spaces.",
+    "change_caption": "a residential area and a road are built ."
+  },
+  {
+    "id": 10,
+    "query": "看这张图像是机场还是港口，给个整体判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006215.png",
+    "image_name": "train_006215.png",
+    "caption_A": "The aerial image shows a winding road cutting through a barren landscape, with a vehicle traveling along it and some scattered structures or objects nearby.",
+    "caption_B": "The aerial image shows a rural area with a road curving around a circular driveway, where a few vehicles and people can be seen.",
+    "change_caption": "the grassland vegetation becomes sparse and a crossroad appears on the upper right ."
+  },
+  {
+    "id": 11,
+    "query": "把影像里所有汽车的位置用方框标出来，谢谢。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006065.png",
+    "image_name": "train_006065.png",
+    "caption_A": "The aerial image shows a rural landscape with scattered buildings, patches of vegetation, and open land, suggesting a remote or agricultural area.",
+    "caption_B": "The aerial image shows a rural area with fields, scattered trees, and a few buildings, including what appears to be a house and some outbuildings.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 12,
+    "query": "给我一句话总结这张图在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000449.png",
+    "image_name": "val_000449.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with single-family homes, paved streets, and well-maintained lawns.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a street lined with parked cars.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 13,
+    "query": "两张图时间跨度五年，帮我找哪里长出了新房子。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000014.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000014.png"
+    ],
+    "image_name": "train_000014.png",
+    "caption_A": "The aerial image shows a rural landscape with a curved road, patches of trees, and open fields.",
+    "caption_B": "The aerial image shows a suburban neighborhood with single-family homes, driveways, and a winding road.",
+    "change_caption": "many buildings appear alongside the road ."
+  },
+  {
+    "id": 14,
+    "query": "图里小黑点都是鸽子吗？到底有多少只？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000458.png",
+    "image_name": "val_000458.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with uniformly spaced houses, each with a sloped roof and surrounded by lawns, connected by paved streets.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and streets, featuring a mix of single-family homes and some greenery.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 15,
+    "query": "想要明显的道路边界线，原图太糊了，能抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005414.png",
+    "image_name": "train_005414.png",
+    "caption_A": "The aerial image shows a rural area with a dirt road intersecting, surrounded by dense greenery and scattered houses.",
+    "caption_B": "The aerial image shows a narrow road surrounded by dense forested areas with scattered houses and trees.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 16,
+    "query": "这张图看起来是森林还是农田，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001383.png",
+    "image_name": "test_001383.png",
+    "caption_A": "The aerial image shows a row of mobile homes or trailers parked on a dirt lot surrounded by trees and vegetation.",
+    "caption_B": "The aerial image shows a residential neighborhood with houses, driveways, and parked cars, surrounded by trees and open spaces.",
+    "change_caption": "the woodland on the upper left is developed into a road and two rows of buildings on both sides of the road ."
+  },
+  {
+    "id": 17,
+    "query": "检测一下图里有没有飞机，有的话圈出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001018.png",
+    "image_name": "val_001018.png",
+    "caption_A": "The aerial image shows a suburban area with houses on one side of a road and a large agricultural field on the other, separated by a grassy buffer zone.",
+    "caption_B": "The aerial image shows a residential area with houses on one side of a road and an open, undeveloped field on the other side.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 18,
+    "query": "用通俗的中文告诉我这张遥感图主要拍到了什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005518.png",
+    "image_name": "train_005518.png",
+    "caption_A": "The aerial image shows a landscape with a mix of dark and light areas, possibly indicating different types of vegetation or soil composition, along with a winding road cutting through the terrain.",
+    "caption_B": "The aerial image shows a rural landscape with a winding road cutting through a patchwork of fields and vegetation.",
+    "change_caption": "the uneven grassland and woodland turn into flat land and a path appears ."
+  },
+  {
+    "id": 19,
+    "query": "把新旧两张图对比，标出被挖成坑的地方。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000015.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000015.png"
+    ],
+    "image_name": "train_000015.png",
+    "caption_A": "The aerial image shows a rural landscape with a road cutting through fields, surrounded by scattered trees and patches of vegetation.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a road network, surrounded by greenery.",
+    "change_caption": "some houses line up neatly on either side of the road ."
+  },
+  {
+    "id": 20,
+    "query": "能数得出图里有多少条船吗？数字就行。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000653.png",
+    "image_name": "test_000653.png",
+    "caption_A": "The aerial image shows a landscape with a mix of vegetation and open land, featuring a winding road cutting through the terrain.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a road network, surrounded by open land and some vegetation.",
+    "change_caption": "some roads and houses are built on bareland ."
+  },
+  {
+    "id": 21,
+    "query": "提取一下影像里所有硬边界，我要做叠加分析。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000706.png",
+    "image_name": "val_000706.png",
+    "caption_A": "The aerial image shows a patch of dense forested land surrounded by open fields and a road running parallel to it.",
+    "caption_B": "The aerial image shows a road running parallel to a dense forested area, with a patch of open land visible between them.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 22,
+    "query": "这张图整体属于工业区还是居民区，给个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001843.png",
+    "image_name": "train_001843.png",
+    "caption_A": "The aerial image shows a dense forest with a winding dirt path cutting through it, highlighting the contrast between the natural greenery and the man-made trail.",
+    "caption_B": "The aerial image shows a residential area with houses, a driveway, and a road curving through a wooded area.",
+    "change_caption": "a road in the center runs across some buildings ."
+  },
+  {
+    "id": 23,
+    "query": "图里如果存在卡车，就把它们框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001109.png",
+    "image_name": "val_001109.png",
+    "caption_A": "The aerial image shows a rural area with a road, scattered trees, and a few buildings, including what appears to be a house with a green roof.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and scattered trees along a road.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 24,
+    "query": "一句话概括这张图片的内容，越简洁越好。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006350.png",
+    "image_name": "train_006350.png",
+    "caption_A": "The aerial image shows a multi-lane highway with vehicles traveling on it, surrounded by grassy areas and a small parking lot to the left.",
+    "caption_B": "The aerial image shows a multi-lane highway with several vehicles traveling on it, surrounded by open land and a few scattered structures.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 25,
+    "query": "同一区域两个时相，帮我找出新增的高速路段。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000016.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000016.png"
+    ],
+    "image_name": "train_000016.png",
+    "caption_A": "The aerial image shows a landscape with a mix of open land, trees, and a paved road or path.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a mix of greenery and open land.",
+    "change_caption": "several houses appear on the bareland at the bottom ."
+  },
+  {
+    "id": 26,
+    "query": "影像里白色小点可能是羊，能帮我点个数吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000442.png",
+    "image_name": "test_000442.png",
+    "caption_A": "The aerial image shows a forested area with a winding dirt path cutting through it, surrounded by dense trees and scattered shrubs.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a swimming pool visible among the trees.",
+    "change_caption": "three lines of completed villas are built on both sides of the road replacing the trees ."
+  },
+  {
+    "id": 27,
+    "query": "边界线太杂乱了，只保留最锐利的边缘，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003058.png",
+    "image_name": "train_003058.png",
+    "caption_A": "The aerial image shows a rugged, rocky landscape with sparse vegetation and a winding path or stream cutting through it.",
+    "caption_B": "The aerial image shows a coastal area with a mix of sandy and vegetated land adjacent to a body of water, possibly an estuary or a bay.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 28,
+    "query": "看图感觉像是沙漠中的绿洲，能确认场景吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004985.png",
+    "image_name": "train_004985.png",
+    "caption_A": "The aerial image shows a landscape with a mix of open land, a body of water, and dense vegetation, likely a forested area near a river or lake.",
+    "caption_B": "The aerial image shows a grassy area with a road running through it, intersected by a smaller path or lane, and part of a building is visible in the top left corner.",
+    "change_caption": "plants and pools become roads and buildings ."
+  },
+  {
+    "id": 29,
+    "query": "把图上所有飞机目标都检测出来，画框给我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002836.png",
+    "image_name": "train_002836.png",
+    "caption_A": "The aerial image shows a close-up view of a textured surface, possibly concrete or asphalt, with visible cracks and a patch of snow or ice on the right side.",
+    "caption_B": "The aerial image shows a suburban neighborhood with single-family homes, paved streets, and cul-de-sacs, surrounded by greenery.",
+    "change_caption": "some roads and houses are built on bareland ."
+  },
+  {
+    "id": 30,
+    "query": "用一句话描述这张高分辨率影像的核心内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004454.png",
+    "image_name": "train_004454.png",
+    "caption_A": "The aerial image shows a forested area with a clear road cutting through it, surrounded by dense vegetation and scattered trees.",
+    "caption_B": "The aerial image shows a dense forested area with a clear, narrow road cutting through it.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 31,
+    "query": "对比两张图，看哪片农田被改成了建筑工地。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000017.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000017.png"
+    ],
+    "image_name": "train_000017.png",
+    "caption_A": "The aerial image shows a road intersection with a small parking area, surrounded by patches of snow and greenery.",
+    "caption_B": "The aerial image shows a suburban neighborhood with a single-story house, a driveway, and a small parking area, surrounded by greenery and a paved road network.",
+    "change_caption": "a vital with a parking lot is built on the bareland alongside the road ."
+  },
+  {
+    "id": 32,
+    "query": "图里密密麻麻的小点，能数出多少辆汽车吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002683.png",
+    "image_name": "train_002683.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, driveways, and swimming pools.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a few parked cars, surrounded by trees and greenery.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 33,
+    "query": "我只关心影像里明显的道路边缘，能抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000586.png",
+    "image_name": "train_000586.png",
+    "caption_A": "The aerial image shows a rural area with a road, scattered trees, and a few buildings, including what appears to be a house with a gray roof.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, a road, and surrounding greenery.",
+    "change_caption": "the road has been rebuilt and many villas appear ."
+  },
+  {
+    "id": 34,
+    "query": "这张图整体看上去是山地还是平原，帮我判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000003.png",
+    "image_name": "val_000003.png",
+    "caption_A": "The aerial image shows a landscape with patches of dense green vegetation interspersed among areas of open, dry ground.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a mix of open land and scattered vegetation.",
+    "change_caption": "several buildings replace many plants next to the road ."
+  },
+  {
+    "id": 35,
+    "query": "如果有船出现在图里，就把它们框出来告诉我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001398.png",
+    "image_name": "val_001398.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, driveways, and a few cars parked along the streets. Notably, there is a swimming pool visible in one of the backyards.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a few visible swimming pools.",
+    "change_caption": "the trees between the houses on both sides of the road become lusher ."
+  },
+  {
+    "id": 36,
+    "query": "给我一句中文描述，说明这张图在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006809.png",
+    "image_name": "train_006809.png",
+    "caption_A": "The aerial image shows a patch of dry, grassy land with sparse vegetation, bordered by a road on the left and a darker, possibly forested area on the right.",
+    "caption_B": "The aerial image shows a patch of land with sparse vegetation, bordered by a road on the left and a wooded area on the right.",
+    "change_caption": "parts of two rooms appear in the upper left corner of the scene ."
+  },
+  {
+    "id": 37,
+    "query": "把去年和今年的图叠一起，看看湖面是扩大了还是缩小了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000021.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000021.png"
+    ],
+    "image_name": "train_000021.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, driveways, and a large circular structure that appears to be a water tower or similar utility building.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a large circular structure, possibly a water tower or a monument, at the center of the intersection.",
+    "change_caption": "a small house appears next to a big house in the right of the scene ."
+  },
+  {
+    "id": 38,
+    "query": "数一下图里长方形的储煤棚一共有多少个。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001085.png",
+    "image_name": "train_001085.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with single-family homes, a clear road, and a few trees scattered around.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, trees, and a road curving through the area.",
+    "change_caption": "two villas appear on both sides of the road at the top ."
+  },
+  {
+    "id": 39,
+    "query": "想要海岸线边缘，原图太糊，能提取吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001254.png",
+    "image_name": "val_001254.png",
+    "caption_A": "The aerial image shows a landscape with large, irregular patches of green vegetation scattered across a brown, open area, possibly indicating a mix of forested and cleared land.",
+    "caption_B": "The aerial image shows a suburban area with houses, a road, and some greenery.",
+    "change_caption": "part of the vegetation has been developed as staggered roads and some houses ."
+  },
+  {
+    "id": 40,
+    "query": "这张图属于城市中心还是郊区，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002518.png",
+    "image_name": "train_002518.png",
+    "caption_A": "The aerial image shows a desolate area with sparse vegetation, a few scattered structures, and intersecting roads or pathways.",
+    "caption_B": "The aerial image shows a suburban neighborhood with single-family homes, paved streets, and parked cars along the curbs.",
+    "change_caption": "some roads and houses are built on bareland ."
+  },
+  {
+    "id": 41,
+    "query": "检测影像里所有飞机，并给出它们的位置框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003117.png",
+    "image_name": "train_003117.png",
+    "caption_A": "The aerial image shows a residential area with houses, a small pond, and a large open field or construction site.",
+    "caption_B": "The aerial image shows a residential area with houses, a circular driveway, and surrounding greenery, including trees and grassy fields.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 42,
+    "query": "一句话总结这张图的最主要内容，谢谢。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006504.png",
+    "image_name": "train_006504.png",
+    "caption_A": "The aerial image shows a residential area with houses, driveways, and a large open field or agricultural land.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a road, surrounded by open land and sparse vegetation.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 43,
+    "query": "新旧影像对比，标出新冒出来的大棚。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000022.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000022.png"
+    ],
+    "image_name": "train_000022.png",
+    "caption_A": "The aerial image shows a circular campus layout with buildings, pathways, and green spaces, surrounded by roads and parking areas.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and landscaped yards, surrounded by roads and greenery.",
+    "change_caption": "some vitals are constructed by the roadside in the residential area ."
+  },
+  {
+    "id": 44,
+    "query": "能帮我点一点图里到底有多少架飞机吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001966.png",
+    "image_name": "test_001966.png",
+    "caption_A": "The aerial image shows a rural area with a mix of open land, sparse vegetation, and a few structures, including what appears to be a building with a flat roof on the left side.",
+    "caption_B": "The aerial image shows a residential area with houses on the left and a large, open field or wetland area on the right.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 45,
+    "query": "把影像中明显的地物边界线拉出来，我想做对比。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000741.png",
+    "image_name": "train_000741.png",
+    "caption_A": "The aerial image shows a landscape with a dense forest, characterized by irregular patches of green vegetation and a winding dirt path cutting through it.",
+    "caption_B": "The aerial image shows a residential area with houses, trees, and a road network, surrounded by dense greenery.",
+    "change_caption": "several villas are built next to a square at the top ."
+  },
+  {
+    "id": 46,
+    "query": "看图感觉像是矿区，能确认一下场景吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000160.png",
+    "image_name": "train_000160.png",
+    "caption_A": "The aerial image shows a curved road with a parking area and a small structure, surrounded by natural terrain.",
+    "caption_B": "The aerial image shows a curved road with a small building and some vegetation on either side, surrounded by open land.",
+    "change_caption": "a road connects to the original road and a house is built at the top ."
+  },
+  {
+    "id": 47,
+    "query": "把图里所有船只目标框出来，数字也顺便告诉我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005762.png",
+    "image_name": "train_005762.png",
+    "caption_A": "The aerial image shows a large, open area with a prominent white structure and several smaller buildings or structures scattered around, along with what appears to be a railway track running through the scene.",
+    "caption_B": "The aerial image shows a parking lot adjacent to a body of water, with a small structure and a road intersecting the area.",
+    "change_caption": "an extra road appear above and more cars are parked in the parking lot on the left ."
+  },
+  {
+    "id": 48,
+    "query": "用一句话告诉我这张遥感图拍的是什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004166.png",
+    "image_name": "train_004166.png",
+    "caption_A": "The aerial image shows a residential area with scattered houses, trees, and a road running through it.",
+    "caption_B": "The aerial image shows a heavily damaged area with scattered debris, damaged buildings, and patches of greenery, indicating significant destruction possibly from a natural disaster or conflict.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 49,
+    "query": "两张不同年份的图，找出哪里新修了立交桥。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000023.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000023.png"
+    ],
+    "image_name": "train_000023.png",
+    "caption_A": "The aerial image shows a curving road surrounded by vegetation, with a parking area and some structures visible on the right side.",
+    "caption_B": "The aerial image shows a suburban area with a curving road, houses, and greenery, including a small pool visible in one of the yards.",
+    "change_caption": "several buildings are neatly arranged alongside the road ."
+  },
+  {
+    "id": 50,
+    "query": "图里小白点都是车吗？我想知道确切数量。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001109.png",
+    "image_name": "train_001109.png",
+    "caption_A": "The aerial image shows a park with a baseball field, surrounded by trees and pathways.",
+    "caption_B": "The aerial image shows a rural landscape with a mix of open fields, a small structure, and some trees, bordered by a fence.",
+    "change_caption": "the road on the left disappears and the bareland is walled off ."
+  },
+  {
+    "id": 51,
+    "query": "只想要最锐利的道路边缘，其它杂线去掉，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001117.png",
+    "image_name": "train_001117.png",
+    "caption_A": "The aerial image shows a rural area with scattered trees, a dirt road, and some buildings, including what appears to be a small structure near the center.",
+    "caption_B": "The aerial image shows a rural area with a dirt road, a forested area, and some buildings, including what appears to be a small structure near the bottom left corner.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 52,
+    "query": "这张图整体是湿地还是旱地，给个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001249.png",
+    "image_name": "train_001249.png",
+    "caption_A": "The aerial image shows a winding road cutting through a sparsely vegetated landscape, with patches of greenery and dry terrain.",
+    "caption_B": "The aerial image shows a residential area with several houses, a winding road, and surrounding dry, hilly terrain.",
+    "change_caption": "many buildings are built between the roads while one is built on the left ."
+  },
+  {
+    "id": 53,
+    "query": "检测一下有没有卡车，有就画框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001578.png",
+    "image_name": "train_001578.png",
+    "caption_A": "The aerial image shows a rural area with a dirt road, scattered trees, and a few buildings, including what appears to be a house with a gray roof.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a swimming pool surrounded by trees and open land.",
+    "change_caption": "some houses are built beside the original ones ."
+  },
+  {
+    "id": 54,
+    "query": "一句话概括影像内容，越通俗越好。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003388.png",
+    "image_name": "train_003388.png",
+    "caption_A": "The aerial image shows a landscape with patches of green vegetation and areas of bare ground, suggesting a mix of grassland and possibly some cleared or disturbed regions.",
+    "caption_B": "The aerial image shows a patchwork of green fields and sparse vegetation, with a noticeable linear feature running diagonally across the landscape.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 55,
+    "query": "把老图和新图放在一起，看看哪片森林被砍了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000024.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000024.png"
+    ],
+    "image_name": "train_000024.png",
+    "caption_A": "The aerial image shows a landscape with a mix of green vegetation, a dirt path or road, and a circular structure that appears to be a radar or observatory dish.",
+    "caption_B": "The aerial image shows a rural landscape with scattered trees, a road running through it, and a large circular structure near the bottom right corner, possibly a water tank or similar facility.",
+    "change_caption": "two houses appear on both sides of the original house ."
+  },
+  {
+    "id": 56,
+    "query": "数得出图里有多少条船吗？给我个整数。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001929.png",
+    "image_name": "train_001929.png",
+    "caption_A": "The aerial image shows a dense forest with a mix of green and brown areas, indicating varying vegetation or possibly some cleared land.",
+    "caption_B": "The aerial image shows a construction site with a road, a large pile of dirt or sand, and some trees on the right side.",
+    "change_caption": "half of the trees are replaced by a road and some houses appear ."
+  },
+  {
+    "id": 57,
+    "query": "提取影像里所有明显的边界，我要做矢量对比。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003928.png",
+    "image_name": "train_003928.png",
+    "caption_A": "The aerial image shows a rural landscape with a road running parallel to a railway track, bordered by fields and sparse vegetation.",
+    "caption_B": "The aerial image shows a suburban area with houses, a road, and a railway track running parallel to it.",
+    "change_caption": "some roads and houses are built on the top side of the scene ."
+  },
+  {
+    "id": 58,
+    "query": "这张图看起来是机场场景吗？帮我确认。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004717.png",
+    "image_name": "train_004717.png",
+    "caption_A": "The aerial image shows a large, open field with visible tire tracks and patches of different vegetation, indicating agricultural activity or recent vehicle passage.",
+    "caption_B": "The aerial image shows a rural scene with a small house, a driveway, and surrounding open land.",
+    "change_caption": "a new house and a small track appear ."
+  },
+  {
+    "id": 59,
+    "query": "把图上所有飞机都框出来，别漏。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001143.png",
+    "image_name": "train_001143.png",
+    "caption_A": "The aerial image shows a patchy, textured landscape with varying shades of brown and green, suggesting a mix of soil, vegetation, and possibly some small structures or disturbances on the ground.",
+    "caption_B": "The aerial image shows an industrial area with large buildings, parking lots, and a network of roads and pathways.",
+    "change_caption": "several buildings on the sides of the road are constructed on the bareland ."
+  },
+  {
+    "id": 60,
+    "query": "用中文一句话描述这张图的核心内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000677.png",
+    "image_name": "val_000677.png",
+    "caption_A": "The aerial image shows a dense forest with a mix of green and brown vegetation, interspersed with a body of water on the left side.",
+    "caption_B": "The aerial image shows a dense forest with a small, dark body of water, possibly a pond or lake, located near the edge of the forest.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 61,
+    "query": "对比两张时相，找出新挖的坑塘。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000026.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000026.png"
+    ],
+    "image_name": "train_000026.png",
+    "caption_A": "The aerial image shows a complex of buildings with a circular driveway and surrounding open land, likely part of a residential or institutional facility.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a circular driveway at the center of the image.",
+    "change_caption": "many villas are built on the bareland at the bottom right of the area ."
+  },
+  {
+    "id": 62,
+    "query": "图里密密麻麻的小方块，能数出多少个仓库吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001390.png",
+    "image_name": "test_001390.png",
+    "caption_A": "The aerial image shows a rural landscape with a road, a grassy field, some trees, and a small structure near the edge of the field.",
+    "caption_B": "The aerial image shows a patch of undeveloped land bordered by roads, with sparse vegetation and a few trees scattered across the area.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 63,
+    "query": "我只想要海岸线边缘线，能抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000991.png",
+    "image_name": "test_000991.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, driveways, and a road intersecting at a T-junction.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and parked cars, surrounded by trees and a road intersection.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 64,
+    "query": "这张图属于山区还是盆地，帮我判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000447.png",
+    "image_name": "val_000447.png",
+    "caption_A": "The aerial image shows a uniform, dark green textured surface with no distinct features or landmarks visible.",
+    "caption_B": "The aerial image shows a vast expanse of green water, likely a lake or sea, with subtle variations in color intensity and texture suggesting depth and movement.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 65,
+    "query": "如果有船，就把它们全部框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004309.png",
+    "image_name": "train_004309.png",
+    "caption_A": "The aerial image shows a residential area with houses, roads, and trees, indicating a suburban neighborhood.",
+    "caption_B": "The aerial image shows a residential area with scattered houses, some with visible roofs and others appearing damaged or missing roofs, surrounded by trees and open spaces.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 66,
+    "query": "一句话告诉我这张遥感影像在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006440.png",
+    "image_name": "train_006440.png",
+    "caption_A": "The aerial image shows a road with vehicles, surrounded by dry, barren land and some sparse vegetation.",
+    "caption_B": "The aerial image shows a curved road with a parking area and some construction or landscaping work on the left side.",
+    "change_caption": "the road on the upper left turns into a bifurcated road and some buildings appear on the lower-left ."
+  },
+  {
+    "id": 67,
+    "query": "把去年和今年的图对比，看哪里新盖了小区。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000027.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000027.png"
+    ],
+    "image_name": "train_000027.png",
+    "caption_A": "The aerial image shows a road curving through a landscape with scattered patches of vegetation and open areas, possibly indicating a rural or semi-arid region.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and greenery along curving roads.",
+    "change_caption": "many buildings appear alongside the left road ."
+  },
+  {
+    "id": 68,
+    "query": "能数一下图里有多少辆卡车吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006230.png",
+    "image_name": "train_006230.png",
+    "caption_A": "The aerial image shows a rural landscape with a road, a dirt path, and some scattered vegetation, indicating an open field or farmland area.",
+    "caption_B": "The aerial image shows a road running parallel to a grassy area with some scattered trees and a small structure near the edge of the road.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 69,
+    "query": "把影像中明显的道路边界提取出来，谢谢。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003426.png",
+    "image_name": "train_003426.png",
+    "caption_A": "The aerial image shows a large body of water, possibly a reservoir or lake, with a curved road and a dam structure on its right side.",
+    "caption_B": "The aerial image shows a coastal area with a mix of water, land, and a paved road, featuring a small structure near the water's edge.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 70,
+    "query": "这张图整体看上去是农田还是城市，分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004507.png",
+    "image_name": "train_004507.png",
+    "caption_A": "The aerial image shows a rural landscape with a winding road cutting through a grassy area, bordered by a few scattered trees and shrubs.",
+    "caption_B": "The aerial image shows a rural area with a road, some trees, and an open field.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 71,
+    "query": "检测影像里所有飞机目标，并画框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001257.png",
+    "image_name": "val_001257.png",
+    "caption_A": "The aerial image shows a landscape with scattered trees and patches of open ground, suggesting a semi-arid or forested area.",
+    "caption_B": "The aerial image shows a patchy landscape with scattered vegetation and a road running parallel to the edge of the image.",
+    "change_caption": "part of the woodland above is turned into roads ."
+  },
+  {
+    "id": 72,
+    "query": "给我一句简洁的中文描述，说明这张图。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007489.png",
+    "image_name": "train_007489.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, driveways, and trees, surrounded by open fields and roads.",
+    "caption_B": "The aerial image shows a suburban area with a large house, a driveway, and surrounding greenery, including trees and grassy fields.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 73,
+    "query": "新旧影像一起看，标出新修的跑道。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000028.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000028.png"
+    ],
+    "image_name": "train_000028.png",
+    "caption_A": "The aerial image shows a rural area with scattered trees, a paved road, and a circular driveway leading to a building surrounded by open land.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a circular driveway leading to a central area, surrounded by trees and greenery.",
+    "change_caption": "some houses are built on the bareland on either side of the road and others replace some trees ."
+  },
+  {
+    "id": 74,
+    "query": "图里小白点可能是储罐，到底有几个？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004058.png",
+    "image_name": "train_004058.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with uniformly spaced houses, each with a driveway and a small front yard, surrounded by greenery and paved roads.",
+    "caption_B": "The aerial image shows a suburban neighborhood with evenly spaced houses, green lawns, and trees lining the streets.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 75,
+    "query": "想要最锐利的水陆分界线，能帮我抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003853.png",
+    "image_name": "train_003853.png",
+    "caption_A": "The aerial image shows a clear boundary between two distinct agricultural fields, with one appearing to be a plowed area and the other a more uniform crop field.",
+    "caption_B": "The aerial image shows a rural area with a large agricultural field on the left and a cluster of buildings, possibly a farm or industrial facility, on the right.",
+    "change_caption": "some houses appear at the bottom right corner of the scene ."
+  },
+  {
+    "id": 76,
+    "query": "这张图是港口场景吗？给我个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006067.png",
+    "image_name": "train_006067.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, streets, and a cul-de-sac, characterized by a grid-like layout and a mix of residential structures.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, streets, and a roundabout, indicating a well-organized residential area.",
+    "change_caption": "several houses appear between the houses on both sides of the road ."
+  },
+  {
+    "id": 77,
+    "query": "把图里所有船只都检测出来，别漏数字。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000157.png",
+    "image_name": "val_000157.png",
+    "caption_A": "The aerial image shows a winding road surrounded by dense forested areas, with some open land and a few scattered trees visible.",
+    "caption_B": "The aerial image shows a large, multi-story house surrounded by a forested area with a driveway and a pool visible in the foreground.",
+    "change_caption": "a row of villas are built on one side of the road ."
+  },
+  {
+    "id": 78,
+    "query": "一句话概括这张高分辨率影像的主要内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000384.png",
+    "image_name": "test_000384.png",
+    "caption_A": "The aerial image shows a landscape with a mix of sparse vegetation, including patches of trees and shrubs, and areas of exposed earth or soil.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a mix of greenery and open land.",
+    "change_caption": "several villas are built next to a road on the left ."
+  },
+  {
+    "id": 79,
+    "query": "两张图隔了三年，看看哪片荒地变成了工厂。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000029.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000029.png"
+    ],
+    "image_name": "train_000029.png",
+    "caption_A": "The aerial image shows a landscape with scattered dark green patches, likely vegetation, and a lighter area that could be a road or cleared land.",
+    "caption_B": "The aerial image shows a dense forest with a mix of trees and some open areas, possibly clearings or paths.",
+    "change_caption": "a villa appears at the bottom left corner of the scene ."
+  },
+  {
+    "id": 80,
+    "query": "数得出图里有多少架飞机吗？数字就行。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006679.png",
+    "image_name": "train_006679.png",
+    "caption_A": "The aerial image shows a rural landscape with a road intersection, surrounded by agricultural fields.",
+    "caption_B": "The aerial image shows a rural landscape with a road, a field, and a train track alongside a series of train cars.",
+    "change_caption": "several houses appear on the grass on the upper right ."
+  },
+  {
+    "id": 81,
+    "query": "提取影像里所有硬边界，我要做变化检测。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004973.png",
+    "image_name": "train_004973.png",
+    "caption_A": "The aerial image shows a rural landscape with a mix of open fields, scattered trees, and a few small structures, possibly farm buildings or houses.",
+    "caption_B": "The aerial image shows a rural landscape with a dirt road, scattered trees, and a small structure on the right side.",
+    "change_caption": "a road appears on the left side of the scene and the trees and grass become more luxuriant ."
+  },
+  {
+    "id": 82,
+    "query": "这张图整体属于沙漠还是绿洲，帮我确认。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000280.png",
+    "image_name": "test_000280.png",
+    "caption_A": "The aerial image shows a dense forest with a mix of green and brown tones, indicating a variety of tree species and possibly some areas of cleared land or undergrowth.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, a swimming pool, and a driveway with parked cars.",
+    "change_caption": "a mall and a parking lot is built opposite a residential area through a road replacing the plants ."
+  },
+  {
+    "id": 83,
+    "query": "把图上所有卡车目标框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000423.png",
+    "image_name": "val_000423.png",
+    "caption_A": "The aerial image shows a construction site with a partially built structure, exposed earth, and a vehicle parked near the edge of the excavation area.",
+    "caption_B": "The aerial image shows a suburban area with houses, roads, and a large open field or undeveloped land.",
+    "change_caption": "some roads and houses are built ."
+  },
+  {
+    "id": 84,
+    "query": "用通俗的中文一句话告诉我这张图拍的是什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004623.png",
+    "image_name": "train_004623.png",
+    "caption_A": "The aerial image shows a dense forest with a mix of coniferous and deciduous trees, characterized by their varying shades of green and brown.",
+    "caption_B": "The aerial image shows a parking lot adjacent to a building with a red roof, surrounded by trees and a dirt area.",
+    "change_caption": "a large building with a parking lot is built ."
+  },
+  {
+    "id": 85,
+    "query": "对比不同时期的图，找出新挖的矿区。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000030.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000030.png"
+    ],
+    "image_name": "train_000030.png",
+    "caption_A": "The aerial image shows a circular structure surrounded by roads and parking areas, with some greenery and open spaces nearby.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a large circular driveway or pool area surrounded by landscaping.",
+    "change_caption": "some houses are built in the right while a lane on the left disappears ."
+  },
+  {
+    "id": 86,
+    "query": "图里密密麻麻的小圆点，能数出多少个油罐吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000191.png",
+    "image_name": "val_000191.png",
+    "caption_A": "The aerial image shows a landscape with a mix of sparse vegetation and dry, open terrain, featuring a winding path or road cutting through the area.",
+    "caption_B": "The aerial image shows a suburban area with a road intersection, surrounded by houses and greenery.",
+    "change_caption": "some roads are built and several buildings are constructed in the clearing ."
+  },
+  {
+    "id": 87,
+    "query": "我只关心道路边缘线，其它地物忽略，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003888.png",
+    "image_name": "train_003888.png",
+    "caption_A": "The aerial image shows a patchwork of agricultural fields with varying shades of brown and green, indicating different crops or soil types, and a distinct linear feature running through the center.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, streets, and a large open field on the right side.",
+    "change_caption": "some roads and houses are built on the left side of the scene ."
+  },
+  {
+    "id": 88,
+    "query": "这张图看起来是市中心还是农村，给个判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001147.png",
+    "image_name": "val_001147.png",
+    "caption_A": "The aerial image shows a small commercial area with a parking lot, a building, and some surrounding greenery, situated near a road.",
+    "caption_B": "The aerial image shows a parking lot with several vehicles, surrounded by trees and buildings, including a large structure with a flat roof.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 89,
+    "query": "检测一下有没有飞机，有就画框告诉我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001486.png",
+    "image_name": "train_001486.png",
+    "caption_A": "The aerial image shows a residential area with houses, a parking lot, and a road surrounded by trees and greenery.",
+    "caption_B": "The aerial image shows a residential area with houses, trees, and a road, along with a parking lot on the left side.",
+    "change_caption": "several houses are built neatly in the right ."
+  },
+  {
+    "id": 90,
+    "query": "一句话描述这张遥感图的核心信息。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006295.png",
+    "image_name": "train_006295.png",
+    "caption_A": "The aerial image shows a residential area with several houses, a driveway, and a paved road, surrounded by open land and sparse vegetation.",
+    "caption_B": "The aerial image shows a rural property with several buildings, including a house, outbuildings, and a satellite dish, surrounded by open land and some scattered trees.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 91,
+    "query": "把老图和新图放一起，看看湖面是不是缩小了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000031.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000031.png"
+    ],
+    "image_name": "train_000031.png",
+    "caption_A": "The aerial image shows a road intersection surrounded by sparse vegetation and some scattered trees, with a small structure visible on the left side of the image.",
+    "caption_B": "The aerial image shows a suburban area with a road, houses, and patches of greenery, including trees and shrubs.",
+    "change_caption": "the forest and a country lane are replaced by some buildings and a circular road ."
+  },
+  {
+    "id": 92,
+    "query": "能帮我点一点图里到底有多少条船吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001052.png",
+    "image_name": "val_001052.png",
+    "caption_A": "The aerial image shows a residential area with houses, driveways, and a road, surrounded by a mix of greenery and open land.",
+    "caption_B": "The aerial image shows a residential area with houses, a swimming pool, and a road bordered by trees and grassy areas.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 93,
+    "query": "把影像中最明显的边界线拉出来，我想做对比。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002959.png",
+    "image_name": "train_002959.png",
+    "caption_A": "The aerial image shows a large, patterned agricultural field with parallel lines and a strip of green vegetation along the edge.",
+    "caption_B": "The aerial image shows a row of houses along a waterfront, with a body of water and a grassy area in the foreground.",
+    "change_caption": "a road with many houses appears on the top side of the scene ."
+  },
+  {
+    "id": 94,
+    "query": "这张图属于机场还是港口，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001365.png",
+    "image_name": "train_001365.png",
+    "caption_A": "The aerial image shows a residential area with houses, a swimming pool, and surrounding greenery near a body of water.",
+    "caption_B": "The aerial image shows a residential area with houses, trees, and a driveway leading to a larger structure, possibly a barn or workshop.",
+    "change_caption": "several houses appear in the woods around the road ."
+  },
+  {
+    "id": 95,
+    "query": "把图里所有飞机都框出来，数字也给我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005824.png",
+    "image_name": "train_005824.png",
+    "caption_A": "The aerial image shows a residential area with houses, driveways, and a swimming pool surrounded by open land.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a swimming pool, surrounded by open land and trees.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 96,
+    "query": "用一句话告诉我这张影像在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001911.png",
+    "image_name": "train_001911.png",
+    "caption_A": "The aerial image shows a curved road bordered by trees and a sandy area, with a clear distinction between the road and the surrounding landscape.",
+    "caption_B": "The aerial image shows a curved road with multiple lanes, bordered by trees and residential buildings on one side, and a large open area on the other.",
+    "change_caption": "several villas replace the trees at the top ."
+  },
+  {
+    "id": 97,
+    "query": "新旧对比，标出新盖的高楼。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000032.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000032.png"
+    ],
+    "image_name": "train_000032.png",
+    "caption_A": "The aerial image shows a road with a curved section and a parking area, surrounded by sparse vegetation and open land.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, a road, and some greenery, including trees and grassy areas.",
+    "change_caption": "a residential area replaces the original forest ."
+  },
+  {
+    "id": 98,
+    "query": "图里小白点都是车吗？我想知道确切个数。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000582.png",
+    "image_name": "train_000582.png",
+    "caption_A": "The aerial image shows a dense area of greenery, likely a forest or thick vegetation, with a dirt path or road cutting through it.",
+    "caption_B": "The aerial image shows a suburban neighborhood with uniformly arranged houses, well-maintained lawns, and a network of streets.",
+    "change_caption": "the vegetation has been removed and many houses with paths to the roads appear ."
+  },
+  {
+    "id": 99,
+    "query": "想要海岸线边缘，能提取吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001279.png",
+    "image_name": "val_001279.png",
+    "caption_A": "The aerial image shows a textured, possibly forested area with a mix of green and brown tones, indicating a natural landscape with varying vegetation cover.",
+    "caption_B": "The aerial image shows an industrial area with various stacks of metal and wooden materials, organized in rows, surrounded by paved roads and open spaces.",
+    "change_caption": "the grass becomes staggered paths and some huts on either side of the road ."
+  },
+  {
+    "id": 100,
+    "query": "这张图整体是山地还是平原，给个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007321.png",
+    "image_name": "train_007321.png",
+    "caption_A": "The aerial image shows a large, flat agricultural field bordered by dense green vegetation.",
+    "caption_B": "The aerial image shows a patchwork of agricultural fields, with one section appearing to be plowed and another covered in dense vegetation.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 101,
+    "query": "把影像里所有船只目标检测出来，画框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005469.png",
+    "image_name": "train_005469.png",
+    "caption_A": "The aerial image shows a road with a vehicle traveling along it, surrounded by dry vegetation and sparse trees.",
+    "caption_B": "The aerial image shows a suburban neighborhood with a circular driveway and multiple houses, surrounded by a road and greenery.",
+    "change_caption": "the grass and woodland on the lower-left are transformed into houses neatly distributed on both sides of the road ."
+  },
+  {
+    "id": 102,
+    "query": "一句话概括这张图的主要内容，谢谢。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002073.png",
+    "image_name": "train_002073.png",
+    "caption_A": "The aerial image shows a curved road with a white line marking, surrounded by a mix of forested and open land areas.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a winding road surrounded by trees and open land.",
+    "change_caption": "a row of houses are arranged neatly by the road in the right ."
+  },
+  {
+    "id": 103,
+    "query": "两张图相隔两年，看看哪片农田被占了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000037.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000037.png"
+    ],
+    "image_name": "train_000037.png",
+    "caption_A": "The aerial image shows a rural area with scattered trees, a road curving through the landscape, and a small structure or building near the center.",
+    "caption_B": "The aerial image shows a residential area with houses, driveways, and a large expanse of greenery, including trees and grassy fields.",
+    "change_caption": "some buildings replace some trees next to the original houses ."
+  },
+  {
+    "id": 104,
+    "query": "数一下图里长方形的仓库一共有多少个。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004613.png",
+    "image_name": "train_004613.png",
+    "caption_A": "The aerial image shows a densely packed area of recreational vehicles (RVs) parked along narrow roads, with some greenery visible between the vehicles.",
+    "caption_B": "The aerial image shows a densely packed area with numerous recreational vehicles (RVs) parked in rows, indicating a campground or RV park.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 105,
+    "query": "提取影像中明显的道路边界，我要做矢量。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004450.png",
+    "image_name": "train_004450.png",
+    "caption_A": "The aerial image shows a row of mobile homes or trailers parked along a road, with trees and open land surrounding the area.",
+    "caption_B": "The aerial image shows a parking lot with numerous vehicles, including cars and trailers, arranged in rows.",
+    "change_caption": "some new houses are built along the road ."
+  },
+  {
+    "id": 106,
+    "query": "这张图看起来是矿区还是工业区，帮我确认。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000578.png",
+    "image_name": "train_000578.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, trees, and a road network.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and a road curving through the area.",
+    "change_caption": "some plants are removed and several houses are built ."
+  },
+  {
+    "id": 107,
+    "query": "如果有卡车，就把它们全部框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000895.png",
+    "image_name": "val_000895.png",
+    "caption_A": "The aerial image shows a suburban neighborhood with houses, streets, and a few parked cars, highlighting a typical residential area layout.",
+    "caption_B": "The aerial image shows a suburban neighborhood with houses, driveways, and parked cars, arranged around a central intersection.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 108,
+    "query": "给我一句简洁的中文描述，说明这张遥感图。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006672.png",
+    "image_name": "train_006672.png",
+    "caption_A": "The aerial image shows a rural area with a house surrounded by fields, a road running alongside it, and some trees near the property.",
+    "caption_B": "The aerial image shows a rural landscape with a house, a road, and surrounding fields.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 109,
+    "query": "把去年和今年的图对比，找出新修的公路。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000038.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000038.png"
+    ],
+    "image_name": "train_000038.png",
+    "caption_A": "The aerial image shows a residential area surrounded by dense greenery, with houses and a road visible amidst the trees.",
+    "caption_B": "The aerial image shows a residential area with a row of houses, surrounded by trees and greenery.",
+    "change_caption": "two lines of villas are built neatly along the road at the bottom ."
+  },
+  {
+    "id": 110,
+    "query": "能数得出图里有多少架飞机吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005528.png",
+    "image_name": "train_005528.png",
+    "caption_A": "The aerial image shows a residential area with houses, streets, and a large tree on the right side.",
+    "caption_B": "The aerial image shows a suburban neighborhood with single-family homes, driveways, and trees lining the streets.",
+    "change_caption": "the houses and roads in the residential area extend from the left to the right as part of the trees disappear ."
+  },
+  {
+    "id": 111,
+    "query": "把影像里所有硬边界抽出来，我想做变化分析。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006690.png",
+    "image_name": "train_006690.png",
+    "caption_A": "The aerial image shows a large, open agricultural field with a patch of trees and a small structure at the edge.",
+    "caption_B": "The aerial image shows a large agricultural field with a distinct boundary marked by a line of trees and shrubs, separating it from another area that appears to be a different type of land use.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 112,
+    "query": "这张图属于湿地还是旱地，给个判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000500.png",
+    "image_name": "val_000500.png",
+    "caption_A": "The aerial image shows a curved road or canal with a distinct bend, surrounded by water and land, possibly indicating a man-made structure like a dam or levee.",
+    "caption_B": "The aerial image shows a curved pathway along a body of water, bordered by grassy areas and a road with a few vehicles.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 113,
+    "query": "检测一下图里有没有船，有就框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001580.png",
+    "image_name": "train_001580.png",
+    "caption_A": "The aerial image shows a dense forested area with a winding dirt road cutting through it, indicating a rural or remote location.",
+    "caption_B": "The aerial image shows a dense forested area with a road cutting through it, bordered by some open land and a few buildings in the distance.",
+    "change_caption": "two buildings appear at the top of the scene ."
+  },
+  {
+    "id": 114,
+    "query": "用一句话告诉我这张高分辨率影像在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003506.png",
+    "image_name": "train_003506.png",
+    "caption_A": "The aerial image shows a close-up view of a textured surface with a grid-like pattern, possibly a fabric or woven material, transitioning into a green area that could be grass or another type of ground cover.",
+    "caption_B": "The aerial image shows a large, flat field with a distinct boundary marked by a fence and a line of trees or shrubs.",
+    "change_caption": "there is no difference ."
+  },
+  {
+    "id": 115,
+    "query": "对比不同时期影像，看看哪片森林被砍光了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000039.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000039.png"
+    ],
+    "image_name": "train_000039.png",
+    "caption_A": "The aerial image shows a forested area with patches of cleared land and a road cutting through it.",
+    "caption_B": "The aerial image shows a row of houses with attached garages, surrounded by dense greenery and trees.",
+    "change_caption": "many houses line up alongside a road in place of the bareland ."
+  },
+  {
+    "id": 116,
+    "query": "图里密密麻麻的小点，能数出多少辆汽车吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006417.png",
+    "image_name": "train_006417.png",
+    "caption_A": "The aerial image shows a rural area with two houses, a circular driveway, and a road curving around the property.",
+    "caption_B": "The aerial image shows a residential area with several houses, a circular driveway, and a large open space that appears to be a pond or water feature.",
+    "change_caption": "the grass on the meadow disappears and several houses appear on sides of the road ."
+  },
+  {
+    "id": 117,
+    "query": "只想要最锐利的水陆分界线，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000875.png",
+    "image_name": "test_000875.png",
+    "caption_A": "The aerial image shows a rural landscape with a mix of open fields, trees, and a road network, indicating agricultural or undeveloped land use.",
+    "caption_B": "The aerial image shows a residential area with houses, a road, and a small stream or river running through it, surrounded by trees and open land.",
+    "change_caption": "a row of houses is built on the bottom side of the scene ."
+  },
+  {
+    "id": 118,
+    "query": "这张图整体是城市还是乡村，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001106.png",
+    "image_name": "test_001106.png",
+    "caption_A": "The aerial image shows a grassy field with a distinct diagonal path or line cutting through it, possibly indicating a road or boundary.",
+    "caption_B": "The aerial image shows a construction site with various vehicles, equipment, and materials spread across an open area near a developed building complex.",
+    "change_caption": "some roads and houses are built on the bottom side of the scene ."
+  },
+  {
+    "id": 119,
+    "query": "把图里所有飞机目标检测出来，别漏。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002872.png",
+    "image_name": "train_002872.png",
+    "caption_A": "The aerial image shows a field with distinct parallel lines indicating recent agricultural activity, likely plowing or harvesting, alongside an area of dry, sparse vegetation.",
+    "caption_B": "The aerial image shows a curved road with a white barrier, surrounded by an area of bare ground and some scattered structures.",
+    "change_caption": "some roads and houses are built on the left side of the scene ."
+  },
+  {
+    "id": 120,
+    "query": "一句话概括这张遥感影像的核心内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003678.png",
+    "image_name": "train_003678.png",
+    "caption_A": "The aerial image shows a forested area with a clear path or road cutting through it, surrounded by dense trees and some open spaces.",
+    "caption_B": "The aerial image shows a dense forested area with a mix of green and brown tones, indicating varying vegetation or soil conditions.",
+    "change_caption": "there is no difference ."
+  }
+]

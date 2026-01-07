@@ -1,0 +1,233 @@
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/langchain_core/_api/deprecation.py:117: LangChainDeprecationWarning: The class `langchain_community.chat_models.openai.ChatOpenAI` was deprecated in langchain-community 0.0.10 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import ChatOpenAI`.
+  warn_deprecated(
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+Initializing RSChatGPT, load_dict={'ImageCaptioning': 'cuda:0', 'SceneClassification': 'cuda:0', 'ObjectDetection': 'cuda:0', 'ObjectCounting': 'cuda:0', 'EdgeDetection': 'cpu', 'ChangeDetection': 'cuda:0'}
+Initializing ImageCaptioning to cuda:0
+从本地路径加载模型: /root/autodl-tmp/blip
+Initializing SceneClassification
+Initializing SceneClassification
+Loading model from: /root/autodl-tmp/tool_models/Res34_AID_best.pth
+Loading YOLOv5 model from: /root/autodl-tmp/tool_models/yolov5_best.pt
+Loading YOLOv5 model from: /root/autodl-tmp/tool_models/yolov5_best.pt
+Initializing Edge Detection Function....
+Initializing Image2Canny
+Initializing Change Detection Function....
+正在初始化变化检测模型到设备 cuda:0...
+加载变化检测模型...
+loading the resnet50 pretrained weight from local .....
+loading the resnet50 pretrained weight from local .....
+变化检测模型加载成功！
+加载 CLIP 模型...
+CLIP 模型加载成功！
+变化检测模块初始化完成！
+All the Available Functions: {'ImageCaptioning': <rschatgpt.ImageCaptioning object at 0x7fc4dbd2eac0>, 'SceneClassification': <rschatgpt.SceneClassification object at 0x7fc4dbd2ee20>, 'ObjectDetection': <rschatgpt.ObjectDetection object at 0x7fc4d7a326a0>, 'ObjectCounting': <rschatgpt.ObjectCounting object at 0x7fc4d8ccad30>, 'EdgeDetection': <rschatgpt.EdgeDetection object at 0x7fc4ce678400>, 'ChangeDetection': <rschatgpt.ChangeDetection object at 0x7fc4ce56e820>}
+开始测试，共 6 个问题
+====================================================================================================
+
+[1/6] 测试问题 ID=121
+问题: 对比这两个时期的影像，找出哪些区域发生了变化。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: result/q121_ChangeDetection_before.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person
+
+Processed ImageCaptioning, Input Image: result/q121_ChangeDetection_before.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Change Detection On Image Pair
+Action Input: result/q121_ChangeDetection_before.png,result/q121_ChangeDetection_after.png[0mChange detection completed. Changed area: 6.69% (4386/65536 pixels). Result saved to result/74d5_change_detection_q121.png
+
+Observation: [38;5;200m[1;3mChange detection completed. Changed area: 6.69% (4386/65536 pixels). Result saved to result/74d5_change_detection_q121.png. Output: result/74d5_change_detection_q121.png[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: Change detection completed. The changed area is 6.69% (4386/65536 pixels). The result is saved to result/74d5_change_detection_q121.png.[0m
+
+[1m> Finished chain.[0m
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 1/6, 正确率: 100.00%
+
+[2/6] 测试问题 ID=122
+问题: 帮我把这张图里的边缘轮廓全部提取出来。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: result/q122_EdgeDetection.png, Output Text: A satellite image of an aerial view of the area where the person was found
+
+Processed ImageCaptioning, Input Image: result/q122_EdgeDetection.png, Output Text: A satellite image of an aerial view of the area where the person was found
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Edge Detection On Image
+Action Input: result/q122_EdgeDetection.png[0m
+Processed Image2Canny, Input Image: result/q122_EdgeDetection.png, Output Text: result/a8e2_edge_q122.png
+
+Observation: [33;1m[1;3mresult/a8e2_edge_q122.png[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The edge contours of the image have been successfully extracted and saved as result/a8e2_edge_q122.png.[0m
+
+[1m> Finished chain.[0m
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 2/6, 正确率: 100.00%
+
+[3/6] 测试问题 ID=123
+问题: 请描述一下这张卫星图像的主要内容是什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: result/q123_ImageCaptioning.png, Output Text: A satellite image of a map of the area
+
+Processed ImageCaptioning, Input Image: result/q123_ImageCaptioning.png, Output Text: A satellite image of a map of the area
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mAI: I will start by using the "Get Photo Description" tool to understand the main content of the satellite image. 
+
+Thought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: result/q123_ImageCaptioning.png[0m
+
+[1m> Finished chain.[0m
+实际调用: Unknown
+结果: ✗ 错误
+文本结果已保存到: result/q123_ImageCaptioning_result.txt
+当前进度: 3/6, 正确率: 66.67%
+
+[4/6] 测试问题 ID=124
+问题: 统计一下影像中总共有多少个目标物体。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: result/q124_ObjectCounting.png, Output Text: A satellite image of a satellite image of the site of the person's grave
+
+Processed ImageCaptioning, Input Image: result/q124_ObjectCounting.png, Output Text: A satellite image of a satellite image of the site of the person's grave
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Count object
+Action Input: result/q124_ObjectCounting.png, A satellite image of a satellite image of the site of the person's grave[0m
+Processed Object Counting, Input Image: result/q124_ObjectCounting.png, Output text:  A satellite image of a satellite image of the site of the person's grave is not a supported category for the model.
+
+Observation: [36;1m[1;3m A satellite image of a satellite image of the site of the person's grave is not a supported category for the model.[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: result/q124_ObjectCounting.png[0m
+Processed ImageCaptioning, Input Image: result/q124_ObjectCounting.png, Output Text: A satellite image of a satellite image of the site of the person's grave
+
+Processed ImageCaptioning, Input Image: result/q124_ObjectCounting.png, Output Text: A satellite image of a satellite image of the site of the person's grave
+
+Observation: [36;1m[1;3mA satellite image of a satellite image of the site of the person's grave[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image is described as "A satellite image of a satellite image of the site of the person's grave."[0m
+
+[1m> Finished chain.[0m
+实际调用: ObjectCounting
+结果: ✓ 正确
+文本结果已保存到: result/q124_ObjectCounting_result.txt
+当前进度: 4/6, 正确率: 75.00%
+
+[5/6] 测试问题 ID=125
+问题: 识别图中的目标并用边界框标注出来。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: result/q125_ObjectDetection.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+
+Processed ImageCaptioning, Input Image: result/q125_ObjectDetection.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Detect the given object
+Action Input: result/q125_ObjectDetection.png, identify and mark the bounding boxes of the objects[0m
+Observation: [38;5;200m[1;3mNone[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Detect the given object
+Action Input: result/q125_ObjectDetection.png, identify and mark the bounding boxes of the objects[0m
+Observation: [38;5;200m[1;3mNone[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: Let's start by identifying and marking the bounding boxes of the objects in the image "result/q125_ObjectDetection.png".[0m
+
+[1m> Finished chain.[0m
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 5/6, 正确率: 80.00%
+
+[6/6] 测试问题 ID=126
+问题: 判断这张遥感影像属于什么类型的场景。
+Ground Truth: SceneClassification
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+
+Processed ImageCaptioning, Input Image: result/q126_SceneClassification.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+Processed ImageCaptioning, Input Image: result/q126_SceneClassification.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Scene Classification for Remote Sensing Image
+Action Input: result/q126_SceneClassification.png[0m
+Processed Scene Classification, Input Image: result/q126_SceneClassification.png, Output Scene: result/q126_SceneClassification.png has 85.87% probability being BareLand and 2.64% probability being Playground.
+
+Observation: [33;1m[1;3mresult/q126_SceneClassification.png has 85.87% probability being BareLand and 2.64% probability being Playground.[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The remote sensing image result/q126_SceneClassification.png is most likely classified as BareLand with a probability of 85.87% and Playground with a probability of 2.64%.[0m
+
+[1m> Finished chain.[0m
+实际调用: SceneClassification
+结果: ✓ 正确
+文本结果已保存到: result/q126_SceneClassification_result.txt
+当前进度: 6/6, 正确率: 83.33%
+
+====================================================================================================
+测试完成!
+总问题数: 6
+正确数量: 5
+错误数量: 1
+总正确率: 83.33%
+
+====================================================================================================
+每个工具类别的正确率:
+====================================================================================================
+工具名称                                 总数       正确       错误        正确率
+----------------------------------------------------------------------------------------------------
+ChangeDetection                       1        1        0    100.00%
+EdgeDetection                         1        1        0    100.00%
+ImageCaptioning                       1        0        1      0.00%
+ObjectCounting                        1        1        0    100.00%
+ObjectDetection                       1        1        0    100.00%
+SceneClassification                   1        1        0    100.00%
+----------------------------------------------------------------------------------------------------
+总计                                    6        5        1     83.33%
+====================================================================================================
+
+详细结果已保存到 test_results.csv
+详细日志已保存到 test_details.txt

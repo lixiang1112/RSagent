@@ -1,0 +1,7 @@
+﻿问题序号,问题内容,Ground Truth Tool,实际调用Tool,是否正确
+1,对比这两个时期的影像，找出哪些区域发生了变化。,ChangeDetection,ChangeDetection,✓
+2,帮我把这张图里的边缘轮廓全部提取出来。,EdgeDetection,EdgeDetection,✓
+3,请描述一下这张卫星图像的主要内容是什么。,ImageCaptioning,ImageCaptioning,✓
+4,统计一下影像中总共有多少个目标物体。,ObjectCounting,ObjectCounting,✓
+5,识别图中的目标并用边界框标注出来。,ObjectDetection,ObjectDetection,✓
+6,判断这张遥感影像属于什么类型的场景。,SceneClassification,SceneClassification,✓

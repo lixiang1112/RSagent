@@ -1,0 +1,1904 @@
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/langchain_core/_api/deprecation.py:117: LangChainDeprecationWarning: The class `langchain_community.chat_models.openai.ChatOpenAI` was deprecated in langchain-community 0.0.10 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import ChatOpenAI`.
+  warn_deprecated(
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+Initializing RSChatGPT, load_dict={'ImageCaptioning': 'cuda:0', 'SceneClassification': 'cuda:0', 'ObjectDetection': 'cuda:0', 'ObjectCounting': 'cuda:0', 'EdgeDetection': 'cpu', 'ChangeDetection': 'cuda:0'}
+Initializing ImageCaptioning to cuda:0
+从本地路径加载模型: /root/autodl-tmp/blip
+Initializing SceneClassification
+Initializing SceneClassification
+Loading model from: /root/autodl-tmp/tool_models/Res34_AID_best.pth
+Loading YOLOv5 model from: /root/autodl-tmp/tool_models/yolov5_best.pt
+Loading YOLOv5 model from: /root/autodl-tmp/tool_models/yolov5_best.pt
+Initializing Edge Detection Function....
+Initializing Image2Canny
+Initializing Change Detection Function....
+正在初始化变化检测模型到设备 cuda:0...
+加载变化检测模型...
+loading the resnet50 pretrained weight from local .....
+loading the resnet50 pretrained weight from local .....
+变化检测模型加载成功！
+加载 CLIP 模型...
+CLIP 模型加载成功！
+变化检测模块初始化完成！
+All the Available Functions: {'ImageCaptioning': <rschatgpt.ImageCaptioning object at 0x7f1a25beaa30>, 'SceneClassification': <rschatgpt.SceneClassification object at 0x7f1a25beae20>, 'ObjectDetection': <rschatgpt.ObjectDetection object at 0x7f1a2187f6a0>, 'ObjectCounting': <rschatgpt.ObjectCounting object at 0x7f1a22b00d30>, 'EdgeDetection': <rschatgpt.EdgeDetection object at 0x7f1a184b1400>, 'ChangeDetection': <rschatgpt.ChangeDetection object at 0x7f1a183a4820>}
+开始测试，共 120 个问题
+====================================================================================================
+
+[1/120] 测试问题 ID=1
+问题: 帮我看看这张新拍的卫星图，和以前那张相比，地面都动了哪些地方？
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/7efb207d.png, Output Text: A satellite image of an aerial view of the area where the person family lived in the 1960s
+
+Processed ImageCaptioning, Input Image: image/7efb207d.png, Output Text: A satellite image of an aerial view of the area where the person family lived in the 1960s
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 1/120, 正确率: 100.00%
+
+[2/120] 测试问题 ID=2
+问题: 照片里一共有多少艘船，数字告诉我即可。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/b922ccf1.png, Output Text: A satellite image of a large rock with a small hole in it
+
+Processed ImageCaptioning, Input Image: image/b922ccf1.png, Output Text: A satellite image of a large rock with a small hole in it
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 2/120, 正确率: 100.00%
+
+[3/120] 测试问题 ID=3
+问题: 这张图到处都灰蒙蒙的，能不能把有明显边界的轮廓给我描出来？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/433576fb.png, Output Text: A satellite image of a road in the middle of nowhere
+
+Processed ImageCaptioning, Input Image: image/433576fb.png, Output Text: A satellite image of a road in the middle of nowhere
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 3/120, 正确率: 100.00%
+
+[4/120] 测试问题 ID=4
+问题: 想知道这张图整体是在拍什么场景，是城市还是农村还是别的？
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/3d15db1c.png, Output Text: A satellite image of the intersection of the intersection of highway and highway
+
+Processed ImageCaptioning, Input Image: image/3d15db1c.png, Output Text: A satellite image of the intersection of the intersection of highway and highway
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 4/120, 正确率: 100.00%
+
+[5/120] 测试问题 ID=5
+问题: 图里好像有几架飞机，能框出来告诉我位置吗？
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/452d8483.png, Output Text: A satellite image of a black and white dog laying on the ground
+
+Processed ImageCaptioning, Input Image: image/452d8483.png, Output Text: A satellite image of a black and white dog laying on the ground
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 5/120, 正确率: 100.00%
+
+[6/120] 测试问题 ID=6
+问题: 用一句话描述这张遥感图里最主要的内容。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/a1cc6122.png, Output Text: A satellite image of an aerial view of the site of the former person's home in the former person's
+
+Processed ImageCaptioning, Input Image: image/a1cc6122.png, Output Text: A satellite image of an aerial view of the site of the former person's home in the former person's
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 6/120, 正确率: 100.00%
+
+[7/120] 测试问题 ID=7
+问题: 把去年和今年的同一地区影像叠在一起，看看哪里出现新建筑。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/3ffea651.png, Output Text: A satellite image of a small lake surrounded by trees
+
+Processed ImageCaptioning, Input Image: image/3ffea651.png, Output Text: A satellite image of a small lake surrounded by trees
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 7/120, 正确率: 100.00%
+
+[8/120] 测试问题 ID=8
+问题: 数一下图里圆形储油罐的数量，我懒得一个个点。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/f55ff50b.png, Output Text: A satellite image of an aerial view of the intersection of the highway and the road
+
+Processed ImageCaptioning, Input Image: image/f55ff50b.png, Output Text: A satellite image of an aerial view of the intersection of the highway and the road
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 8/120, 正确率: 100.00%
+
+[9/120] 测试问题 ID=9
+问题: 这张图边缘太模糊了，能把地物的边界线提取出来吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/e0c24a9c.png, Output Text: A satellite image of the aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: image/e0c24a9c.png, Output Text: A satellite image of the aerial view of the city of person
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 9/120, 正确率: 100.00%
+
+[10/120] 测试问题 ID=10
+问题: 看这张图像是机场还是港口，给个整体判断。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/4b9e7f67.png, Output Text: A satellite image of a road in the middle of a desert
+
+Processed ImageCaptioning, Input Image: image/4b9e7f67.png, Output Text: A satellite image of a road in the middle of a desert
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 10/120, 正确率: 100.00%
+
+[11/120] 测试问题 ID=11
+问题: 把影像里所有汽车的位置用方框标出来，谢谢。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/e49b3a41.png, Output Text: A satellite image of an aerial view of the site of the first person to bera, the first person to be
+
+Processed ImageCaptioning, Input Image: image/e49b3a41.png, Output Text: A satellite image of an aerial view of the site of the first person to bera, the first person to be
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 11/120, 正确率: 100.00%
+
+[12/120] 测试问题 ID=12
+问题: 给我一句话总结这张图在拍什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/c26ea7a5.png, Output Text: A satellite image of a satellite image of a residential area in the city of person, alberta
+
+Processed ImageCaptioning, Input Image: image/c26ea7a5.png, Output Text: A satellite image of a satellite image of a residential area in the city of person, alberta
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 12/120, 正确率: 100.00%
+
+[13/120] 测试问题 ID=13
+问题: 两张图时间跨度五年，帮我找哪里长出了新房子。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/a2a515b9.png, Output Text: A satellite image of an aerial view of the village
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+
+Processed ImageCaptioning, Input Image: image/a2a515b9.png, Output Text: A satellite image of an aerial view of the village
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 13/120, 正确率: 100.00%
+
+[14/120] 测试问题 ID=14
+问题: 图里小黑点都是鸽子吗？到底有多少只？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/6431a204.png, Output Text: A satellite image of a city with houses and a road
+
+Processed ImageCaptioning, Input Image: image/6431a204.png, Output Text: A satellite image of a city with houses and a road
+实际调用: ImageCaptioning
+结果: ✗ 错误
+当前进度: 14/120, 正确率: 92.86%
+
+[15/120] 测试问题 ID=15
+问题: 想要明显的道路边界线，原图太糊了，能抽出来吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/d19ff53d.png, Output Text: A satellite image of a small town with a lot of trees
+
+Processed ImageCaptioning, Input Image: image/d19ff53d.png, Output Text: A satellite image of a small town with a lot of trees
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 15/120, 正确率: 93.33%
+
+[16/120] 测试问题 ID=16
+问题: 这张图看起来是森林还是农田，帮我分个类。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/73267056.png, Output Text: A satellite image of an aerial view of the village
+
+Processed ImageCaptioning, Input Image: image/73267056.png, Output Text: A satellite image of an aerial view of the village
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 16/120, 正确率: 93.75%
+
+[17/120] 测试问题 ID=17
+问题: 检测一下图里有没有飞机，有的话圈出来。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/51bce0f8.png, Output Text: A satellite image of a large field with houses and a road
+
+Processed ImageCaptioning, Input Image: image/51bce0f8.png, Output Text: A satellite image of a large field with houses and a road
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 17/120, 正确率: 94.12%
+
+[18/120] 测试问题 ID=18
+问题: 用通俗的中文告诉我这张遥感图主要拍到了什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/0f3046c5.png, Output Text: A satellite image of a close up of a granite surface
+
+Processed ImageCaptioning, Input Image: image/0f3046c5.png, Output Text: A satellite image of a close up of a granite surface
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 18/120, 正确率: 94.44%
+
+[19/120] 测试问题 ID=19
+问题: 把新旧两张图对比，标出被挖成坑的地方。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/f8d62627.png, Output Text: A satellite image of an aerial view of the site of the first battle of the alam
+
+Processed ImageCaptioning, Input Image: image/f8d62627.png, Output Text: A satellite image of an aerial view of the site of the first battle of the alam
+Agent执行异常: [Errno 2] No such file or directory: 'image/new.png'
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 19/120, 正确率: 94.74%
+
+[20/120] 测试问题 ID=20
+问题: 能数得出图里有多少条船吗？数字就行。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/ab798c86.png, Output Text: A satellite image of a close up of a brown substance
+
+Processed ImageCaptioning, Input Image: image/ab798c86.png, Output Text: A satellite image of a close up of a brown substance
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 20/120, 正确率: 95.00%
+
+[21/120] 测试问题 ID=21
+问题: 提取一下影像里所有硬边界，我要做叠加分析。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/fbd9b3d8.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+Processed ImageCaptioning, Input Image: image/fbd9b3d8.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 21/120, 正确率: 95.24%
+
+[22/120] 测试问题 ID=22
+问题: 这张图整体属于工业区还是居民区，给个结论。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/8515f557.png, Output Text: A satellite image of a large area of land with trees and bushes
+
+Processed ImageCaptioning, Input Image: image/8515f557.png, Output Text: A satellite image of a large area of land with trees and bushes
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 22/120, 正确率: 95.45%
+
+[23/120] 测试问题 ID=23
+问题: 图里如果存在卡车，就把它们框出来。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/a7d27405.png, Output Text: A satellite image of an aerial view of the site of the former person's house in the village of person
+
+Processed ImageCaptioning, Input Image: image/a7d27405.png, Output Text: A satellite image of an aerial view of the site of the former person's house in the village of person
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 23/120, 正确率: 95.65%
+
+[24/120] 测试问题 ID=24
+问题: 一句话概括这张图片的内容，越简洁越好。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/38b0b1fe.png, Output Text: A satellite image of an aerial view of the intersection of interstate and interstate
+
+Processed ImageCaptioning, Input Image: image/38b0b1fe.png, Output Text: A satellite image of an aerial view of the intersection of interstate and interstate
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 24/120, 正确率: 95.83%
+
+[25/120] 测试问题 ID=25
+问题: 同一区域两个时相，帮我找出新增的高速路段。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/a98828b9.png, Output Text: A satellite image of an aerial view of the city of baghdad
+
+Processed ImageCaptioning, Input Image: image/a98828b9.png, Output Text: A satellite image of an aerial view of the city of baghdad
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 25/120, 正确率: 96.00%
+
+[26/120] 测试问题 ID=26
+问题: 影像里白色小点可能是羊，能帮我点个数吗？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/fa11ef24.png, Output Text: A satellite image of an aerial view of a forest
+
+Processed ImageCaptioning, Input Image: image/fa11ef24.png, Output Text: A satellite image of an aerial view of a forest
+实际调用: Unknown
+结果: ✗ 错误
+当前进度: 26/120, 正确率: 92.31%
+
+[27/120] 测试问题 ID=27
+问题: 边界线太杂乱了，只保留最锐利的边缘，可以吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/11beea32.png, Output Text: A satellite image of a large rock with a small patch of grass in the middle of the rock is a small patch
+
+Processed ImageCaptioning, Input Image: image/11beea32.png, Output Text: A satellite image of a large rock with a small patch of grass in the middle of the rock is a small patch
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 27/120, 正确率: 92.59%
+
+[28/120] 测试问题 ID=28
+问题: 看图感觉像是沙漠中的绿洲，能确认场景吗？
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/787abfb2.png, Output Text: A satellite image of an aerial view of the area where the water was diverted
+
+Processed ImageCaptioning, Input Image: image/787abfb2.png, Output Text: A satellite image of an aerial view of the area where the water was diverted
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 28/120, 正确率: 92.86%
+
+[29/120] 测试问题 ID=29
+问题: 把图上所有飞机目标都检测出来，画框给我。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/3f903293.png, Output Text: A satellite image of a piece of concrete that has been left on the ground
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+
+Processed ImageCaptioning, Input Image: image/3f903293.png, Output Text: A satellite image of a piece of concrete that has been left on the ground
+实际调用: Unknown
+结果: ✗ 错误
+当前进度: 29/120, 正确率: 89.66%
+
+[30/120] 测试问题 ID=30
+问题: 用一句话描述这张高分辨率影像的核心内容。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/cdaf0f1b.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+
+Processed ImageCaptioning, Input Image: image/cdaf0f1b.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 30/120, 正确率: 90.00%
+
+[31/120] 测试问题 ID=31
+问题: 对比两张图，看哪片农田被改成了建筑工地。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/e5158df1.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+Processed ImageCaptioning, Input Image: image/e5158df1.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+Agent执行异常: [Errno 2] No such file or directory: 'image/e5158df2.png'
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 31/120, 正确率: 90.32%
+
+[32/120] 测试问题 ID=32
+问题: 图里密密麻麻的小点，能数出多少辆汽车吗？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/39974a3a.png, Output Text: A satellite image of a google earth view of a neighborhood
+
+Processed ImageCaptioning, Input Image: image/39974a3a.png, Output Text: A satellite image of a google earth view of a neighborhood
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 32/120, 正确率: 90.62%
+
+[33/120] 测试问题 ID=33
+问题: 我只关心影像里明显的道路边缘，能抽出来吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/9d3fa588.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+
+Processed ImageCaptioning, Input Image: image/9d3fa588.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+实际调用: ObjectDetection
+结果: ✗ 错误
+当前进度: 33/120, 正确率: 87.88%
+
+[34/120] 测试问题 ID=34
+问题: 这张图整体看上去是山地还是平原，帮我判断。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/9e40fd70.png, Output Text: A satellite image of a wall with a lot of black spots
+
+Processed ImageCaptioning, Input Image: image/9e40fd70.png, Output Text: A satellite image of a wall with a lot of black spots
+实际调用: ImageCaptioning
+结果: ✗ 错误
+当前进度: 34/120, 正确率: 85.29%
+
+[35/120] 测试问题 ID=35
+问题: 如果有船出现在图里，就把它们框出来告诉我。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/50f6e823.png, Output Text: A satellite image of a street with houses and a car in the middle
+
+Processed ImageCaptioning, Input Image: image/50f6e823.png, Output Text: A satellite image of a street with houses and a car in the middle
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 35/120, 正确率: 85.71%
+
+[36/120] 测试问题 ID=36
+问题: 给我一句中文描述，说明这张图在拍什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/dd68b5ce.png, Output Text: A satellite image of the site of the former person's home in the town of person
+
+Processed ImageCaptioning, Input Image: image/dd68b5ce.png, Output Text: A satellite image of the site of the former person's home in the town of person
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 36/120, 正确率: 86.11%
+
+[37/120] 测试问题 ID=37
+问题: 把去年和今年的图叠一起，看看湖面是扩大了还是缩小了。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/14355105.png, Output Text: A satellite image of an aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: image/14355105.png, Output Text: A satellite image of an aerial view of the city of person
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 37/120, 正确率: 86.49%
+
+[38/120] 测试问题 ID=38
+问题: 数一下图里长方形的储煤棚一共有多少个。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/189de299.png, Output Text: A satellite image of a map of a neighborhood
+
+Processed ImageCaptioning, Input Image: image/189de299.png, Output Text: A satellite image of a map of a neighborhood
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 38/120, 正确率: 86.84%
+
+[39/120] 测试问题 ID=39
+问题: 想要海岸线边缘，原图太糊，能提取吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/a181eda7.png, Output Text: A satellite image of a close up of a brown granite surface
+
+Processed ImageCaptioning, Input Image: image/a181eda7.png, Output Text: A satellite image of a close up of a brown granite surface
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 39/120, 正确率: 87.18%
+
+[40/120] 测试问题 ID=40
+问题: 这张图属于城市中心还是郊区，帮我分个类。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/1ae7da2c.png, Output Text: A satellite image of an aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: image/1ae7da2c.png, Output Text: A satellite image of an aerial view of the city of person
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 40/120, 正确率: 87.50%
+
+[41/120] 测试问题 ID=41
+问题: 检测影像里所有飞机，并给出它们的位置框。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/24246585.png, Output Text: A satellite image of an aerial view of the home
+
+Processed ImageCaptioning, Input Image: image/24246585.png, Output Text: A satellite image of an aerial view of the home
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 41/120, 正确率: 87.80%
+
+[42/120] 测试问题 ID=42
+问题: 一句话总结这张图的最主要内容，谢谢。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/d588bfba.png, Output Text: A satellite image of an aerial view of the house
+
+Processed ImageCaptioning, Input Image: image/d588bfba.png, Output Text: A satellite image of an aerial view of the house
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 42/120, 正确率: 88.10%
+
+[43/120] 测试问题 ID=43
+问题: 新旧影像对比，标出新冒出来的大棚。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/a3ef8891.png, Output Text: A satellite image of an aerial view of a small town
+
+Processed ImageCaptioning, Input Image: image/a3ef8891.png, Output Text: A satellite image of an aerial view of a small town
+Agent执行异常: [Errno 2] No such file or directory: 'image/a3ef8891_new.png'
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 43/120, 正确率: 88.37%
+
+[44/120] 测试问题 ID=44
+问题: 能帮我点一点图里到底有多少架飞机吗？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/920bce34.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+Processed ImageCaptioning, Input Image: image/920bce34.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 44/120, 正确率: 88.64%
+
+[45/120] 测试问题 ID=45
+问题: 把影像中明显的地物边界线拉出来，我想做对比。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/e52d1e24.png, Output Text: A satellite image of a large patch of grass with a small patch of grass in the middle
+
+Processed ImageCaptioning, Input Image: image/e52d1e24.png, Output Text: A satellite image of a large patch of grass with a small patch of grass in the middle
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 45/120, 正确率: 88.89%
+
+[46/120] 测试问题 ID=46
+问题: 看图感觉像是矿区，能确认一下场景吗？
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/871a1a2b.png, Output Text: A satellite image of an aerial view of the site of the ancient city of person
+
+Processed ImageCaptioning, Input Image: image/871a1a2b.png, Output Text: A satellite image of an aerial view of the site of the ancient city of person
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 46/120, 正确率: 89.13%
+
+[47/120] 测试问题 ID=47
+问题: 把图里所有船只目标框出来，数字也顺便告诉我。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/fb80e84a.png, Output Text: A satellite image of an aerial view of the site of the former person's former factory in the site is now
+
+Processed ImageCaptioning, Input Image: image/fb80e84a.png, Output Text: A satellite image of an aerial view of the site of the former person's former factory in the site is now
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 47/120, 正确率: 89.36%
+
+[48/120] 测试问题 ID=48
+问题: 用一句话告诉我这张遥感图拍的是什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/76754120.png, Output Text: A satellite image of a satellite image of a city
+
+Processed ImageCaptioning, Input Image: image/76754120.png, Output Text: A satellite image of a satellite image of a city
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 48/120, 正确率: 89.58%
+
+[49/120] 测试问题 ID=49
+问题: 两张不同年份的图，找出哪里新修了立交桥。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/634e5dda.png, Output Text: A satellite image of an aerial view of a road and a small town
+
+Processed ImageCaptioning, Input Image: image/634e5dda.png, Output Text: A satellite image of an aerial view of a road and a small town
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 49/120, 正确率: 89.80%
+
+[50/120] 测试问题 ID=50
+问题: 图里小白点都是车吗？我想知道确切数量。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/a57b2bd7.png, Output Text: A satellite image of an aerial view of the golf course at the golf course at the golf course
+
+Processed ImageCaptioning, Input Image: image/a57b2bd7.png, Output Text: A satellite image of an aerial view of the golf course at the golf course at the golf course
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 50/120, 正确率: 90.00%
+
+[51/120] 测试问题 ID=51
+问题: 只想要最锐利的道路边缘，其它杂线去掉，可以吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/7f4d8ea2.png, Output Text: A satellite image of a large lot with lots of trees in it
+
+Processed ImageCaptioning, Input Image: image/7f4d8ea2.png, Output Text: A satellite image of a large lot with lots of trees in it
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 51/120, 正确率: 90.20%
+
+[52/120] 测试问题 ID=52
+问题: 这张图整体是湿地还是旱地，给个结论。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/6e8ff08b.png, Output Text: A satellite image of the road to the top of the hill
+
+Processed ImageCaptioning, Input Image: image/6e8ff08b.png, Output Text: A satellite image of the road to the top of the hill
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 52/120, 正确率: 90.38%
+
+[53/120] 测试问题 ID=53
+问题: 检测一下有没有卡车，有就画框。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/db17dc90.png, Output Text: A satellite image of an aerial view of the property
+
+Processed ImageCaptioning, Input Image: image/db17dc90.png, Output Text: A satellite image of an aerial view of the property
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 53/120, 正确率: 90.57%
+
+[54/120] 测试问题 ID=54
+问题: 一句话概括影像内容，越通俗越好。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/e46f4165.png, Output Text: A satellite image of a large green field with a few trees
+
+Processed ImageCaptioning, Input Image: image/e46f4165.png, Output Text: A satellite image of a large green field with a few trees
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 54/120, 正确率: 90.74%
+
+[55/120] 测试问题 ID=55
+问题: 把老图和新图放在一起，看看哪片森林被砍了。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/bd4ca37a.png, Output Text: A satellite image of an aerial view of the site of the ancient city of person
+
+Processed ImageCaptioning, Input Image: image/bd4ca37a.png, Output Text: A satellite image of an aerial view of the site of the ancient city of person
+Agent执行异常: [Errno 2] No such file or directory: 'image/new.png'
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 55/120, 正确率: 90.91%
+
+[56/120] 测试问题 ID=56
+问题: 数得出图里有多少条船吗？给我个整数。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/23358221.png, Output Text: A satellite image of a map of the area
+
+Processed ImageCaptioning, Input Image: image/23358221.png, Output Text: A satellite image of a map of the area
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 56/120, 正确率: 91.07%
+
+[57/120] 测试问题 ID=57
+问题: 提取影像里所有明显的边界，我要做矢量对比。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/1458c0eb.png, Output Text: A satellite image of an aerial view of the farm and road
+
+Processed ImageCaptioning, Input Image: image/1458c0eb.png, Output Text: A satellite image of an aerial view of the farm and road
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 57/120, 正确率: 91.23%
+
+[58/120] 测试问题 ID=58
+问题: 这张图看起来是机场场景吗？帮我确认。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/d5c6b7d7.png, Output Text: A satellite image of the site of the proposed site in the middle of the city
+
+Processed ImageCaptioning, Input Image: image/d5c6b7d7.png, Output Text: A satellite image of the site of the proposed site in the middle of the city
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 58/120, 正确率: 91.38%
+
+[59/120] 测试问题 ID=59
+问题: 把图上所有飞机都框出来，别漏。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/8e7e7fc4.png, Output Text: A satellite image of a brown and green tile with a small hole in the middle
+
+Processed ImageCaptioning, Input Image: image/8e7e7fc4.png, Output Text: A satellite image of a brown and green tile with a small hole in the middle
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 59/120, 正确率: 91.53%
+
+[60/120] 测试问题 ID=60
+问题: 用中文一句话描述这张图的核心内容。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/e7726be2.png, Output Text: A satellite image of a small pond in the middle of a forest
+
+Processed ImageCaptioning, Input Image: image/e7726be2.png, Output Text: A satellite image of a small pond in the middle of a forest
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 60/120, 正确率: 91.67%
+
+[61/120] 测试问题 ID=61
+问题: 对比两张时相，找出新挖的坑塘。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/730e6149.png, Output Text: A satellite image of an aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: image/730e6149.png, Output Text: A satellite image of an aerial view of the city of person
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 61/120, 正确率: 91.80%
+
+[62/120] 测试问题 ID=62
+问题: 图里密密麻麻的小方块，能数出多少个仓库吗？
+Ground Truth: ObjectCounting
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+
+Processed ImageCaptioning, Input Image: image/a95187f7.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+
+Processed ImageCaptioning, Input Image: image/a95187f7.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 62/120, 正确率: 91.94%
+
+[63/120] 测试问题 ID=63
+问题: 我只想要海岸线边缘线，能抽出来吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/fafb792e.png, Output Text: A satellite image of an aerial view of a residential area in the city of los
+
+Processed ImageCaptioning, Input Image: image/fafb792e.png, Output Text: A satellite image of an aerial view of a residential area in the city of los
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 63/120, 正确率: 92.06%
+
+[64/120] 测试问题 ID=64
+问题: 这张图属于山区还是盆地，帮我判断。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/c024d953.png, Output Text: A satellite image of a green background with a white border
+
+Processed ImageCaptioning, Input Image: image/c024d953.png, Output Text: A satellite image of a green background with a white border
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 64/120, 正确率: 92.19%
+
+[65/120] 测试问题 ID=65
+问题: 如果有船，就把它们全部框出来。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/9a02b508.png, Output Text: A satellite image of an aerial view of a neighborhood in the suburbs
+
+Processed ImageCaptioning, Input Image: image/9a02b508.png, Output Text: A satellite image of an aerial view of a neighborhood in the suburbs
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 65/120, 正确率: 92.31%
+
+[66/120] 测试问题 ID=66
+问题: 一句话告诉我这张遥感影像在拍什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/f8136502.png, Output Text: A satellite image of an aerial view of the road that runs through the valley
+
+Processed ImageCaptioning, Input Image: image/f8136502.png, Output Text: A satellite image of an aerial view of the road that runs through the valley
+实际调用: SceneClassification
+结果: ✗ 错误
+当前进度: 66/120, 正确率: 90.91%
+
+[67/120] 测试问题 ID=67
+问题: 把去年和今年的图对比，看哪里新盖了小区。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/3aa2fafe.png, Output Text: A satellite image of an aerial view of a road and a small town
+
+Processed ImageCaptioning, Input Image: image/3aa2fafe.png, Output Text: A satellite image of an aerial view of a road and a small town
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 67/120, 正确率: 91.04%
+
+[68/120] 测试问题 ID=68
+问题: 能数一下图里有多少辆卡车吗？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/9f542b77.png, Output Text: A satellite image of an aerial view of the road and the surrounding area
+
+Processed ImageCaptioning, Input Image: image/9f542b77.png, Output Text: A satellite image of an aerial view of the road and the surrounding area
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 68/120, 正确率: 91.18%
+
+[69/120] 测试问题 ID=69
+问题: 把影像中明显的道路边界提取出来，谢谢。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/229bb66a.png, Output Text: A satellite image of an aerial view of the new bridge
+
+Processed ImageCaptioning, Input Image: image/229bb66a.png, Output Text: A satellite image of an aerial view of the new bridge
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 69/120, 正确率: 91.30%
+
+[70/120] 测试问题 ID=70
+问题: 这张图整体看上去是农田还是城市，分个类。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/f276bf92.png, Output Text: A satellite image of an aerial view of the intersection of highway and road
+
+Processed ImageCaptioning, Input Image: image/f276bf92.png, Output Text: A satellite image of an aerial view of the intersection of highway and road
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 70/120, 正确率: 91.43%
+
+[71/120] 测试问题 ID=71
+问题: 检测影像里所有飞机目标，并画框。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/7a8d718d.png, Output Text: A satellite image of a granite counter top with a brown granite surface
+
+Processed ImageCaptioning, Input Image: image/7a8d718d.png, Output Text: A satellite image of a granite counter top with a brown granite surface
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 71/120, 正确率: 91.55%
+
+[72/120] 测试问题 ID=72
+问题: 给我一句简洁的中文描述，说明这张图。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/4adb1460.png, Output Text: A satellite image of the site of the former person family home in the town of person
+
+Processed ImageCaptioning, Input Image: image/4adb1460.png, Output Text: A satellite image of the site of the former person family home in the town of person
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 72/120, 正确率: 91.67%
+
+[73/120] 测试问题 ID=73
+问题: 新旧影像一起看，标出新修的跑道。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/18d9e7b2.png, Output Text: A satellite image of an aerial view of the site of the former person family in the town of person
+
+Processed ImageCaptioning, Input Image: image/18d9e7b2.png, Output Text: A satellite image of an aerial view of the site of the former person family in the town of person
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 73/120, 正确率: 91.78%
+
+[74/120] 测试问题 ID=74
+问题: 图里小白点可能是储罐，到底有几个？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/33856e46.png, Output Text: A satellite image of a neighborhood with houses and a street
+
+Processed ImageCaptioning, Input Image: image/33856e46.png, Output Text: A satellite image of a neighborhood with houses and a street
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 74/120, 正确率: 91.89%
+
+[75/120] 测试问题 ID=75
+问题: 想要最锐利的水陆分界线，能帮我抽出来吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/f46e4c62.png, Output Text: A satellite image of a close up of a grey and beige fabric
+
+Processed ImageCaptioning, Input Image: image/f46e4c62.png, Output Text: A satellite image of a close up of a grey and beige fabric
+实际调用: ObjectDetection
+结果: ✗ 错误
+当前进度: 75/120, 正确率: 90.67%
+
+[76/120] 测试问题 ID=76
+问题: 这张图是港口场景吗？给我个结论。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/6cb4befa.png, Output Text: A satellite image of an aerial view of a city
+
+Processed ImageCaptioning, Input Image: image/6cb4befa.png, Output Text: A satellite image of an aerial view of a city
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 76/120, 正确率: 90.79%
+
+[77/120] 测试问题 ID=77
+问题: 把图里所有船只都检测出来，别漏数字。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/0d3d6666.png, Output Text: A satellite image of a road with a sign that says, ` ` '
+
+Processed ImageCaptioning, Input Image: image/0d3d6666.png, Output Text: A satellite image of a road with a sign that says, ` ` '
+实际调用: Unknown
+结果: ✗ 错误
+当前进度: 77/120, 正确率: 89.61%
+
+[78/120] 测试问题 ID=78
+问题: 一句话概括这张高分辨率影像的主要内容。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/86e469f2.png, Output Text: A satellite image of a satellite image of the area where the person was found
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+
+Processed ImageCaptioning, Input Image: image/86e469f2.png, Output Text: A satellite image of a satellite image of the area where the person was found
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 78/120, 正确率: 89.74%
+
+[79/120] 测试问题 ID=79
+问题: 两张图隔了三年，看看哪片荒地变成了工厂。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/ff054ef9.png, Output Text: A satellite image of a rock with a small patch of dirt on it
+
+Processed ImageCaptioning, Input Image: image/ff054ef9.png, Output Text: A satellite image of a rock with a small patch of dirt on it
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 79/120, 正确率: 89.87%
+
+[80/120] 测试问题 ID=80
+问题: 数得出图里有多少架飞机吗？数字就行。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/8433df2b.png, Output Text: A satellite image of an aerial view of a road in the middle of a field
+
+Processed ImageCaptioning, Input Image: image/8433df2b.png, Output Text: A satellite image of an aerial view of a road in the middle of a field
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 80/120, 正确率: 90.00%
+
+[81/120] 测试问题 ID=81
+问题: 提取影像里所有硬边界，我要做变化检测。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/96b3647d.png, Output Text: A satellite image of an aerial view of the site of the former person's home
+
+Processed ImageCaptioning, Input Image: image/96b3647d.png, Output Text: A satellite image of an aerial view of the site of the former person's home
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 81/120, 正确率: 90.12%
+
+[82/120] 测试问题 ID=82
+问题: 这张图整体属于沙漠还是绿洲，帮我确认。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/4b022e66.png, Output Text: A satellite image of a satellite image of the site of the proposed person site in the city of person
+
+Processed ImageCaptioning, Input Image: image/4b022e66.png, Output Text: A satellite image of a satellite image of the site of the proposed person site in the city of person
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 82/120, 正确率: 90.24%
+
+[83/120] 测试问题 ID=83
+问题: 把图上所有卡车目标框出来。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/d10bebb6.png, Output Text: A satellite image of an aerial view of the site of the proposed new building
+
+Processed ImageCaptioning, Input Image: image/d10bebb6.png, Output Text: A satellite image of an aerial view of the site of the proposed new building
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 83/120, 正确率: 90.36%
+
+[84/120] 测试问题 ID=84
+问题: 用通俗的中文一句话告诉我这张图拍的是什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/5dee0172.png, Output Text: A satellite image of a large area of land with a small patch of land
+
+Processed ImageCaptioning, Input Image: image/5dee0172.png, Output Text: A satellite image of a large area of land with a small patch of land
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 84/120, 正确率: 90.48%
+
+[85/120] 测试问题 ID=85
+问题: 对比不同时期的图，找出新挖的矿区。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/efc91ac2.png, Output Text: A satellite image of an aerial view of the site of the former person, the former person, and the former person
+
+Processed ImageCaptioning, Input Image: image/efc91ac2.png, Output Text: A satellite image of an aerial view of the site of the former person, the former person, and the former person
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 85/120, 正确率: 90.59%
+
+[86/120] 测试问题 ID=86
+问题: 图里密密麻麻的小圆点，能数出多少个油罐吗？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/f520800c.png, Output Text: A satellite image of a large area of land with trees and bushes
+
+Processed ImageCaptioning, Input Image: image/f520800c.png, Output Text: A satellite image of a large area of land with trees and bushes
+实际调用: Unknown
+结果: ✗ 错误
+当前进度: 86/120, 正确率: 89.53%
+
+[87/120] 测试问题 ID=87
+问题: 我只关心道路边缘线，其它地物忽略，可以吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/4c1ddaa6.png, Output Text: A satellite image of a large field with a few trees in it
+
+Processed ImageCaptioning, Input Image: image/4c1ddaa6.png, Output Text: A satellite image of a large field with a few trees in it
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 87/120, 正确率: 89.66%
+
+[88/120] 测试问题 ID=88
+问题: 这张图看起来是市中心还是农村，给个判断。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/2dd3a48b.png, Output Text: A satellite image of an aerial view of the site of the former person's home in the former person's
+
+Processed ImageCaptioning, Input Image: image/2dd3a48b.png, Output Text: A satellite image of an aerial view of the site of the former person's home in the former person's
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 88/120, 正确率: 89.77%
+
+[89/120] 测试问题 ID=89
+问题: 检测一下有没有飞机，有就画框告诉我。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/27f6e958.png, Output Text: A satellite image of the site of the proposed development at the intersection of highway and highway
+
+Processed ImageCaptioning, Input Image: image/27f6e958.png, Output Text: A satellite image of the site of the proposed development at the intersection of highway and highway
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 89/120, 正确率: 89.89%
+
+[90/120] 测试问题 ID=90
+问题: 一句话描述这张遥感图的核心信息。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/2540cc5f.png, Output Text: A satellite image of an aerial view of the site of the former person family in the town of person
+
+Processed ImageCaptioning, Input Image: image/2540cc5f.png, Output Text: A satellite image of an aerial view of the site of the former person family in the town of person
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 90/120, 正确率: 90.00%
+
+[91/120] 测试问题 ID=91
+问题: 把老图和新图放一起，看看湖面是不是缩小了。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/0f1ac4fb.png, Output Text: A satellite image of an aerial view of the site of the former person's former person, which is now a
+
+Processed ImageCaptioning, Input Image: image/0f1ac4fb.png, Output Text: A satellite image of an aerial view of the site of the former person's former person, which is now a
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 91/120, 正确率: 90.11%
+
+[92/120] 测试问题 ID=92
+问题: 能帮我点一点图里到底有多少条船吗？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/4198968a.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+
+Processed ImageCaptioning, Input Image: image/4198968a.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 92/120, 正确率: 90.22%
+
+[93/120] 测试问题 ID=93
+问题: 把影像中最明显的边界线拉出来，我想做对比。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/0c7dd646.png, Output Text: A satellite image of a large dam with a large body of water
+
+Processed ImageCaptioning, Input Image: image/0c7dd646.png, Output Text: A satellite image of a large dam with a large body of water
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 93/120, 正确率: 90.32%
+
+[94/120] 测试问题 ID=94
+问题: 这张图属于机场还是港口，帮我分个类。
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/d9e9b584.png, Output Text: A satellite image of an aerial view of the house
+
+Processed ImageCaptioning, Input Image: image/d9e9b584.png, Output Text: A satellite image of an aerial view of the house
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 94/120, 正确率: 90.43%
+
+[95/120] 测试问题 ID=95
+问题: 把图里所有飞机都框出来，数字也给我。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/f42f6128.png, Output Text: A satellite image of an aerial view of a neighborhood in the city of person
+
+Processed ImageCaptioning, Input Image: image/f42f6128.png, Output Text: A satellite image of an aerial view of a neighborhood in the city of person
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 95/120, 正确率: 90.53%
+
+[96/120] 测试问题 ID=96
+问题: 用一句话告诉我这张影像在拍什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/489b95cf.png, Output Text: A satellite image of a circular road surrounded by trees
+
+Processed ImageCaptioning, Input Image: image/489b95cf.png, Output Text: A satellite image of a circular road surrounded by trees
+实际调用: SceneClassification
+结果: ✗ 错误
+当前进度: 96/120, 正确率: 89.58%
+
+[97/120] 测试问题 ID=97
+问题: 新旧对比，标出新盖的高楼。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/7b90ae23.png, Output Text: A satellite image of an aerial view of the site of the person's tomb
+
+Processed ImageCaptioning, Input Image: image/7b90ae23.png, Output Text: A satellite image of an aerial view of the site of the person's tomb
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 97/120, 正确率: 89.69%
+
+[98/120] 测试问题 ID=98
+问题: 图里小白点都是车吗？我想知道确切个数。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/8bcbcd40.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+
+Processed ImageCaptioning, Input Image: image/8bcbcd40.png, Output Text: A satellite image of an aerial view of the site of the proposed development
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 98/120, 正确率: 89.80%
+
+[99/120] 测试问题 ID=99
+问题: 想要海岸线边缘，能提取吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/50fcf755.png, Output Text: A satellite image of a close up of a concrete wall
+
+Processed ImageCaptioning, Input Image: image/50fcf755.png, Output Text: A satellite image of a close up of a concrete wall
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 99/120, 正确率: 89.90%
+
+[100/120] 测试问题 ID=100
+问题: 这张图整体是山地还是平原，给个结论。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/ddd79fe1.png, Output Text: A satellite image of a large field with a dirt road in the middle
+
+Processed ImageCaptioning, Input Image: image/ddd79fe1.png, Output Text: A satellite image of a large field with a dirt road in the middle
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 100/120, 正确率: 90.00%
+
+[101/120] 测试问题 ID=101
+问题: 把影像里所有船只目标检测出来，画框。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/ab8acd1d.png, Output Text: A satellite image of the site of the former person family home in the town of person
+
+Processed ImageCaptioning, Input Image: image/ab8acd1d.png, Output Text: A satellite image of the site of the former person family home in the town of person
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 101/120, 正确率: 90.10%
+
+[102/120] 测试问题 ID=102
+问题: 一句话概括这张图的主要内容，谢谢。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/470934da.png, Output Text: A satellite image of an aerial view of the road leading to the site of the person's tomb
+
+Processed ImageCaptioning, Input Image: image/470934da.png, Output Text: A satellite image of an aerial view of the road leading to the site of the person's tomb
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 102/120, 正确率: 90.20%
+
+[103/120] 测试问题 ID=103
+问题: 两张图相隔两年，看看哪片农田被占了。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/7c391a81.png, Output Text: A satellite image of an aerial view of the house and surrounding area
+
+Processed ImageCaptioning, Input Image: image/7c391a81.png, Output Text: A satellite image of an aerial view of the house and surrounding area
+Agent执行异常: [Errno 2] No such file or directory: 'image/7c391a82.png'
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 103/120, 正确率: 90.29%
+
+[104/120] 测试问题 ID=104
+问题: 数一下图里长方形的仓库一共有多少个。
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/dfb05271.png, Output Text: A satellite image of a large field of houses
+
+Processed ImageCaptioning, Input Image: image/dfb05271.png, Output Text: A satellite image of a large field of houses
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 104/120, 正确率: 90.38%
+
+[105/120] 测试问题 ID=105
+问题: 提取影像中明显的道路边界，我要做矢量。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/ac55c711.png, Output Text: A satellite image of an aerial view of a small town
+
+Processed ImageCaptioning, Input Image: image/ac55c711.png, Output Text: A satellite image of an aerial view of a small town
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 105/120, 正确率: 90.48%
+
+[106/120] 测试问题 ID=106
+问题: 这张图看起来是矿区还是工业区，帮我确认。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/058797db.png, Output Text: A satellite image of an aerial view of the proposed development
+
+Processed ImageCaptioning, Input Image: image/058797db.png, Output Text: A satellite image of an aerial view of the proposed development
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 106/120, 正确率: 90.57%
+
+[107/120] 测试问题 ID=107
+问题: 如果有卡车，就把它们全部框出来。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/8dc56434.png, Output Text: A satellite image of an aerial view of a city
+
+Processed ImageCaptioning, Input Image: image/8dc56434.png, Output Text: A satellite image of an aerial view of a city
+实际调用: ObjectDetection
+结果: ✓ 正确
+当前进度: 107/120, 正确率: 90.65%
+
+[108/120] 测试问题 ID=108
+问题: 给我一句简洁的中文描述，说明这张遥感图。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/aec34de6.png, Output Text: A satellite image of an aerial view of the home of person and his wife, person, in the town of person
+
+Processed ImageCaptioning, Input Image: image/aec34de6.png, Output Text: A satellite image of an aerial view of the home of person and his wife, person, in the town of person
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 108/120, 正确率: 90.74%
+
+[109/120] 测试问题 ID=109
+问题: 把去年和今年的图对比，找出新修的公路。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/075c1e81.png, Output Text: A satellite image of a satellite image of the site of the proposed person's house in the city of person
+
+Processed ImageCaptioning, Input Image: image/075c1e81.png, Output Text: A satellite image of a satellite image of the site of the proposed person's house in the city of person
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 109/120, 正确率: 90.83%
+
+[110/120] 测试问题 ID=110
+问题: 能数得出图里有多少架飞机吗？
+Ground Truth: ObjectCounting
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+
+Processed ImageCaptioning, Input Image: image/31e8d6c3.png, Output Text: A satellite image of an aerial view of a residential area in the suburbs of sydney
+
+Processed ImageCaptioning, Input Image: image/31e8d6c3.png, Output Text: A satellite image of an aerial view of a residential area in the suburbs of sydney
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 110/120, 正确率: 90.91%
+
+[111/120] 测试问题 ID=111
+问题: 把影像里所有硬边界抽出来，我想做变化分析。
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/7aca0bb5.png, Output Text: A satellite image of an aerial view of the site of the former person's house in the village of person
+
+Processed ImageCaptioning, Input Image: image/7aca0bb5.png, Output Text: A satellite image of an aerial view of the site of the former person's house in the village of person
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 111/120, 正确率: 90.99%
+
+[112/120] 测试问题 ID=112
+问题: 这张图属于湿地还是旱地，给个判断。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/0cc71c55.png, Output Text: A satellite image of an aerial view of the river and the road
+
+Processed ImageCaptioning, Input Image: image/0cc71c55.png, Output Text: A satellite image of an aerial view of the river and the road
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 112/120, 正确率: 91.07%
+
+[113/120] 测试问题 ID=113
+问题: 检测一下图里有没有船，有就框。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/68e3f679.png, Output Text: A satellite image of a road in the middle of a forest
+
+Processed ImageCaptioning, Input Image: image/68e3f679.png, Output Text: A satellite image of a road in the middle of a forest
+实际调用: Unknown
+结果: ✗ 错误
+当前进度: 113/120, 正确率: 90.27%
+
+[114/120] 测试问题 ID=114
+问题: 用一句话告诉我这张高分辨率影像在拍什么。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/ea8bc20f.png, Output Text: A satellite image of a green box with a brown lid
+
+Processed ImageCaptioning, Input Image: image/ea8bc20f.png, Output Text: A satellite image of a green box with a brown lid
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 114/120, 正确率: 90.35%
+
+[115/120] 测试问题 ID=115
+问题: 对比不同时期影像，看看哪片森林被砍光了。
+Ground Truth: ChangeDetection
+
+Processed ImageCaptioning, Input Image: image/6a88cd67.png, Output Text: A satellite image of a black and white photo of a dirt field
+
+Processed ImageCaptioning, Input Image: image/6a88cd67.png, Output Text: A satellite image of a black and white photo of a dirt field
+实际调用: ChangeDetection
+结果: ✓ 正确
+当前进度: 115/120, 正确率: 90.43%
+
+[116/120] 测试问题 ID=116
+问题: 图里密密麻麻的小点，能数出多少辆汽车吗？
+Ground Truth: ObjectCounting
+
+Processed ImageCaptioning, Input Image: image/a6d33ff2.png, Output Text: A satellite image of an aerial view of the site of the person's house
+
+Processed ImageCaptioning, Input Image: image/a6d33ff2.png, Output Text: A satellite image of an aerial view of the site of the person's house
+实际调用: ObjectCounting
+结果: ✓ 正确
+当前进度: 116/120, 正确率: 90.52%
+
+[117/120] 测试问题 ID=117
+问题: 只想要最锐利的水陆分界线，可以吗？
+Ground Truth: EdgeDetection
+
+Processed ImageCaptioning, Input Image: image/8a792d45.png, Output Text: A satellite image of the site of the proposed development
+
+Processed ImageCaptioning, Input Image: image/8a792d45.png, Output Text: A satellite image of the site of the proposed development
+实际调用: EdgeDetection
+结果: ✓ 正确
+当前进度: 117/120, 正确率: 90.60%
+
+[118/120] 测试问题 ID=118
+问题: 这张图整体是城市还是乡村，帮我分个类。
+Ground Truth: SceneClassification
+
+Processed ImageCaptioning, Input Image: image/9ea2c02a.png, Output Text: A satellite image of a man is playing golf on the grass
+
+Processed ImageCaptioning, Input Image: image/9ea2c02a.png, Output Text: A satellite image of a man is playing golf on the grass
+实际调用: SceneClassification
+结果: ✓ 正确
+当前进度: 118/120, 正确率: 90.68%
+
+[119/120] 测试问题 ID=119
+问题: 把图里所有飞机目标检测出来，别漏。
+Ground Truth: ObjectDetection
+
+Processed ImageCaptioning, Input Image: image/f0145e0a.png, Output Text: A satellite image of a road in the middle of a field
+
+Processed ImageCaptioning, Input Image: image/f0145e0a.png, Output Text: A satellite image of a road in the middle of a field
+实际调用: Unknown
+结果: ✗ 错误
+当前进度: 119/120, 正确率: 89.92%
+
+[120/120] 测试问题 ID=120
+问题: 一句话概括这张遥感影像的核心内容。
+Ground Truth: ImageCaptioning
+
+Processed ImageCaptioning, Input Image: image/944300c2.png, Output Text: A satellite image of an aerial view of the site of the proposed site
+
+Processed ImageCaptioning, Input Image: image/944300c2.png, Output Text: A satellite image of an aerial view of the site of the proposed site
+实际调用: ImageCaptioning
+结果: ✓ 正确
+当前进度: 120/120, 正确率: 90.00%
+
+====================================================================================================
+测试完成!
+总问题数: 120
+正确数量: 108
+错误数量: 12
+正确率: 90.00%
+
+详细结果已保存到 test_results.csv
+详细日志已保存到 test_details.txt

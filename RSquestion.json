@@ -1,0 +1,947 @@
+[
+  {
+    "id": 1,
+    "query": "帮我看看这张新拍的卫星图，和以前那张相比，地面都动了哪些地方？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000010.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000010.png"
+    ],
+    "image_name": "train_000010.png"
+  },
+  {
+    "id": 2,
+    "query": "照片里一共有多少艘船，数字告诉我即可。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001533.png",
+    "image_name": "test_001533.png"
+  },
+  {
+    "id": 3,
+    "query": "这张图到处都灰蒙蒙的，能不能把有明显边界的轮廓给我描出来？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001866.png",
+    "image_name": "test_001866.png"
+  },
+  {
+    "id": 4,
+    "query": "想知道这张图整体是在拍什么场景，是城市还是农村还是别的？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000541.png",
+    "image_name": "train_000541.png"
+  },
+  {
+    "id": 5,
+    "query": "图里好像有几架飞机，能框出来告诉我位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000759.png",
+    "image_name": "val_000759.png"
+  },
+  {
+    "id": 6,
+    "query": "用一句话描述这张遥感图里最主要的内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000627.png",
+    "image_name": "val_000627.png"
+  },
+  {
+    "id": 7,
+    "query": "把去年和今年的同一地区影像叠在一起，看看哪里出现新建筑。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000013.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000013.png"
+    ],
+    "image_name": "train_000013.png"
+  },
+  {
+    "id": 8,
+    "query": "数一下图里圆形储油罐的数量，我懒得一个个点。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005805.png",
+    "image_name": "train_005805.png"
+  },
+  {
+    "id": 9,
+    "query": "这张图边缘太模糊了，能把地物的边界线提取出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002336.png",
+    "image_name": "train_002336.png"
+  },
+  {
+    "id": 10,
+    "query": "看这张图像是机场还是港口，给个整体判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006215.png",
+    "image_name": "train_006215.png"
+  },
+  {
+    "id": 11,
+    "query": "把影像里所有汽车的位置用方框标出来，谢谢。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006065.png",
+    "image_name": "train_006065.png"
+  },
+  {
+    "id": 12,
+    "query": "给我一句话总结这张图在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000449.png",
+    "image_name": "val_000449.png"
+  },
+  {
+    "id": 13,
+    "query": "两张图时间跨度五年，帮我找哪里长出了新房子。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000014.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000014.png"
+    ],
+    "image_name": "train_000014.png"
+  },
+  {
+    "id": 14,
+    "query": "图里小黑点都是鸽子吗？到底有多少只？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000458.png",
+    "image_name": "val_000458.png"
+  },
+  {
+    "id": 15,
+    "query": "想要明显的道路边界线，原图太糊了，能抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005414.png",
+    "image_name": "train_005414.png"
+  },
+  {
+    "id": 16,
+    "query": "这张图看起来是森林还是农田，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001383.png",
+    "image_name": "test_001383.png"
+  },
+  {
+    "id": 17,
+    "query": "检测一下图里有没有飞机，有的话圈出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001018.png",
+    "image_name": "val_001018.png"
+  },
+  {
+    "id": 18,
+    "query": "用通俗的中文告诉我这张遥感图主要拍到了什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005518.png",
+    "image_name": "train_005518.png"
+  },
+  {
+    "id": 19,
+    "query": "把新旧两张图对比，标出被挖成坑的地方。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000015.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000015.png"
+    ],
+    "image_name": "train_000015.png"
+  },
+  {
+    "id": 20,
+    "query": "能数得出图里有多少条船吗？数字就行。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000653.png",
+    "image_name": "test_000653.png"
+  },
+  {
+    "id": 21,
+    "query": "提取一下影像里所有硬边界，我要做叠加分析。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000706.png",
+    "image_name": "val_000706.png"
+  },
+  {
+    "id": 22,
+    "query": "这张图整体属于工业区还是居民区，给个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001843.png",
+    "image_name": "train_001843.png"
+  },
+  {
+    "id": 23,
+    "query": "图里如果存在卡车，就把它们框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001109.png",
+    "image_name": "val_001109.png"
+  },
+  {
+    "id": 24,
+    "query": "一句话概括这张图片的内容，越简洁越好。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006350.png",
+    "image_name": "train_006350.png"
+  },
+  {
+    "id": 25,
+    "query": "同一区域两个时相，帮我找出新增的高速路段。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000016.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000016.png"
+    ],
+    "image_name": "train_000016.png"
+  },
+  {
+    "id": 26,
+    "query": "影像里白色小点可能是羊，能帮我点个数吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000442.png",
+    "image_name": "test_000442.png"
+  },
+  {
+    "id": 27,
+    "query": "边界线太杂乱了，只保留最锐利的边缘，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003058.png",
+    "image_name": "train_003058.png"
+  },
+  {
+    "id": 28,
+    "query": "看图感觉像是沙漠中的绿洲，能确认场景吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004985.png",
+    "image_name": "train_004985.png"
+  },
+  {
+    "id": 29,
+    "query": "把图上所有飞机目标都检测出来，画框给我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002836.png",
+    "image_name": "train_002836.png"
+  },
+  {
+    "id": 30,
+    "query": "用一句话描述这张高分辨率影像的核心内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004454.png",
+    "image_name": "train_004454.png"
+  },
+  {
+    "id": 31,
+    "query": "对比两张图，看哪片农田被改成了建筑工地。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000017.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000017.png"
+    ],
+    "image_name": "train_000017.png"
+  },
+  {
+    "id": 32,
+    "query": "图里密密麻麻的小点，能数出多少辆汽车吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002683.png",
+    "image_name": "train_002683.png"
+  },
+  {
+    "id": 33,
+    "query": "我只关心影像里明显的道路边缘，能抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000586.png",
+    "image_name": "train_000586.png"
+  },
+  {
+    "id": 34,
+    "query": "这张图整体看上去是山地还是平原，帮我判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000003.png",
+    "image_name": "val_000003.png"
+  },
+  {
+    "id": 35,
+    "query": "如果有船出现在图里，就把它们框出来告诉我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001398.png",
+    "image_name": "val_001398.png"
+  },
+  {
+    "id": 36,
+    "query": "给我一句中文描述，说明这张图在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006809.png",
+    "image_name": "train_006809.png"
+  },
+  {
+    "id": 37,
+    "query": "把去年和今年的图叠一起，看看湖面是扩大了还是缩小了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000021.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000021.png"
+    ],
+    "image_name": "train_000021.png"
+  },
+  {
+    "id": 38,
+    "query": "数一下图里长方形的储煤棚一共有多少个。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001085.png",
+    "image_name": "train_001085.png"
+  },
+  {
+    "id": 39,
+    "query": "想要海岸线边缘，原图太糊，能提取吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001254.png",
+    "image_name": "val_001254.png"
+  },
+  {
+    "id": 40,
+    "query": "这张图属于城市中心还是郊区，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002518.png",
+    "image_name": "train_002518.png"
+  },
+  {
+    "id": 41,
+    "query": "检测影像里所有飞机，并给出它们的位置框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003117.png",
+    "image_name": "train_003117.png"
+  },
+  {
+    "id": 42,
+    "query": "一句话总结这张图的最主要内容，谢谢。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006504.png",
+    "image_name": "train_006504.png"
+  },
+  {
+    "id": 43,
+    "query": "新旧影像对比，标出新冒出来的大棚。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000022.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000022.png"
+    ],
+    "image_name": "train_000022.png"
+  },
+  {
+    "id": 44,
+    "query": "能帮我点一点图里到底有多少架飞机吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001966.png",
+    "image_name": "test_001966.png"
+  },
+  {
+    "id": 45,
+    "query": "把影像中明显的地物边界线拉出来，我想做对比。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000741.png",
+    "image_name": "train_000741.png"
+  },
+  {
+    "id": 46,
+    "query": "看图感觉像是矿区，能确认一下场景吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000160.png",
+    "image_name": "train_000160.png"
+  },
+  {
+    "id": 47,
+    "query": "把图里所有船只目标框出来，数字也顺便告诉我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005762.png",
+    "image_name": "train_005762.png"
+  },
+  {
+    "id": 48,
+    "query": "用一句话告诉我这张遥感图拍的是什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004166.png",
+    "image_name": "train_004166.png"
+  },
+  {
+    "id": 49,
+    "query": "两张不同年份的图，找出哪里新修了立交桥。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000023.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000023.png"
+    ],
+    "image_name": "train_000023.png"
+  },
+  {
+    "id": 50,
+    "query": "图里小白点都是车吗？我想知道确切数量。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001109.png",
+    "image_name": "train_001109.png"
+  },
+  {
+    "id": 51,
+    "query": "只想要最锐利的道路边缘，其它杂线去掉，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001117.png",
+    "image_name": "train_001117.png"
+  },
+  {
+    "id": 52,
+    "query": "这张图整体是湿地还是旱地，给个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001249.png",
+    "image_name": "train_001249.png"
+  },
+  {
+    "id": 53,
+    "query": "检测一下有没有卡车，有就画框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001578.png",
+    "image_name": "train_001578.png"
+  },
+  {
+    "id": 54,
+    "query": "一句话概括影像内容，越通俗越好。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003388.png",
+    "image_name": "train_003388.png"
+  },
+  {
+    "id": 55,
+    "query": "把老图和新图放在一起，看看哪片森林被砍了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000024.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000024.png"
+    ],
+    "image_name": "train_000024.png"
+  },
+  {
+    "id": 56,
+    "query": "数得出图里有多少条船吗？给我个整数。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001929.png",
+    "image_name": "train_001929.png"
+  },
+  {
+    "id": 57,
+    "query": "提取影像里所有明显的边界，我要做矢量对比。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003928.png",
+    "image_name": "train_003928.png"
+  },
+  {
+    "id": 58,
+    "query": "这张图看起来是机场场景吗？帮我确认。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004717.png",
+    "image_name": "train_004717.png"
+  },
+  {
+    "id": 59,
+    "query": "把图上所有飞机都框出来，别漏。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001143.png",
+    "image_name": "train_001143.png"
+  },
+  {
+    "id": 60,
+    "query": "用中文一句话描述这张图的核心内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000677.png",
+    "image_name": "val_000677.png"
+  },
+  {
+    "id": 61,
+    "query": "对比两张时相，找出新挖的坑塘。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000026.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000026.png"
+    ],
+    "image_name": "train_000026.png"
+  },
+  {
+    "id": 62,
+    "query": "图里密密麻麻的小方块，能数出多少个仓库吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001390.png",
+    "image_name": "test_001390.png"
+  },
+  {
+    "id": 63,
+    "query": "我只想要海岸线边缘线，能抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000991.png",
+    "image_name": "test_000991.png"
+  },
+  {
+    "id": 64,
+    "query": "这张图属于山区还是盆地，帮我判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000447.png",
+    "image_name": "val_000447.png"
+  },
+  {
+    "id": 65,
+    "query": "如果有船，就把它们全部框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004309.png",
+    "image_name": "train_004309.png"
+  },
+  {
+    "id": 66,
+    "query": "一句话告诉我这张遥感影像在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006440.png",
+    "image_name": "train_006440.png"
+  },
+  {
+    "id": 67,
+    "query": "把去年和今年的图对比，看哪里新盖了小区。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000027.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000027.png"
+    ],
+    "image_name": "train_000027.png"
+  },
+  {
+    "id": 68,
+    "query": "能数一下图里有多少辆卡车吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006230.png",
+    "image_name": "train_006230.png"
+  },
+  {
+    "id": 69,
+    "query": "把影像中明显的道路边界提取出来，谢谢。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003426.png",
+    "image_name": "train_003426.png"
+  },
+  {
+    "id": 70,
+    "query": "这张图整体看上去是农田还是城市，分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004507.png",
+    "image_name": "train_004507.png"
+  },
+  {
+    "id": 71,
+    "query": "检测影像里所有飞机目标，并画框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001257.png",
+    "image_name": "val_001257.png"
+  },
+  {
+    "id": 72,
+    "query": "给我一句简洁的中文描述，说明这张图。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007489.png",
+    "image_name": "train_007489.png"
+  },
+  {
+    "id": 73,
+    "query": "新旧影像一起看，标出新修的跑道。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000028.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000028.png"
+    ],
+    "image_name": "train_000028.png"
+  },
+  {
+    "id": 74,
+    "query": "图里小白点可能是储罐，到底有几个？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004058.png",
+    "image_name": "train_004058.png"
+  },
+  {
+    "id": 75,
+    "query": "想要最锐利的水陆分界线，能帮我抽出来吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003853.png",
+    "image_name": "train_003853.png"
+  },
+  {
+    "id": 76,
+    "query": "这张图是港口场景吗？给我个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006067.png",
+    "image_name": "train_006067.png"
+  },
+  {
+    "id": 77,
+    "query": "把图里所有船只都检测出来，别漏数字。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000157.png",
+    "image_name": "val_000157.png"
+  },
+  {
+    "id": 78,
+    "query": "一句话概括这张高分辨率影像的主要内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000384.png",
+    "image_name": "test_000384.png"
+  },
+  {
+    "id": 79,
+    "query": "两张图隔了三年，看看哪片荒地变成了工厂。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000029.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000029.png"
+    ],
+    "image_name": "train_000029.png"
+  },
+  {
+    "id": 80,
+    "query": "数得出图里有多少架飞机吗？数字就行。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006679.png",
+    "image_name": "train_006679.png"
+  },
+  {
+    "id": 81,
+    "query": "提取影像里所有硬边界，我要做变化检测。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004973.png",
+    "image_name": "train_004973.png"
+  },
+  {
+    "id": 82,
+    "query": "这张图整体属于沙漠还是绿洲，帮我确认。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000280.png",
+    "image_name": "test_000280.png"
+  },
+  {
+    "id": 83,
+    "query": "把图上所有卡车目标框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000423.png",
+    "image_name": "val_000423.png"
+  },
+  {
+    "id": 84,
+    "query": "用通俗的中文一句话告诉我这张图拍的是什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004623.png",
+    "image_name": "train_004623.png"
+  },
+  {
+    "id": 85,
+    "query": "对比不同时期的图，找出新挖的矿区。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000030.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000030.png"
+    ],
+    "image_name": "train_000030.png"
+  },
+  {
+    "id": 86,
+    "query": "图里密密麻麻的小圆点，能数出多少个油罐吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000191.png",
+    "image_name": "val_000191.png"
+  },
+  {
+    "id": 87,
+    "query": "我只关心道路边缘线，其它地物忽略，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003888.png",
+    "image_name": "train_003888.png"
+  },
+  {
+    "id": 88,
+    "query": "这张图看起来是市中心还是农村，给个判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001147.png",
+    "image_name": "val_001147.png"
+  },
+  {
+    "id": 89,
+    "query": "检测一下有没有飞机，有就画框告诉我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001486.png",
+    "image_name": "train_001486.png"
+  },
+  {
+    "id": 90,
+    "query": "一句话描述这张遥感图的核心信息。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006295.png",
+    "image_name": "train_006295.png"
+  },
+  {
+    "id": 91,
+    "query": "把老图和新图放一起，看看湖面是不是缩小了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000031.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000031.png"
+    ],
+    "image_name": "train_000031.png"
+  },
+  {
+    "id": 92,
+    "query": "能帮我点一点图里到底有多少条船吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001052.png",
+    "image_name": "val_001052.png"
+  },
+  {
+    "id": 93,
+    "query": "把影像中最明显的边界线拉出来，我想做对比。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002959.png",
+    "image_name": "train_002959.png"
+  },
+  {
+    "id": 94,
+    "query": "这张图属于机场还是港口，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001365.png",
+    "image_name": "train_001365.png"
+  },
+  {
+    "id": 95,
+    "query": "把图里所有飞机都框出来，数字也给我。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005824.png",
+    "image_name": "train_005824.png"
+  },
+  {
+    "id": 96,
+    "query": "用一句话告诉我这张影像在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001911.png",
+    "image_name": "train_001911.png"
+  },
+  {
+    "id": 97,
+    "query": "新旧对比，标出新盖的高楼。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000032.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000032.png"
+    ],
+    "image_name": "train_000032.png"
+  },
+  {
+    "id": 98,
+    "query": "图里小白点都是车吗？我想知道确切个数。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000582.png",
+    "image_name": "train_000582.png"
+  },
+  {
+    "id": 99,
+    "query": "想要海岸线边缘，能提取吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001279.png",
+    "image_name": "val_001279.png"
+  },
+  {
+    "id": 100,
+    "query": "这张图整体是山地还是平原，给个结论。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007321.png",
+    "image_name": "train_007321.png"
+  },
+  {
+    "id": 101,
+    "query": "把影像里所有船只目标检测出来，画框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005469.png",
+    "image_name": "train_005469.png"
+  },
+  {
+    "id": 102,
+    "query": "一句话概括这张图的主要内容，谢谢。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002073.png",
+    "image_name": "train_002073.png"
+  },
+  {
+    "id": 103,
+    "query": "两张图相隔两年，看看哪片农田被占了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000037.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000037.png"
+    ],
+    "image_name": "train_000037.png"
+  },
+  {
+    "id": 104,
+    "query": "数一下图里长方形的仓库一共有多少个。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004613.png",
+    "image_name": "train_004613.png"
+  },
+  {
+    "id": 105,
+    "query": "提取影像中明显的道路边界，我要做矢量。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004450.png",
+    "image_name": "train_004450.png"
+  },
+  {
+    "id": 106,
+    "query": "这张图看起来是矿区还是工业区，帮我确认。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000578.png",
+    "image_name": "train_000578.png"
+  },
+  {
+    "id": 107,
+    "query": "如果有卡车，就把它们全部框出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000895.png",
+    "image_name": "val_000895.png"
+  },
+  {
+    "id": 108,
+    "query": "给我一句简洁的中文描述，说明这张遥感图。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006672.png",
+    "image_name": "train_006672.png"
+  },
+  {
+    "id": 109,
+    "query": "把去年和今年的图对比，找出新修的公路。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000038.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000038.png"
+    ],
+    "image_name": "train_000038.png"
+  },
+  {
+    "id": 110,
+    "query": "能数得出图里有多少架飞机吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005528.png",
+    "image_name": "train_005528.png"
+  },
+  {
+    "id": 111,
+    "query": "把影像里所有硬边界抽出来，我想做变化分析。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006690.png",
+    "image_name": "train_006690.png"
+  },
+  {
+    "id": 112,
+    "query": "这张图属于湿地还是旱地，给个判断。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000500.png",
+    "image_name": "val_000500.png"
+  },
+  {
+    "id": 113,
+    "query": "检测一下图里有没有船，有就框。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001580.png",
+    "image_name": "train_001580.png"
+  },
+  {
+    "id": 114,
+    "query": "用一句话告诉我这张高分辨率影像在拍什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003506.png",
+    "image_name": "train_003506.png"
+  },
+  {
+    "id": 115,
+    "query": "对比不同时期影像，看看哪片森林被砍光了。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000039.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000039.png"
+    ],
+    "image_name": "train_000039.png"
+  },
+  {
+    "id": 116,
+    "query": "图里密密麻麻的小点，能数出多少辆汽车吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006417.png",
+    "image_name": "train_006417.png"
+  },
+  {
+    "id": 117,
+    "query": "只想要最锐利的水陆分界线，可以吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000875.png",
+    "image_name": "test_000875.png"
+  },
+  {
+    "id": 118,
+    "query": "这张图整体是城市还是乡村，帮我分个类。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001106.png",
+    "image_name": "test_001106.png"
+  },
+  {
+    "id": 119,
+    "query": "把图里所有飞机目标检测出来，别漏。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002872.png",
+    "image_name": "train_002872.png"
+  },
+  {
+    "id": 120,
+    "query": "一句话概括这张遥感影像的核心内容。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003678.png",
+    "image_name": "train_003678.png"
+  },
+  {
+    "id": 121,
+    "query": "对比这两个时期的影像，找出哪些区域发生了变化。",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000040.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_000040.png"
+    ],
+    "image_name": "train_000040.png"
+  },
+  {
+    "id": 122,
+    "query": "帮我把这张图里的边缘轮廓全部提取出来。",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002145.png",
+    "image_name": "train_002145.png"
+  },
+  {
+    "id": 123,
+    "query": "请描述一下这张卫星图像的主要内容是什么。",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000823.png",
+    "image_name": "val_000823.png"
+  },
+  {
+    "id": 124,
+    "query": "统计一下影像中总共有多少个目标物体。",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003256.png",
+    "image_name": "train_003256.png"
+  },
+  {
+    "id": 125,
+    "query": "识别图中的目标并用边界框标注出来。",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000956.png",
+    "image_name": "val_000956.png"
+  },
+  {
+    "id": 126,
+    "query": "判断这张遥感影像属于什么类型的场景。",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005123.png",
+    "image_name": "train_005123.png"
+  }
+]

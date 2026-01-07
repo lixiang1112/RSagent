@@ -5,3 +5,4 @@ from RStask.ObjectCounting.Yolocounting import YoloCounting as CountingFuncnctio
 from RStask.ObjectDetection.YOLOv5 import YoloDetection as DetectionFunction
 from RStask.SceneClassification.ResNetScene import ResNetAID as SceneFunction
 from RStask.InstanceSegmentation.SwinUpper import SwinInstance as InstanceFunction
+from RStask.ChangeDetection.MMchange import MMChangeDetection as ChangeDetectionFunction

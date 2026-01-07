@@ -1,4 +1,5 @@
 import torch
+import os
 from skimage import io
 
 class ResNetAID:
@@ -7,10 +8,17 @@ class ResNetAID:
         from torchvision import models
         self.model = models.resnet34(pretrained=False, num_classes=30)
         self.device = device
-        try:
-            trained = torch.load('./checkpoints/Res34_AID_best.pth')
-        except:
-            trained = torch.load('../../checkpoints/Res34_AID_best.pth')
+        # 优先使用 /root/autodl-tmp/tool_models/ 路径
+        model_path = '/root/autodl-tmp/tool_models/Res34_AID_best.pth'
+        if not os.path.exists(model_path):
+            # 备选路径1: 项目根目录的 checkpoints
+            model_path = '/root/Remote-Sensing-ChatGPT/checkpoints/Res34_AID_best.pth'
+            if not os.path.exists(model_path):
+                # 备选路径2: 相对路径
+                model_path = '../../checkpoints/Res34_AID_best.pth'
+        
+        print(f"Loading model from: {model_path}")
+        trained = torch.load(model_path)
 
         self.model.load_state_dict(trained)
         self.model = self.model.to(device)

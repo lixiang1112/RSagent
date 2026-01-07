@@ -7,11 +7,19 @@ import torch.nn.functional as F
 class YoloCounting:
     def __init__(self, device):
         from RStask.ObjectDetection.models.common import DetectMultiBackend
+        import os
         self.device = device
-        try:
-            self.model = DetectMultiBackend('./checkpoints/yolov5_best.pt', device=torch.device(device), dnn=False, fp16=False)
-        except:
-            self.model = DetectMultiBackend('../../checkpoints/yolov5_best.pt', device=torch.device(device), dnn=False,fp16=False)
+        # 优先使用 /root/autodl-tmp/tool_models/ 路径
+        model_path = '/root/autodl-tmp/tool_models/yolov5_best.pt'
+        if not os.path.exists(model_path):
+            # 备选路径1: 项目根目录的 checkpoints
+            model_path = '/root/Remote-Sensing-ChatGPT/checkpoints/yolov5_best.pt'
+            if not os.path.exists(model_path):
+                # 备选路径2: 相对路径
+                model_path = '../../checkpoints/yolov5_best.pt'
+        
+        print(f"Loading YOLOv5 model from: {model_path}")
+        self.model = DetectMultiBackend(model_path, device=torch.device(device), dnn=False, fp16=False)
         self.category = ['small vehicle', 'large vehicle', 'plane', 'storage tank', 'ship', 'harbor',
                          'ground track field',
                          'soccer ball field', 'tennis court', 'swimming pool', 'baseball diamond', 'roundabout',

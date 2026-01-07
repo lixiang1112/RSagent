@@ -8,8 +8,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from RStask.ObjectDetection.models.common import Conv
-from RStask.ObjectDetection.utils.downloads import attempt_download
+from .common import Conv
+from ..utils.downloads import attempt_download
 
 
 class CrossConv(nn.Module):
@@ -88,7 +88,21 @@ class Ensemble(nn.ModuleList):
 
 
 def attempt_load(weights, map_location=None, inplace=True, fuse=True):
+    import sys
     from RStask.ObjectDetection.models.yolo import Detect, Model
+    
+    # Add module path mapping for backward compatibility with old checkpoint files
+    # This allows loading models saved with old import paths (models.yolo) 
+    # to work with new import paths (RStask.ObjectDetection.models.yolo)
+    import RStask.ObjectDetection.models as models_module
+    import RStask.ObjectDetection.utils as utils_module
+    sys.modules['models'] = models_module
+    sys.modules['models.common'] = sys.modules['RStask.ObjectDetection.models.common']
+    sys.modules['models.yolo'] = sys.modules['RStask.ObjectDetection.models.yolo']
+    sys.modules['models.experimental'] = sys.modules['RStask.ObjectDetection.models.experimental']
+    sys.modules['utils'] = utils_module
+    sys.modules['utils.general'] = sys.modules['RStask.ObjectDetection.utils.general']
+    sys.modules['utils.torch_utils'] = sys.modules['RStask.ObjectDetection.utils.torch_utils']
 
     # Loads an ensemble of models weights=[a,b,c] or a single model weights=[a] or weights=a
     model = Ensemble()
