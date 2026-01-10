@@ -262,7 +262,7 @@ class RSChatGPT:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--openai_key', type=str,default="sk-kQ11Ptt3RYbeTj7zBVSADbqXth7mA7Jj5dEmaWgtYiO04zdu")
-    parser.add_argument('--image_dir', type=str,default="/root/Remote-Sensing-ChatGPT/image/test_000004_pre.png")
+    parser.add_argument('--image_dir', type=str,default="/root/autodl-tmp/datasets/LEVIR-MCI/test/A/test_000004.png")
     parser.add_argument('--gpt_name', type=str, default="gpt-3.5-turbo",choices=['gpt-3.5-turbo-1106','gpt-3.5-turbo','gpt-4','gpt-4-0125-preview','gpt-4-turbo-preview','gpt-4-1106-preview'])
     parser.add_argument('--proxy_url', type=str, default="https://api.chatanywhere.tech")
     # parser.add_argument('--load', type=str,help='Image Captioning is basic models that is required. You can select from [ImageCaptioning,ObjectDetection,LandUseSegmentation,InstanceSegmentation,ObjectCounting,SceneClassification,EdgeDetection]',

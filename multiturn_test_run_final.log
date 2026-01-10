@@ -1,0 +1,4 @@
+  File "test_rschatgpt.py", line 287
+    tool_mapping = {
+    ^
+IndentationError: unexpected indent
