@@ -1,0 +1,27 @@
+{
+  "mode": "基线模式",
+  "enable_optimization": false,
+  "test_file": "QAjsons/singleturn_qa_152.json",
+  "sample_limit": 5016,
+  "last_completed_idx": 0,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    }
+  ],
+  "tool_stats": {
+    "ImageCaptioning": {
+      "total": 1,
+      "correct": 1
+    }
+  },
+  "completed": false
+}
