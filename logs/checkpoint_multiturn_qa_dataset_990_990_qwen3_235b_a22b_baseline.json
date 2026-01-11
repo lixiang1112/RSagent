@@ -1,0 +1,450 @@
+{
+  "mode": "基线模式",
+  "enable_optimization": false,
+  "test_file": "QAjsons/multiturn_qa_dataset_990.json",
+  "sample_limit": 990,
+  "last_completed_idx": 35,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 2,
+      "sample_idx": 1,
+      "turns": []
+    },
+    {
+      "sample_id": 3,
+      "sample_idx": 2,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 4,
+      "sample_idx": 3,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 5,
+      "sample_idx": 4,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 6,
+      "sample_idx": 5,
+      "turns": []
+    },
+    {
+      "sample_id": 7,
+      "sample_idx": 6,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 8,
+      "sample_idx": 7,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 9,
+      "sample_idx": 8,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 10,
+      "sample_idx": 9,
+      "turns": []
+    },
+    {
+      "sample_id": 11,
+      "sample_idx": 10,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 12,
+      "sample_idx": 11,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning",
+            "SceneClassification"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 13,
+      "sample_idx": 12,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 8,
+          "expected_tools": [],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 14,
+      "sample_idx": 13,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 8,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 15,
+      "sample_idx": 14,
+      "turns": []
+    },
+    {
+      "sample_id": 16,
+      "sample_idx": 15,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 17,
+      "sample_idx": 16,
+      "turns": [
+        {
+          "turn": 2,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning",
+            "SceneClassification"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 18,
+      "sample_idx": 17,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 19,
+      "sample_idx": 18,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 20,
+      "sample_idx": 19,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 21,
+      "sample_idx": 20,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 22,
+      "sample_idx": 21,
+      "turns": []
+    },
+    {
+      "sample_id": 23,
+      "sample_idx": 22,
+      "turns": []
+    },
+    {
+      "sample_id": 24,
+      "sample_idx": 23,
+      "turns": []
+    },
+    {
+      "sample_id": 25,
+      "sample_idx": 24,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 26,
+      "sample_idx": 25,
+      "turns": []
+    },
+    {
+      "sample_id": 27,
+      "sample_idx": 26,
+      "turns": [
+        {
+          "turn": 8,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 28,
+      "sample_idx": 27,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 29,
+      "sample_idx": 28,
+      "turns": []
+    },
+    {
+      "sample_id": 30,
+      "sample_idx": 29,
+      "turns": []
+    },
+    {
+      "sample_id": 31,
+      "sample_idx": 30,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning",
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 32,
+      "sample_idx": 31,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 33,
+      "sample_idx": 32,
+      "turns": []
+    },
+    {
+      "sample_id": 34,
+      "sample_idx": 33,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 35,
+      "sample_idx": 34,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 36,
+      "sample_idx": 35,
+      "turns": []
+    }
+  ],
+  "tool_stats": {},
+  "completed": false
+}

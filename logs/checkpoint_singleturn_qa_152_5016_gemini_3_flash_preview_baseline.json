@@ -1,0 +1,57 @@
+{
+  "mode": "基线模式",
+  "enable_optimization": false,
+  "test_file": "QAjsons/singleturn_qa_152.json",
+  "sample_limit": 5016,
+  "last_completed_idx": 2,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2,
+      "sample_idx": 1,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3,
+      "sample_idx": 2,
+      "query": "能找出图中的绿色建筑吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    }
+  ],
+  "tool_stats": {
+    "ImageCaptioning": {
+      "total": 1,
+      "correct": 1
+    },
+    "SceneClassification": {
+      "total": 1,
+      "correct": 1
+    },
+    "ObjectDetection": {
+      "total": 1,
+      "correct": 1
+    }
+  },
+  "completed": false
+}

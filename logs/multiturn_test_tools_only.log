@@ -1,0 +1,596 @@
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/langchain_core/_api/deprecation.py:117: LangChainDeprecationWarning: The class `langchain_community.chat_models.openai.ChatOpenAI` was deprecated in langchain-community 0.0.10 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import ChatOpenAI`.
+  warn_deprecated(
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+Initializing RSChatGPT, load_dict={'ImageCaptioning': 'cuda:0', 'SceneClassification': 'cuda:0', 'ObjectDetection': 'cuda:0', 'ObjectCounting': 'cuda:0', 'EdgeDetection': 'cpu', 'ChangeDetection': 'cuda:0'}
+Initializing ImageCaptioning to cuda:0
+从本地路径加载模型: /root/autodl-tmp/blip
+Initializing SceneClassification
+Initializing SceneClassification
+Loading model from: /root/autodl-tmp/tool_models/Res34_AID_best.pth
+Loading YOLOv5 model from: /root/autodl-tmp/tool_models/yolov5_best.pt
+Loading YOLOv5 model from: /root/autodl-tmp/tool_models/yolov5_best.pt
+Initializing Edge Detection Function....
+Initializing Image2Canny
+Initializing Change Detection Function....
+正在初始化变化检测模型到设备 cuda:0...
+加载变化检测模型...
+loading the resnet50 pretrained weight from local .....
+loading the resnet50 pretrained weight from local .....
+变化检测模型加载成功！
+加载 CLIP 模型...
+CLIP 模型加载成功！
+变化检测模块初始化完成！
+All the Available Functions: {'ImageCaptioning': <rschatgpt.ImageCaptioning object at 0x7f09f68acb80>, 'SceneClassification': <rschatgpt.SceneClassification object at 0x7f09f68acf10>, 'ObjectDetection': <rschatgpt.ObjectDetection object at 0x7f09f18078e0>, 'ObjectCounting': <rschatgpt.ObjectCounting object at 0x7f09f388eb80>, 'EdgeDetection': <rschatgpt.EdgeDetection object at 0x7f09f1c6adf0>, 'ChangeDetection': <rschatgpt.ChangeDetection object at 0x7f09f1b3d250>}
+开始测试，共 5 个多轮对话样本
+====================================================================================================
+
+
+====================================================================================================
+[样本 1/5] ID=1, Dataset=LEVIR, Image=train_002542.png
+====================================================================================================
+
+--- Turn 1 (User) ---
+User: 「这张卫星图能帮我看一下吗？」
+  上传图片: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png, Output Text: A satellite image of an aerial view of the house
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png, Output Text: A satellite image of an aerial view of the house
+
+>>> 发送给Agent: 「这张卫星图能帮我看一下吗？」 /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png, Output Text: A satellite image of an aerial view of the house
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png, Output Text: A satellite image of an aerial view of the house
+
+Observation: [36;1m[1;3mA satellite image of an aerial view of the house[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image you provided is a satellite image showing an aerial view of a house. How can I assist you further with this image?[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided is a satellite image showing an aerial view of a house. How can I assist you further with this image?
+
+--- Turn 2 (Assistant Ground Truth) ---
+GT Response: 收到你的图片了，请告诉我你想了解哪里？
+GT Tool Calls: 无
+
+--- Turn 3 (User) ---
+User: 你能帮我看看这是哪拍的吗？
+
+>>> 发送给Agent: 你能帮我看看这是哪拍的吗？
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Scene Classification for Remote Sensing Image
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png[0m
+Processed Scene Classification, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png, Output Scene: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png has 70.56% probability being Church and 23.43% probability being Farmland.
+
+Observation: [33;1m[1;3m/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png has 70.56% probability being Church and 23.43% probability being Farmland.[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image you provided has been classified with a 70.56% probability as a Church and a 23.43% probability as Farmland.[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided has been classified with a 70.56% probability as a Church and a 23.43% probability as Farmland.
+
+--- Turn 4 (Assistant Ground Truth) ---
+GT Response: 当然可以，请上传图片吧！
+GT Tool Calls: 无
+
+✗ 实际调用工具: ['SceneClassification']
+  Ground Truth: 无
+
+--- Turn 5 (User) ---
+User: 这张图的清晰度怎么样？
+
+>>> 发送给Agent: 这张图的清晰度怎么样？
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Scene Classification for Remote Sensing Image
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png[0m
+Processed Scene Classification, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png, Output Scene: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png has 70.56% probability being Church and 23.43% probability being Farmland.
+
+Observation: [33;1m[1;3m/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png has 70.56% probability being Church and 23.43% probability being Farmland.[0m
+Thought:[32;1m[1;3mAI: The image you provided has been classified with a 70.56% probability as a Church and a 23.43% probability as Farmland. To assess the image's clarity, I will need to use a specific tool. Let's proceed step by step.[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided has been classified with a 70.56% probability as a Church and a 23.43% probability as Farmland. To assess the image's clarity, I will need to use a specific tool. Let's proceed step by step.
+
+--- Turn 6 (Assistant Ground Truth) ---
+GT Response: 看起来很清晰呢！很高兴听到你的反馈。
+GT Tool Calls: 无
+
+✗ 实际调用工具: ['SceneClassification']
+  Ground Truth: 无
+
+样本 1 完成
+当前总体进度: 0/2 = 0.00%
+
+====================================================================================================
+[样本 2/5] ID=2, Dataset=LEVIR, Image=val_000392.png
+====================================================================================================
+
+--- Turn 1 (User) ---
+User: 嘿，这个助手能帮我看看这张遥感图吗？
+  上传图片: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png, Output Text: A satellite image of a road with a car parked on it
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png, Output Text: A satellite image of a road with a car parked on it
+
+>>> 发送给Agent: 嘿，这个助手能帮我看看这张遥感图吗？ /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png, Output Text: A satellite image of a road with a car parked on it
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png, Output Text: A satellite image of a road with a car parked on it
+
+Observation: /root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+[36;1m[1;3mA satellite image of a road with a car parked on it[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image you provided is a satellite image of a road with a car parked on it. How can I assist you further with this image?[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided is a satellite image of a road with a car parked on it. How can I assist you further with this image?
+
+--- Turn 2 (Assistant Ground Truth) ---
+GT Response: 收到你的遥感图了，请告诉我你想了解哪些信息呢？
+GT Tool Calls: 无
+
+--- Turn 3 (User) ---
+User: 这个地方最近有什么新东西没？
+
+>>> 发送给Agent: 这个地方最近有什么新东西没？
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Change Detection On Image Pair
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png,/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png,Recent changes in the area[0mChange detection completed. Changed area: 0.00% (0/65536 pixels). Result saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/c857_change_detection_val.png
+
+Observation: [38;5;200m[1;3mChange detection completed. Changed area: 0.00% (0/65536 pixels). Result saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/c857_change_detection_val.png. Output: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/c857_change_detection_val.png[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: There doesn't seem to be any recent changes in the area of the image you provided. If you have any other questions or tasks in mind, feel free to let me know![0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+There doesn't seem to be any recent changes in the area of the image you provided. If you have any other questions or tasks in mind, feel free to let me know!
+
+--- Turn 4 (Assistant Ground Truth) ---
+GT Response: 非常感谢您的分享！为了更好地了解变化，请您再上传一张该地点在其他时间点拍摄的照片。
+GT Tool Calls: 无
+
+✗ 实际调用工具: ['ChangeDetection']
+  Ground Truth: 无
+
+--- Turn 5 (User) ---
+User: 好的，我上传了一张新图。
+  上传图片: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png, Output Text: A satellite image of an aerial view of the intersection of the intersection and the intersection of the intersection
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png, Output Text: A satellite image of an aerial view of the intersection of the intersection and the intersection of the intersection
+
+>>> 发送给Agent: 好的，我上传了一张新图。 /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png, Output Text: A satellite image of an aerial view of the intersection of the intersection and the intersection of the intersection
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png, Output Text: A satellite image of an aerial view of the intersection of the intersection and the intersection of the intersection
+
+Observation: [36;1m[1;3mA satellite image of an aerial view of the intersection of the intersection and the intersection of the intersection[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Change Detection On Image Pair
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png,/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png[0mChange detection completed. Changed area: 48.29% (31645/65536 pixels). Result saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/d540_change_detection_val.png
+
+Observation: [38;5;200m[1;3mChange detection completed. Changed area: 48.29% (31645/65536 pixels). Result saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/d540_change_detection_val.png. Output: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/d540_change_detection_val.png[0m
+Thought:[32;1m[1;3mAI: The image you provided shows a satellite view of an intersection. After conducting a change detection analysis between the two images you provided, it was found that there is a changed area of 48.29% between the two images. The result of the change detection has been saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/d540_change_detection_val.png. 
+
+Is there anything specific you would like to know or any other tasks you would like me to perform with these images?[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided shows a satellite view of an intersection. After conducting a change detection analysis between the two images you provided, it was found that there is a changed area of 48.29% between the two images. The result of the change detection has been saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/d540_change_detection_val.png. 
+
+Is there anything specific you would like to know or any other tasks you would like me to perform with these images?
+
+--- Turn 6 (Assistant Ground Truth) ---
+GT Response: 好的，请稍等，我马上为您对比分析。
+GT Tool Calls: [{'tool': 'ChangeDetection', 'images': ['/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000392.png', '/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000392.png']}]
+
+✗ 实际调用工具: ['ImageCaptioning', 'ChangeDetection']
+  Ground Truth: ['ChangeDetection']
+
+样本 2 完成
+当前总体进度: 0/4 = 0.00%
+
+====================================================================================================
+[样本 3/5] ID=3, Dataset=LEVIR, Image=train_001098.png
+====================================================================================================
+
+--- Turn 1 (User) ---
+User: 「这两张图能不能帮我看一下？」
+  上传图片: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+  上传图片: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png, Output Text: A satellite image of an aerial view of a neighborhood
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png, Output Text: A satellite image of an aerial view of a neighborhood
+
+>>> 发送给Agent: 「这两张图能不能帮我看一下？」 /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png,/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Change Detection On Image Pair
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png,/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png[0mChange detection completed. Changed area: 39.05% (25590/65536 pixels). Result saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/a046_change_detection_train.png
+
+Observation: /root/miniconda3/envs/mmchange/lib/python3.8/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+[38;5;200m[1;3mChange detection completed. Changed area: 39.05% (25590/65536 pixels). Result saved to /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/a046_change_detection_train.png. Output: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/a046_change_detection_train.png[0m
+Thought:[32;1m[1;3mAI: The change detection analysis between the two images has been completed. The changed area accounts for 39.05% of the total pixels. The result has been saved to the file named "a046_change_detection_train.png" in the B folder. Would you like to know more details about the changes detected in these images?[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The change detection analysis between the two images has been completed. The changed area accounts for 39.05% of the total pixels. The result has been saved to the file named "a046_change_detection_train.png" in the B folder. Would you like to know more details about the changes detected in these images?
+
+--- Turn 2 (Assistant Ground Truth) ---
+GT Response: 收到啦！请问您希望从这两张图中分析什么？
+GT Tool Calls: 无
+
+✗ 实际调用工具: ['ChangeDetection']
+  Ground Truth: 无
+
+--- Turn 3 (User) ---
+User: 麻烦分别告诉我这两张图都拍了啥？
+
+>>> 发送给Agent: 麻烦分别告诉我这两张图都拍了啥？
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png, Output Text: A satellite image of an aerial view of the site of the proposed new school
+
+Observation: [36;1m[1;3mA satellite image of an aerial view of the site of the proposed new school[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png, Output Text: A satellite image of an aerial view of a neighborhood
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png, Output Text: A satellite image of an aerial view of a neighborhood
+
+Observation: [36;1m[1;3mA satellite image of an aerial view of a neighborhood[0m
+Thought:[32;1m[1;3mAI: The first image is a satellite image of an aerial view of the site of the proposed new school. The second image is a satellite image of an aerial view of a neighborhood.[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The first image is a satellite image of an aerial view of the site of the proposed new school. The second image is a satellite image of an aerial view of a neighborhood.
+
+--- Turn 4 (Assistant Ground Truth) ---
+GT Response: 好的，请提供两张图片让我查看并描述。
+GT Tool Calls: [{'tool': 'ImageCaptioning', 'images': ['/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001098.png']}, {'tool': 'ImageCaptioning', 'images': ['/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001098.png']}]
+
+✓ 实际调用工具: ['ImageCaptioning']
+  Ground Truth: ['ImageCaptioning', 'ImageCaptioning']
+
+样本 3 完成
+当前总体进度: 1/6 = 16.67%
+
+====================================================================================================
+[样本 4/5] ID=4, Dataset=LEVIR, Image=train_006269.png
+====================================================================================================
+
+--- Turn 1 (User) ---
+User: 「能帮我看看这张卫星图吗？」
+  上传图片: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person, which was the site of the
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person, which was the site of the
+
+>>> 发送给Agent: 「能帮我看看这张卫星图吗？」 /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person, which was the site of the
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person, which was the site of the
+
+Observation: [36;1m[1;3mA satellite image of a satellite image of the site of the ancient city of person, which was the site of the[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image you provided is a satellite image of the site of the ancient city of person.[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided is a satellite image of the site of the ancient city of person.
+
+--- Turn 2 (Assistant Ground Truth) ---
+GT Response: 收到你的卫星图了，请告诉我你想了解哪些信息？
+GT Tool Calls: 无
+
+--- Turn 3 (User) ---
+User: 「这张照片到底拍了啥？」
+
+>>> 发送给Agent: 「这张照片到底拍了啥？」
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person, which was the site of the
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png, Output Text: A satellite image of a satellite image of the site of the ancient city of person, which was the site of the
+
+Observation: [36;1m[1;3mA satellite image of a satellite image of the site of the ancient city of person, which was the site of the[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image you provided is a satellite image of the site of the ancient city of person, which was the site of the.[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided is a satellite image of the site of the ancient city of person, which was the site of the.
+
+--- Turn 4 (Assistant Ground Truth) ---
+GT Response: 好的，请稍等，我来帮你分析一下。
+GT Tool Calls: [{'tool': 'ImageCaptioning', 'images': ['/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006269.png']}]
+
+✓ 实际调用工具: ['ImageCaptioning']
+  Ground Truth: ['ImageCaptioning']
+
+样本 4 完成
+当前总体进度: 2/7 = 28.57%
+
+====================================================================================================
+[样本 5/5] ID=5, Dataset=LEVIR, Image=train_002095.png
+====================================================================================================
+
+--- Turn 1 (User) ---
+User: 嘿，这幅遥感图我有点看不懂，能帮我看看吗？
+  上传图片: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+/root/miniconda3/envs/mmchange/lib/python3.8/site-packages/transformers/generation/utils.py:1273: UserWarning: Neither `max_length` nor `max_new_tokens` has been set, `max_length` will default to 20 (`generation_config.max_length`). Controlling `max_length` via the config is deprecated and `max_length` will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+HTTP Request: POST https://api.chatanywhere.tech/chat/completions "HTTP/1.1 200 OK"
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+>>> 发送给Agent: 嘿，这幅遥感图我有点看不懂，能帮我看看吗？ /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+Observation: [36;1m[1;3mA satellite image of an aerial view of the city of person[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image you provided is a satellite image showing an aerial view of a city with a person. How can I assist you further with this image?[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided is a satellite image showing an aerial view of a city with a person. How can I assist you further with this image?
+
+--- Turn 2 (Assistant Ground Truth) ---
+GT Response: 收到你的遥感图了，请告诉我你想了解的具体内容吧！
+GT Tool Calls: 无
+
+--- Turn 3 (User) ---
+User: 能不能把边框弄得更清晰一些？
+
+>>> 发送给Agent: 能不能把边框弄得更清晰一些？
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Edge Detection On Image
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png[0m
+Processed Image2Canny, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/5ca5_edge_train.png
+
+Observation: [33;1m[1;3m/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/5ca5_edge_train.png[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: I have enhanced the edges of the image for better clarity. Here is the updated image with clearer borders: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/5ca5_edge_train.png. How does it look now?[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+I have enhanced the edges of the image for better clarity. Here is the updated image with clearer borders: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/5ca5_edge_train.png. How does it look now?
+
+--- Turn 4 (Assistant Ground Truth) ---
+GT Response: 好的，我马上帮你调整边框。
+GT Tool Calls: [{'tool': 'EdgeDetection', 'images': ['/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png']}]
+
+✓ 实际调用工具: ['EdgeDetection']
+  Ground Truth: ['EdgeDetection']
+
+--- Turn 5 (User) ---
+User: 「这幅画里有几朵花？」
+
+>>> 发送给Agent: 「这幅画里有几朵花？」
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Count object
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, flowers[0m
+Processed Object Counting, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output text:  flowers is not a supported category for the model.
+
+Observation: [36;1m[1;3m flowers is not a supported category for the model.[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Detect the given object
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, flowers[0m
+Observation: [38;5;200m[1;3mNone[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+Observation: [36;1m[1;3mA satellite image of an aerial view of the city of person[0m
+Thought:[32;1m[1;3mAI: I have observed the image and the description provided is: "A satellite image of an aerial view of the city of person." Unfortunately, the category "flowers" is not supported for object detection in this model. If you have any other specific objects you would like me to locate or count in the image, please let me know.[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+I have observed the image and the description provided is: "A satellite image of an aerial view of the city of person." Unfortunately, the category "flowers" is not supported for object detection in this model. If you have any other specific objects you would like me to locate or count in the image, please let me know.
+
+--- Turn 6 (Assistant Ground Truth) ---
+GT Response: 好的，请稍等，我来帮你分析。
+GT Tool Calls: [{'tool': 'ObjectCounting', 'images': ['/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png']}]
+
+✗ 实际调用工具: ['ObjectCounting', 'ObjectDetection', 'ImageCaptioning']
+  Ground Truth: ['ObjectCounting']
+
+--- Turn 7 (User) ---
+User: 「能告诉我图里有什么吗？」
+
+>>> 发送给Agent: 「能告诉我图里有什么吗？」
+
+
+[1m> Entering new AgentExecutor chain...[0m
+[32;1m[1;3mThought: Do I need to use a tool? Yes
+Action: Get Photo Description
+Action Input: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png[0m
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+Processed ImageCaptioning, Input Image: /root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png, Output Text: A satellite image of an aerial view of the city of person
+
+Observation: [36;1m[1;3mA satellite image of an aerial view of the city of person[0m
+Thought:[32;1m[1;3mThought: Do I need to use a tool? No
+AI: The image you provided is a satellite image showing an aerial view of a city with a person.[0m
+
+[1m> Finished chain.[0m
+
+<<< Agent回复:
+The image you provided is a satellite image showing an aerial view of a city with a person.
+
+--- Turn 8 (Assistant Ground Truth) ---
+GT Response: 好的，请稍等，我正在为您分析这张图片。
+GT Tool Calls: [{'tool': 'ObjectDetection', 'images': ['/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002095.png']}]
+
+✗ 实际调用工具: ['ImageCaptioning']
+  Ground Truth: ['ObjectDetection']
+
+样本 5 完成
+当前总体进度: 3/10 = 30.00%
+
+====================================================================================================
+多轮对话测试完成!
+总样本数: 5
+总轮次数: 10
+正确轮次数: 3
+错误轮次数: 7
+轮次级别准确率: 30.00%
+====================================================================================================
+
+详细日志已保存到 multiturn_test.log

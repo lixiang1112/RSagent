@@ -133,8 +133,14 @@ def extract_text_from_output(output_text, tool_type):
     
     return output_text
 
-def test_multiturn_qa():
-    """测试多轮对话场景"""
+def test_multiturn_qa(enable_optimization=False, log_suffix=""):
+    """
+    测试多轮对话场景
+    
+    Args:
+        enable_optimization: 是否启用 Promptomatix 查询优化
+        log_suffix: 日志文件后缀，用于区分不同测试
+    """
     # 加载多轮对话样本
     with open('multiturn_qa_samples.json', 'r', encoding='utf-8') as f:
         samples = json.load(f)
@@ -146,21 +152,35 @@ def test_multiturn_qa():
         'ObjectDetection': 'cuda:0',
         'ObjectCounting': 'cuda:0',
         'EdgeDetection': 'cpu',
-        'ChangeDetection': 'cuda:0'
+        'ChangeDetection': 'cuda:0',
+        'CloudRemoval': 'cpu',
+        'SuperResolution': 'cpu',
+        'Denoising': 'cpu',
+        'HorizontalDetection': 'cpu',
+        'RotatedDetection': 'cpu'
     }
     
     openai_key = "sk-SPp8PGpzob5k1pcSI2cRORgdeEDoB3QsndvRzIYnUVeKt2jd"
     proxy_url = "https://api.chatanywhere.tech"
     gpt_name = "gpt-3.5-turbo"
     
-    bot = RSChatGPT(gpt_name=gpt_name, load_dict=load_dict, openai_key=openai_key, proxy_url=proxy_url)
+    bot = RSChatGPT(
+        gpt_name=gpt_name, 
+        load_dict=load_dict, 
+        openai_key=openai_key, 
+        proxy_url=proxy_url,
+        enable_query_optimization=enable_optimization
+    )
     bot.initialize()
     
-    # 创建日志文件
-    log_file = 'multiturn_test.log'
+    # 创建日志目录和日志文件
+    log_dir = 'logs'
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = os.path.join(log_dir, f'multiturn_test{log_suffix}.log')
+    optimization_mode = "启用查询优化" if enable_optimization else "未启用查询优化"
     with open(log_file, 'w', encoding='utf-8') as f:
         f.write("="*100 + "\n")
-        f.write("多轮对话测试日志\n")
+        f.write(f"多轮对话测试日志 - {optimization_mode}\n")
         f.write("="*100 + "\n\n")
     
     # 统计结果
@@ -168,7 +188,9 @@ def test_multiturn_qa():
     total_turns = 0
     correct_turns = 0
     
-    print(f"开始测试，共 {total_samples} 个多轮对话样本")
+    print(f"\n{'='*100}")
+    print(f"开始测试 - {optimization_mode}")
+    print(f"共 {total_samples} 个多轮对话样本")
     print(f"{'='*100}\n")
     
     for sample_idx, sample in enumerate(samples, 1):
@@ -322,9 +344,6 @@ def test_multiturn_qa():
                     f.write(f"GT Content: {content}\n")
                     f.write(f"GT Tool Calls: {tool_calls if tool_calls else '无'}\n")
                 
-                # 统计该轮（assistant轮需要统计）
-                total_turns += 1
-                
                 # 提取实际调用的工具 - 从intermediate_steps提取
                 actual_tools_called = []
                 tool_mapping = {
@@ -333,7 +352,12 @@ def test_multiturn_qa():
                     'Detect the given object': 'ObjectDetection',
                     'Count object': 'ObjectCounting',
                     'Edge Detection On Image': 'EdgeDetection',
-                    'Change Detection On Image Pair': 'ChangeDetection'
+                    'Change Detection On Image Pair': 'ChangeDetection',
+                    'Cloud Removal On Image': 'CloudRemoval',
+                    'Super Resolution On Image': 'SuperResolution',
+                    'Denoising On Image': 'Denoising',
+                    'Horizontal Detection On Image': 'HorizontalDetection',
+                    'Rotated Detection On Image': 'RotatedDetection'
                 }
                 
                 if 'intermediate_steps' in res and res['intermediate_steps']:
@@ -360,33 +384,52 @@ def test_multiturn_qa():
                         if 'tool' in tc:
                             gt_tools.append(tc['tool'])
                 
-                # 判断是否正确
-                is_correct = (set(actual_tools_called) == set(gt_tools))
-                if is_correct:
-                    correct_turns += 1
-                    result_mark = "✓"
+                # 只评估有工具调用的轮次（GT有工具或实际调用了工具）
+                if gt_tools or actual_tools_called:
+                    total_turns += 1
+                    
+                    # 判断是否正确
+                    is_correct = (set(actual_tools_called) == set(gt_tools))
+                    if is_correct:
+                        correct_turns += 1
+                        result_mark = "✓"
+                    else:
+                        result_mark = "✗"
+                    
+                    print(f"\n{result_mark} 实际调用工具: {actual_tools_called if actual_tools_called else '无'}")
+                    print(f"  Ground Truth: {gt_tools if gt_tools else '无'}")
+                    
+                    with open(log_file, 'a', encoding='utf-8') as f:
+                        f.write(f"\n{result_mark} 实际调用工具: {actual_tools_called if actual_tools_called else '无'}\n")
+                        f.write(f"  Ground Truth: {gt_tools if gt_tools else '无'}\n")
+                        f.write(f"  判断: {'正确' if is_correct else '错误'}\n")
                 else:
-                    result_mark = "✗"
-                
-                print(f"\n{result_mark} 实际调用工具: {actual_tools_called if actual_tools_called else '无'}")
-                print(f"  Ground Truth: {gt_tools if gt_tools else '无'}")
-                
-                with open(log_file, 'a', encoding='utf-8') as f:
-                    f.write(f"\n{result_mark} 实际调用工具: {actual_tools_called if actual_tools_called else '无'}\n")
-                    f.write(f"  Ground Truth: {gt_tools if gt_tools else '无'}\n")
-                    f.write(f"  判断: {'正确' if is_correct else '错误'}\n")
+                    # 没有工具调用的轮次，跳过评估
+                    with open(log_file, 'a', encoding='utf-8') as f:
+                        f.write(f"\n[跳过评估] 此轮无工具调用\n")
         
         print(f"\n样本 {sample_idx} 完成")
         print(f"当前总体进度: {correct_turns}/{total_turns} = {(correct_turns/total_turns*100) if total_turns > 0 else 0:.2f}%")
     
     # 输出最终统计结果
+    accuracy = (correct_turns/total_turns*100) if total_turns > 0 else 0
+    
     print(f"\n{'='*100}")
-    print(f"多轮对话测试完成!")
+    print(f"多轮对话测试完成! - {optimization_mode}")
     print(f"总样本数: {total_samples}")
     print(f"总轮次数: {total_turns}")
     print(f"正确轮次数: {correct_turns}")
     print(f"错误轮次数: {total_turns - correct_turns}")
-    print(f"轮次级别准确率: {(correct_turns/total_turns*100) if total_turns > 0 else 0:.2f}%")
+    print(f"轮次级别准确率: {accuracy:.2f}%")
+    
+    # 如果启用了优化，显示优化统计
+    if enable_optimization and hasattr(bot, 'query_optimizer') and bot.query_optimizer:
+        stats = bot.query_optimizer.get_stats()
+        print(f"\n查询优化统计:")
+        print(f"  优化次数: {stats['optimization_count']}")
+        print(f"  跳过次数: {stats['skip_count']}")
+        print(f"  缓存大小: {stats['cache_size']}")
+    
     print(f"{'='*100}")
     
     print(f"\n详细日志已保存到 {log_file}")
@@ -394,19 +437,104 @@ def test_multiturn_qa():
     # 在日志末尾添加汇总
     with open(log_file, 'a', encoding='utf-8') as f:
         f.write(f"\n{'='*100}\n")
-        f.write(f"测试汇总\n")
+        f.write(f"测试汇总 - {optimization_mode}\n")
         f.write(f"{'='*100}\n")
         f.write(f"总样本数: {total_samples}\n")
         f.write(f"总轮次数: {total_turns}\n")
         f.write(f"正确轮次数: {correct_turns}\n")
         f.write(f"错误轮次数: {total_turns - correct_turns}\n")
-        f.write(f"轮次级别准确率: {(correct_turns/total_turns*100) if total_turns > 0 else 0:.2f}%\n")
+        f.write(f"轮次级别准确率: {accuracy:.2f}%\n")
+        
+        if enable_optimization and hasattr(bot, 'query_optimizer') and bot.query_optimizer:
+            stats = bot.query_optimizer.get_stats()
+            f.write(f"\n查询优化统计:\n")
+            f.write(f"  优化次数: {stats['optimization_count']}\n")
+            f.write(f"  跳过次数: {stats['skip_count']}\n")
+            f.write(f"  缓存大小: {stats['cache_size']}\n")
+        
         f.write(f"{'='*100}\n")
+    
+    # 返回准确率用于对比
+    return accuracy
 
 def test_rschatgpt():
     """原有的单轮测试函数（已禁用，请使用test_multiturn_qa）"""
     print("此函数已被替换，请使用 test_multiturn_qa() 进行多轮对话测试")
 
+def compare_with_and_without_optimization():
+    """对比测试：有无查询优化的准确率差异"""
+    print("\n" + "="*100)
+    print("开始对比测试：原方案 vs Promptomatix优化方案")
+    print("="*100 + "\n")
+    
+    # 测试1：不启用优化（基线）
+    print("\n[测试 1/2] 运行基线测试（未启用查询优化）...")
+    accuracy_baseline = test_multiturn_qa(enable_optimization=False, log_suffix="_baseline")
+    
+    print("\n" + "="*100)
+    print("基线测试完成，开始优化方案测试...")
+    print("="*100 + "\n")
+    
+    # 测试2：启用优化
+    print("\n[测试 2/2] 运行优化测试（启用 Promptomatix 查询优化）...")
+    accuracy_optimized = test_multiturn_qa(enable_optimization=True, log_suffix="_optimized")
+    
+    # 输出对比结果
+    print("\n" + "="*100)
+    print("对比测试完成！")
+    print("="*100)
+    print(f"\n结果对比:")
+    print(f"  基线方案（无优化）准确率: {accuracy_baseline:.2f}%")
+    print(f"  优化方案（Promptomatix）准确率: {accuracy_optimized:.2f}%")
+    
+    improvement = accuracy_optimized - accuracy_baseline
+    if improvement > 0:
+        print(f"  ✓ 提升: +{improvement:.2f}%")
+    elif improvement < 0:
+        print(f"  ✗ 下降: {improvement:.2f}%")
+    else:
+        print(f"  = 持平")
+    
+    print(f"\n日志文件:")
+    print(f"  基线测试: logs/multiturn_test_baseline.log")
+    print(f"  优化测试: logs/multiturn_test_optimized.log")
+    print("="*100 + "\n")
+    
+    # 保存对比结果
+    with open('comparison_results.txt', 'w', encoding='utf-8') as f:
+        f.write("="*100 + "\n")
+        f.write("RSChatGPT 对比测试结果\n")
+        f.write("="*100 + "\n\n")
+        f.write(f"基线方案（无优化）准确率: {accuracy_baseline:.2f}%\n")
+        f.write(f"优化方案（Promptomatix）准确率: {accuracy_optimized:.2f}%\n")
+        f.write(f"准确率变化: {improvement:+.2f}%\n")
+        f.write("\n" + "="*100 + "\n")
+    
+    print("对比结果已保存到 comparison_results.txt\n")
+
 if __name__ == '__main__':
-    test_multiturn_qa()
+    import sys
+    
+    # 支持命令行参数选择测试模式
+    if len(sys.argv) > 1:
+        mode = sys.argv[1]
+        if mode == 'compare':
+            # 对比测试模式
+            compare_with_and_without_optimization()
+        elif mode == 'baseline':
+            # 仅测试基线
+            test_multiturn_qa(enable_optimization=False, log_suffix="_baseline")
+        elif mode == 'optimized':
+            # 仅测试优化版本
+            test_multiturn_qa(enable_optimization=True, log_suffix="_optimized")
+        else:
+            print(f"未知模式: {mode}")
+            print("使用方式:")
+            print("  python test_rschatgpt.py compare   # 对比测试")
+            print("  python test_rschatgpt.py baseline  # 仅测试基线")
+            print("  python test_rschatgpt.py optimized # 仅测试优化版本")
+            print("  python test_rschatgpt.py           # 默认：对比测试")
+    else:
+        # 默认运行对比测试
+        compare_with_and_without_optimization()
 

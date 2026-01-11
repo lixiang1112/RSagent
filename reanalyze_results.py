@@ -8,7 +8,7 @@ import re
 import json
 
 # 读取日志文件
-with open('multiturn_test.log', 'r', encoding='utf-8') as f:
+with open('logs/multiturn_test.log', 'r', encoding='utf-8') as f:
     log_content = f.read()
 
 # 解析每个样本

@@ -1,4 +1,0 @@
-  File "test_rschatgpt.py", line 253
-    res = bot.agent({"input": agent_input})
-    ^
-SyntaxError: invalid syntax

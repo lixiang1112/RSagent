@@ -1,0 +1,297 @@
+{
+  "mode": "基线模式",
+  "enable_optimization": false,
+  "test_file": "QAjsons/singleturn_qa_152.json",
+  "sample_limit": 11,
+  "last_completed_idx": 10,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2,
+      "sample_idx": 1,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3,
+      "sample_idx": 2,
+      "query": "能找出图中的绿色建筑吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4,
+      "sample_idx": 3,
+      "query": "这张图里有多少个绿色的建筑？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 5,
+      "sample_idx": 4,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 6,
+      "sample_idx": 5,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 7,
+      "sample_idx": 6,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 8,
+      "sample_idx": 7,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 9,
+      "sample_idx": 8,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "Denoising"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 10,
+      "sample_idx": 9,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 11,
+      "sample_idx": 10,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    }
+  ],
+  "tool_stats": {
+    "ImageCaptioning": {
+      "total": 1,
+      "correct": 1
+    },
+    "SceneClassification": {
+      "total": 1,
+      "correct": 1
+    },
+    "ObjectDetection": {
+      "total": 1,
+      "correct": 1
+    },
+    "ObjectCounting": {
+      "total": 1,
+      "correct": 1
+    },
+    "EdgeDetection": {
+      "total": 1,
+      "correct": 1
+    },
+    "ChangeDetection": {
+      "total": 1,
+      "correct": 1
+    },
+    "CloudRemoval": {
+      "total": 1,
+      "correct": 1
+    },
+    "SuperResolution": {
+      "total": 1,
+      "correct": 1
+    },
+    "Denoising": {
+      "total": 1,
+      "correct": 1
+    },
+    "HorizontalDetection": {
+      "total": 1,
+      "correct": 1
+    },
+    "RotatedDetection": {
+      "total": 1,
+      "correct": 1
+    }
+  },
+  "completed": true,
+  "summary": {
+    "test_file": "QAjsons/singleturn_qa_152.json",
+    "sample_limit": 11,
+    "baseline_accuracy": 100.0,
+    "optimized_accuracy": 100.0,
+    "improvement": 0.0,
+    "tool_comparison": {
+      "ObjectCounting": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "CloudRemoval": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "ObjectDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "ImageCaptioning": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "ChangeDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "HorizontalDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "EdgeDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "Denoising": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "SceneClassification": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "RotatedDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "SuperResolution": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      }
+    }
+  }
+}

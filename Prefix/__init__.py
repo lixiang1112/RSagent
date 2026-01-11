@@ -49,9 +49,23 @@ To use a tool, you MUST use the following format:
 
 ```
 Thought: Do I need to use a tool? Yes
-Action: the action to take, should be one of [{tool_names}]
-Action Input: the input to the action
+Action: <TOOL_NAME>
+Action Input: <INPUT_TO_TOOL>
 Observation: the result of the action
+```
+
+IMPORTANT: For "Action:", you must write EXACTLY one tool name from [{tool_names}]. Do NOT copy this instruction text as the action.
+
+Example of CORRECT format:
+```
+Thought: Do I need to use a tool? Yes
+Action: Horizontal Detection On Image
+Action Input: /path/to/image.png
+```
+
+Example of WRONG format (DO NOT DO THIS):
+```
+Action: the action to take, should be one of [...]
 ```
 """
 

@@ -1,0 +1,186 @@
+{
+  "mode": "基线模式",
+  "enable_optimization": false,
+  "test_file": "QAjsons/multiturn_qa_dataset_990.json",
+  "sample_limit": 990,
+  "last_completed_idx": 13,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 2,
+      "sample_idx": 1,
+      "turns": []
+    },
+    {
+      "sample_id": 3,
+      "sample_idx": 2,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 4,
+      "sample_idx": 3,
+      "turns": []
+    },
+    {
+      "sample_id": 5,
+      "sample_idx": 4,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 8,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 6,
+      "sample_idx": 5,
+      "turns": []
+    },
+    {
+      "sample_id": 7,
+      "sample_idx": 6,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 8,
+      "sample_idx": 7,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 9,
+      "sample_idx": 8,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "EdgeDetection"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 10,
+      "sample_idx": 9,
+      "turns": []
+    },
+    {
+      "sample_id": 11,
+      "sample_idx": 10,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        },
+        {
+          "turn": 6,
+          "expected_tools": [],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 12,
+      "sample_idx": 11,
+      "turns": []
+    },
+    {
+      "sample_id": 13,
+      "sample_idx": 12,
+      "turns": [
+        {
+          "turn": 8,
+          "expected_tools": [],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 14,
+      "sample_idx": 13,
+      "turns": [
+        {
+          "turn": 8,
+          "expected_tools": [],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    }
+  ],
+  "tool_stats": {},
+  "completed": false
+}

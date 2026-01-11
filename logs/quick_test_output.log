@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "quick_compare_test.py", line 12, in <module>
+    spec.loader.exec_module(rschatgpt_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/rschatgpt/RSChatGPT-shell.py", line 5, in <module>
+    from skimage import io
+ModuleNotFoundError: No module named 'skimage'

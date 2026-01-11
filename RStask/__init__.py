@@ -6,3 +6,8 @@ from RStask.ObjectDetection.YOLOv5 import YoloDetection as DetectionFunction
 from RStask.SceneClassification.ResNetScene import ResNetAID as SceneFunction
 from RStask.InstanceSegmentation.SwinUpper import SwinInstance as InstanceFunction
 from RStask.ChangeDetection.MMchange import MMChangeDetection as ChangeDetectionFunction
+from RStask.CloudRemoval.DarkChannel import DarkChannelCloudRemoval as CloudRemovalFunction
+from RStask.SuperResolution.Bicubic import BicubicSuperResolution as SuperResolutionFunction
+from RStask.Denoising.NonLocalMeans import NonLocalMeansDenoising as DenoisingFunction
+from RStask.HorizontalDetection.HorizontalBBox import HorizontalBBoxDetection as HorizontalDetectionFunction
+from RStask.RotatedDetection.RotatedBBox import RotatedBBoxDetection as RotatedDetectionFunction

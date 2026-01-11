@@ -11,11 +11,39 @@ from langchain.agents.tools import Tool
 from langchain.chains.conversation.memory import ConversationBufferMemory
 import numpy as np
 from Prefix import  RS_CHATGPT_PREFIX, RS_CHATGPT_FORMAT_INSTRUCTIONS, RS_CHATGPT_SUFFIX
-from RStask import ImageEdgeFunction,CaptionFunction,LanduseFunction,DetectionFunction,CountingFuncnction,SceneFunction,InstanceFunction,ChangeDetectionFunction
+from RStask import ImageEdgeFunction,CaptionFunction,LanduseFunction,DetectionFunction,CountingFuncnction,SceneFunction,InstanceFunction,ChangeDetectionFunction,CloudRemovalFunction,SuperResolutionFunction,DenoisingFunction,HorizontalDetectionFunction,RotatedDetectionFunction
+
+# Promptomatix 集成
+try:
+    from promptomatix_integration import QueryOptimizer
+    PROMPTOMATIX_AVAILABLE = True
+except ImportError:
+    PROMPTOMATIX_AVAILABLE = False
+    print("⚠️ Promptomatix 不可用，查询优化功能已禁用")
 
 
 
 os.makedirs('image', exist_ok=True)
+
+def clean_tool_input(inputs):
+    """清理工具输入，移除LLM可能添加的额外文本"""
+    if not isinstance(inputs, str):
+        return inputs
+    
+    # 移除换行符后的所有内容
+    inputs = inputs.split('\n')[0].strip()
+    
+    # 移除 Observation: 后的所有内容
+    inputs = inputs.split('Observation:')[0].strip()
+    
+    # 移除代码块标记
+    inputs = inputs.strip('`').strip()
+    
+    # 移除方括号中的说明文本
+    inputs = re.sub(r'\[.*?\]', '', inputs).strip()
+    
+    return inputs
+
 def prompts(name, description):
     def decorator(func):
         func.name = name
@@ -42,6 +70,7 @@ class EdgeDetection:
                          "or perform edge detection on this image, or detect the  edge of this image. "
                          "The input to this tool should be a string, representing the image_path")
     def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
         updated_image_path=get_new_image_name(inputs, func_name="edge")
         self.func.inference(inputs,updated_image_path)
         return updated_image_path
@@ -58,10 +87,8 @@ class ChangeDetection:
                          "representing the pre_image_path (before), post_image_path (after), and optionally change_description. "
                          "Example: 'image1.png,image2.png' or 'image1.png,image2.png,buildings have been constructed'")
     def inference(self, inputs):
-        # Clean up the input - remove any trailing text after newlines or special markers
-        inputs = inputs.split('\n')[0].strip()  # Take only the first line
-        inputs = inputs.split('Observation:')[0].strip()  # Remove any Observation text
-        inputs = inputs.strip('`').strip()  # Remove backticks
+        # Clean up the input
+        inputs = clean_tool_input(inputs)
         
         parts = inputs.split(",")
         if len(parts) < 2:
@@ -93,6 +120,7 @@ class ObjectCounting:
                          "The input to this tool should be a comma separated string of two, "
                          "representing the image_path, the text description of the object to be counted")
     def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
         image_path, det_prompt = inputs.split(",")
         log_text=self.func.inference(image_path,det_prompt)
         return log_text
@@ -109,6 +137,7 @@ class InstanceSegmentation:
                          "The input to this tool should be a comma separated string of two, "
                          "representing the image_path, the text of the category,selected from plane, or ship, or storage tank, or baseball diamond, or tennis court, or basketball court, or ground track field, or harbor, or bridge, or vehicle, or helicopter, or roundabout, or soccer ball field, or  swimming pool. ")
     def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
         image_path, det_prompt = inputs.split(",")
         updated_image_path = get_new_image_name(image_path, func_name="instance_" + det_prompt)
         text=self.func.inference(image_path, det_prompt,updated_image_path)
@@ -124,6 +153,7 @@ class SceneClassification:
                          "or classify the scene of this image, or predict the scene category of this image, or what is the function of this image. "
                          "The input to this tool should be a string, representing the image_path. ")
     def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
         output_txt=self.func.inference(inputs)
         return output_txt
 
@@ -140,6 +170,7 @@ class LandUseSegmentation:
                          "The input to this tool should be a comma separated string of two, "
                          "representing the image_path, the text of the category,selected from Lnad Use, or Building, or Road, or Water, or Barren, or Forest, or Farmland, or Landuse.")
     def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
         image_path, det_prompt = inputs.split(",")
         updated_image_path = get_new_image_name(image_path, func_name="landuse")
         text=self.func.inference(image_path, det_prompt,updated_image_path)
@@ -157,6 +188,7 @@ class ObjectDetection:
                          "representing the image_path, the text description of the object to be found")
 
     def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
         image_path, det_prompt = inputs.split(",")
         updated_image_path = get_new_image_name(image_path, func_name="detection_" + det_prompt.replace(' ', '_'))
         log_text=self.func.inference(image_path, det_prompt,updated_image_path)
@@ -171,12 +203,88 @@ class ImageCaptioning:
              description="useful when you want to know what is inside the photo. receives image_path as input. "
                          "The input to this tool should be a string, representing the image_path. ")
     def inference(self, image_path):
+        image_path = clean_tool_input(image_path)
         captions = self.func.inference(image_path)
         print(f"\nProcessed ImageCaptioning, Input Image: {image_path}, Output Text: {captions}")
         return captions
 
+class CloudRemoval:
+    def __init__(self, device):
+        print("Initializing Cloud Removal Function....")
+        self.func = CloudRemovalFunction()
+    @prompts(name="Cloud Removal On Image",
+             description="useful when you want to remove clouds or haze from remote sensing images. "
+                         "like: remove clouds from this image, or dehaze this image, "
+                         "or clear the clouds in this satellite image, or remove fog from this image. "
+                         "The input to this tool should be a string, representing the image_path")
+    def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
+        updated_image_path = get_new_image_name(inputs, func_name="cloud_removal")
+        self.func.inference(inputs, updated_image_path)
+        return updated_image_path
+
+class SuperResolution:
+    def __init__(self, device):
+        print("Initializing Super Resolution Function....")
+        self.func = SuperResolutionFunction()
+    @prompts(name="Super Resolution On Image",
+             description="useful when you want to enhance image resolution or upscale the image. "
+                         "like: enhance the resolution of this image, or upscale this image, "
+                         "or increase image quality, or make this image clearer with higher resolution. "
+                         "The input to this tool should be a string, representing the image_path")
+    def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
+        updated_image_path = get_new_image_name(inputs, func_name="super_resolution")
+        self.func.inference(inputs, updated_image_path)
+        return updated_image_path
+
+class Denoising:
+    def __init__(self, device):
+        print("Initializing Denoising Function....")
+        self.func = DenoisingFunction()
+    @prompts(name="Denoising On Image",
+             description="useful when you want to remove noise from the image or reduce image noise. "
+                         "like: denoise this image, or remove noise from this image, "
+                         "or reduce the noise in this image, or clean up this noisy image. "
+                         "The input to this tool should be a string, representing the image_path")
+    def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
+        updated_image_path = get_new_image_name(inputs, func_name="denoising")
+        self.func.inference(inputs, updated_image_path)
+        return updated_image_path
+
+class HorizontalDetection:
+    def __init__(self, device):
+        print("Initializing Horizontal Detection Function....")
+        self.func = HorizontalDetectionFunction()
+    @prompts(name="Horizontal Detection On Image",
+             description="useful when you want to detect objects with horizontal bounding boxes in the image. "
+                         "like: detect objects with horizontal boxes, or find horizontal bounding boxes, "
+                         "or detect objects in horizontal orientation, or apply horizontal object detection. "
+                         "The input to this tool should be a string, representing the image_path")
+    def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
+        updated_image_path = get_new_image_name(inputs, func_name="horizontal_detection")
+        self.func.inference(inputs, updated_image_path)
+        return updated_image_path
+
+class RotatedDetection:
+    def __init__(self, device):
+        print("Initializing Rotated Detection Function....")
+        self.func = RotatedDetectionFunction()
+    @prompts(name="Rotated Detection On Image",
+             description="useful when you want to detect objects with rotated bounding boxes for arbitrary orientations. "
+                         "like: detect rotated objects, or find objects at any angle, "
+                         "or detect objects with oriented bounding boxes, or apply rotated object detection. "
+                         "The input to this tool should be a string, representing the image_path")
+    def inference(self, inputs):
+        inputs = clean_tool_input(inputs)
+        updated_image_path = get_new_image_name(inputs, func_name="rotated_detection")
+        self.func.inference(inputs, updated_image_path)
+        return updated_image_path
+
 class RSChatGPT:
-    def __init__(self, gpt_name,load_dict,openai_key,proxy_url):
+    def __init__(self, gpt_name, load_dict, openai_key, proxy_url, enable_query_optimization=False):
         print(f"Initializing RSChatGPT, load_dict={load_dict}")
         if 'ImageCaptioning' not in load_dict:
             raise ValueError("You have to load ImageCaptioning as a basic function for RSChatGPT")
@@ -205,6 +313,20 @@ class RSChatGPT:
 
         self.llm = ChatOpenAI(api_key=openai_key, base_url=proxy_url, model_name=gpt_name,temperature=0)
         self.memory = ConversationBufferMemory(memory_key="chat_history", output_key='output')
+        
+        # 添加查询优化器（可选）
+        if enable_query_optimization and PROMPTOMATIX_AVAILABLE:
+            self.query_optimizer = QueryOptimizer(
+                model_name=gpt_name,
+                openai_key=openai_key,
+                proxy_url=proxy_url,
+                enabled=True
+            )
+            print("✓ 查询优化已启用")
+        else:
+            self.query_optimizer = None
+            if enable_query_optimization and not PROMPTOMATIX_AVAILABLE:
+                print("⚠️ 查询优化请求已忽略（Promptomatix 不可用）")
 
     def initialize(self):
         self.memory.clear() #clear previous history
@@ -220,10 +342,16 @@ class RSChatGPT:
             handle_parsing_errors=True, )
 
     def run_text(self, text, state):
+        # 动态优化用户查询（如果启用）
+        original_text = text
+        if self.query_optimizer and self.query_optimizer.enabled:
+            # 使用保守策略：仅优化模糊查询
+            text = self.query_optimizer.optimize_if_ambiguous(text)
+        
         res = self.agent({"input": text.strip()})
         res['output'] = res['output'].replace("\\", "/")
         response = re.sub('(image/[-\w]*.png)', lambda m: f'![](file={m.group(0)})*{m.group(0)}*', res['output'])
-        state = state + [(text, response)]
+        state = state + [(original_text, response)]  # 使用原始查询显示给用户
         print(f"\nProcessed run_text, Input text: {text}\nCurrent state: {state}\n"
               f"Current Memory: {self.agent.memory.buffer}")
         return state
@@ -254,7 +382,14 @@ class RSChatGPT:
         state = state + [(f"![](file={image_filename})*{image_filename}*", AI_prompt)]
         print(f"\nProcessed run_image, Input image: {image_filename}\nCurrent state: {state}\n"
               f"Current Memory: {self.agent.memory.buffer}")
-        state=self.run_text(f'{txt} {image_filename} ', state)
+        
+        # 如果有文本任务，优化后执行
+        if txt:
+            original_txt = txt
+            if self.query_optimizer and self.query_optimizer.enabled:
+                txt = self.query_optimizer.optimize_if_ambiguous(txt, image_context=description)
+            state = self.run_text(f'{txt} {image_filename} ', state)
+        
         return state
 
 
@@ -267,12 +402,20 @@ if __name__ == '__main__':
     parser.add_argument('--proxy_url', type=str, default="https://api.chatanywhere.tech")
     # parser.add_argument('--load', type=str,help='Image Captioning is basic models that is required. You can select from [ImageCaptioning,ObjectDetection,LandUseSegmentation,InstanceSegmentation,ObjectCounting,SceneClassification,EdgeDetection]',
     #                     default="ImageCaptioning_cuda:0,SceneClassification_cuda:0,ObjectDetection_cuda:0,LandUseSegmentation_cuda:0,InstanceSegmentation_cuda:0,ObjectCounting_cuda:0,EdgeDetection_cpu")
-    parser.add_argument('--load', type=str,help='Image Captioning is basic models that is required. You can select from [ImageCaptioning,ObjectDetection,LandUseSegmentation,InstanceSegmentation,ObjectCounting,SceneClassification,EdgeDetection,ChangeDetection]',
+    parser.add_argument('--load', type=str,help='Image Captioning is basic models that is required. You can select from [ImageCaptioning,ObjectDetection,LandUseSegmentation,InstanceSegmentation,ObjectCounting,SceneClassification,EdgeDetection,ChangeDetection,CloudRemoval,SuperResolution,Denoising,HorizontalDetection,RotatedDetection]',
                         default="ImageCaptioning_cuda:0,SceneClassification_cuda:0,ObjectDetection_cuda:0,ObjectCounting_cuda:0,EdgeDetection_cpu,ChangeDetection_cuda:0")
+    parser.add_argument('--enable_query_optimization', action='store_true',
+                        help='Enable Promptomatix query optimization')
     args = parser.parse_args()
     state = []
     load_dict = {e.split('_')[0].strip(): e.split('_')[1].strip() for e in args.load.split(',')}
-    bot = RSChatGPT(gpt_name=args.gpt_name,load_dict=load_dict,openai_key=args.openai_key,proxy_url=args.proxy_url)
+    bot = RSChatGPT(
+        gpt_name=args.gpt_name,
+        load_dict=load_dict,
+        openai_key=args.openai_key,
+        proxy_url=args.proxy_url,
+        enable_query_optimization=args.enable_query_optimization
+    )
     bot.initialize()
     print('RSChatGPT initialization done, you can now chat with RSChatGPT~')
     bot.initialize()
