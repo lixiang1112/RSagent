@@ -1,0 +1,3653 @@
+[
+  {
+    "id": 1,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000126.png",
+    "image_name": "test_000126.png"
+  },
+  {
+    "id": 11,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000126.png",
+    "image_name": "test_000126.png"
+  },
+  {
+    "id": 21,
+    "query": "这张图里有没有水平方向的路？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001830.png",
+    "image_name": "train_001830.png"
+  },
+  {
+    "id": 31,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001735.png",
+    "image_name": "train_001735.png"
+  },
+  {
+    "id": 41,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004105.png",
+    "image_name": "train_004105.png"
+  },
+  {
+    "id": 51,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000085.png",
+    "image_name": "train_000085.png"
+  },
+  {
+    "id": 61,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006133.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_006133.png"
+    ],
+    "image_name": "train_006133.png"
+  },
+  {
+    "id": 71,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005448.png",
+    "image_name": "train_005448.png"
+  },
+  {
+    "id": 81,
+    "query": "这张图里有多少棵树？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001244.png",
+    "image_name": "train_001244.png"
+  },
+  {
+    "id": 91,
+    "query": "能找出图中的绿色区域在哪里吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004396.png",
+    "image_name": "train_004396.png"
+  },
+  {
+    "id": 101,
+    "query": "这张图看起来像是什么地方？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003898.png",
+    "image_name": "train_003898.png"
+  },
+  {
+    "id": 111,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007124.png",
+    "image_name": "train_007124.png"
+  },
+  {
+    "id": 121,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007124.png",
+    "image_name": "train_007124.png"
+  },
+  {
+    "id": 131,
+    "query": "这张图里有没有水平方向的建筑？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007467.png",
+    "image_name": "train_007467.png"
+  },
+  {
+    "id": 141,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001047.png",
+    "image_name": "val_001047.png"
+  },
+  {
+    "id": 151,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000833.png",
+    "image_name": "val_000833.png"
+  },
+  {
+    "id": 161,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004138.png",
+    "image_name": "train_004138.png"
+  },
+  {
+    "id": 171,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003850.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_003850.png"
+    ],
+    "image_name": "train_003850.png"
+  },
+  {
+    "id": 181,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001858.png",
+    "image_name": "test_001858.png"
+  },
+  {
+    "id": 191,
+    "query": "这张图里有多少条路？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001773.png",
+    "image_name": "train_001773.png"
+  },
+  {
+    "id": 201,
+    "query": "能找出图中的树木和灌木丛吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000902.png",
+    "image_name": "test_000902.png"
+  },
+  {
+    "id": 211,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004193.png",
+    "image_name": "train_004193.png"
+  },
+  {
+    "id": 221,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003766.png",
+    "image_name": "train_003766.png"
+  },
+  {
+    "id": 231,
+    "query": "这些建筑是倾斜的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003766.png",
+    "image_name": "train_003766.png"
+  },
+  {
+    "id": 241,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001627.png",
+    "image_name": "train_001627.png"
+  },
+  {
+    "id": 251,
+    "query": "图片有些噪点，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005583.png",
+    "image_name": "train_005583.png"
+  },
+  {
+    "id": 261,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007156.png",
+    "image_name": "train_007156.png"
+  },
+  {
+    "id": 271,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006713.png",
+    "image_name": "train_006713.png"
+  },
+  {
+    "id": 281,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000868.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000868.png"
+    ],
+    "image_name": "val_000868.png"
+  },
+  {
+    "id": 291,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001094.png",
+    "image_name": "test_001094.png"
+  },
+  {
+    "id": 301,
+    "query": "这张图上有多少个大的深色斑块？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002420.png",
+    "image_name": "train_002420.png"
+  },
+  {
+    "id": 311,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000067.png",
+    "image_name": "train_000067.png"
+  },
+  {
+    "id": 321,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000157.png",
+    "image_name": "test_000157.png"
+  },
+  {
+    "id": 331,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000437.png",
+    "image_name": "test_000437.png"
+  },
+  {
+    "id": 341,
+    "query": "这棵树看起来歪了，能检查一下吗？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000437.png",
+    "image_name": "test_000437.png"
+  },
+  {
+    "id": 351,
+    "query": "这张图里有没有水平方向上的东西？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001758.png",
+    "image_name": "test_001758.png"
+  },
+  {
+    "id": 361,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000817.png",
+    "image_name": "test_000817.png"
+  },
+  {
+    "id": 371,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000169.png",
+    "image_name": "test_000169.png"
+  },
+  {
+    "id": 381,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000435.png",
+    "image_name": "train_000435.png"
+  },
+  {
+    "id": 391,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003362.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_003362.png"
+    ],
+    "image_name": "train_003362.png"
+  },
+  {
+    "id": 401,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006852.png",
+    "image_name": "train_006852.png"
+  },
+  {
+    "id": 411,
+    "query": "这张图里有多少条路？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001071.png",
+    "image_name": "test_001071.png"
+  },
+  {
+    "id": 421,
+    "query": "能标出图中的建筑位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000455.png",
+    "image_name": "val_000455.png"
+  },
+  {
+    "id": 431,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004482.png",
+    "image_name": "train_004482.png"
+  },
+  {
+    "id": 441,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005265.png",
+    "image_name": "train_005265.png"
+  },
+  {
+    "id": 451,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005265.png",
+    "image_name": "train_005265.png"
+  },
+  {
+    "id": 461,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001022.png",
+    "image_name": "train_001022.png"
+  },
+  {
+    "id": 471,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001835.png",
+    "image_name": "test_001835.png"
+  },
+  {
+    "id": 481,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004074.png",
+    "image_name": "train_004074.png"
+  },
+  {
+    "id": 491,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001498.png",
+    "image_name": "train_001498.png"
+  },
+  {
+    "id": 501,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001963.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001963.png"
+    ],
+    "image_name": "train_001963.png"
+  },
+  {
+    "id": 511,
+    "query": "能让这个图像的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001143.png",
+    "image_name": "train_001143.png"
+  },
+  {
+    "id": 521,
+    "query": "这里有多少栋房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001153.png",
+    "image_name": "val_001153.png"
+  },
+  {
+    "id": 531,
+    "query": "能找出图中的目标位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002371.png",
+    "image_name": "train_002371.png"
+  },
+  {
+    "id": 541,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002968.png",
+    "image_name": "train_002968.png"
+  },
+  {
+    "id": 551,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000831.png",
+    "image_name": "test_000831.png"
+  },
+  {
+    "id": 561,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000831.png",
+    "image_name": "test_000831.png"
+  },
+  {
+    "id": 571,
+    "query": "能找出图中水平方向的铁路吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001323.png",
+    "image_name": "val_001323.png"
+  },
+  {
+    "id": 581,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001810.png",
+    "image_name": "test_001810.png"
+  },
+  {
+    "id": 591,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006770.png",
+    "image_name": "train_006770.png"
+  },
+  {
+    "id": 601,
+    "query": "云遮住了，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006357.png",
+    "image_name": "train_006357.png"
+  },
+  {
+    "id": 611,
+    "query": "这两张图中间是不是多了什么东西？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006188.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_006188.png"
+    ],
+    "image_name": "train_006188.png"
+  },
+  {
+    "id": 621,
+    "query": "能让这个森林的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007590.png",
+    "image_name": "train_007590.png"
+  },
+  {
+    "id": 631,
+    "query": "这张图里有多少个黑色的斑块？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002503.png",
+    "image_name": "train_002503.png"
+  },
+  {
+    "id": 641,
+    "query": "能找出图中的道路吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000608.png",
+    "image_name": "train_000608.png"
+  },
+  {
+    "id": 651,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001212.png",
+    "image_name": "train_001212.png"
+  },
+  {
+    "id": 661,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000280.png",
+    "image_name": "val_000280.png"
+  },
+  {
+    "id": 671,
+    "query": "这棵树看起来歪了，能检查一下吗？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000280.png",
+    "image_name": "val_000280.png"
+  },
+  {
+    "id": 681,
+    "query": "能找出图中水平方向的路吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003901.png",
+    "image_name": "train_003901.png"
+  },
+  {
+    "id": 691,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004207.png",
+    "image_name": "train_004207.png"
+  },
+  {
+    "id": 701,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003348.png",
+    "image_name": "train_003348.png"
+  },
+  {
+    "id": 711,
+    "query": "这张图上有云，能不能去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007269.png",
+    "image_name": "train_007269.png"
+  },
+  {
+    "id": 721,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001154.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001154.png"
+    ],
+    "image_name": "train_001154.png"
+  },
+  {
+    "id": 731,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_002008.png",
+    "image_name": "test_002008.png"
+  },
+  {
+    "id": 741,
+    "query": "这张图里有多少棵树？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000724.png",
+    "image_name": "test_000724.png"
+  },
+  {
+    "id": 751,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000058.png",
+    "image_name": "test_000058.png"
+  },
+  {
+    "id": 761,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000552.png",
+    "image_name": "test_000552.png"
+  },
+  {
+    "id": 771,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000901.png",
+    "image_name": "train_000901.png"
+  },
+  {
+    "id": 781,
+    "query": "这棵树看起来歪了，能不能检测一下？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000901.png",
+    "image_name": "train_000901.png"
+  },
+  {
+    "id": 791,
+    "query": "这张图里有哪些东西是水平排列的？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001049.png",
+    "image_name": "val_001049.png"
+  },
+  {
+    "id": 801,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000583.png",
+    "image_name": "train_000583.png"
+  },
+  {
+    "id": 811,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000312.png",
+    "image_name": "train_000312.png"
+  },
+  {
+    "id": 821,
+    "query": "这张图上有云，能不能去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005232.png",
+    "image_name": "train_005232.png"
+  },
+  {
+    "id": 831,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001285.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_001285.png"
+    ],
+    "image_name": "train_001285.png"
+  },
+  {
+    "id": 842,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000180.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000180.png"
+    ],
+    "image_name": "val_000180.png"
+  },
+  {
+    "id": 852,
+    "query": "能让这个湖边的树木轮廓更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001119.png",
+    "image_name": "train_001119.png"
+  },
+  {
+    "id": 862,
+    "query": "这里有多少栋房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001284.png",
+    "image_name": "test_001284.png"
+  },
+  {
+    "id": 872,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000219.png",
+    "image_name": "val_000219.png"
+  },
+  {
+    "id": 882,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001338.png",
+    "image_name": "train_001338.png"
+  },
+  {
+    "id": 892,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000544.png",
+    "image_name": "val_000544.png"
+  },
+  {
+    "id": 902,
+    "query": "这些建筑是倾斜的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000544.png",
+    "image_name": "val_000544.png"
+  },
+  {
+    "id": 912,
+    "query": "能找出横向的路吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000222.png",
+    "image_name": "val_000222.png"
+  },
+  {
+    "id": 922,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002465.png",
+    "image_name": "train_002465.png"
+  },
+  {
+    "id": 932,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000273.png",
+    "image_name": "val_000273.png"
+  },
+  {
+    "id": 942,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_004169.png",
+    "image_name": "train_004169.png"
+  },
+  {
+    "id": 952,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003667.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_003667.png"
+    ],
+    "image_name": "train_003667.png"
+  },
+  {
+    "id": 962,
+    "query": "能让这个道路的轮廓更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000994.png",
+    "image_name": "train_000994.png"
+  },
+  {
+    "id": 972,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005175.png",
+    "image_name": "train_005175.png"
+  },
+  {
+    "id": 982,
+    "query": "能标出图中的房子和树木位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000769.png",
+    "image_name": "val_000769.png"
+  },
+  {
+    "id": 992,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000502.png",
+    "image_name": "test_000502.png"
+  },
+  {
+    "id": 1002,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005961.png",
+    "image_name": "train_005961.png"
+  },
+  {
+    "id": 1012,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005961.png",
+    "image_name": "train_005961.png"
+  },
+  {
+    "id": 1022,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000245.png",
+    "image_name": "train_000245.png"
+  },
+  {
+    "id": 1032,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002362.png",
+    "image_name": "train_002362.png"
+  },
+  {
+    "id": 1042,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001048.png",
+    "image_name": "test_001048.png"
+  },
+  {
+    "id": 1052,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003862.png",
+    "image_name": "train_003862.png"
+  },
+  {
+    "id": 1062,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003789.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_003789.png"
+    ],
+    "image_name": "train_003789.png"
+  },
+  {
+    "id": 1072,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001312.png",
+    "image_name": "val_001312.png"
+  },
+  {
+    "id": 1082,
+    "query": "这张图里有多少条路？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001559.png",
+    "image_name": "train_001559.png"
+  },
+  {
+    "id": 1092,
+    "query": "能找出图中的道路吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003259.png",
+    "image_name": "train_003259.png"
+  },
+  {
+    "id": 1102,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000818.png",
+    "image_name": "train_000818.png"
+  },
+  {
+    "id": 1112,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000942.png",
+    "image_name": "test_000942.png"
+  },
+  {
+    "id": 1122,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000942.png",
+    "image_name": "test_000942.png"
+  },
+  {
+    "id": 1132,
+    "query": "能找出图中水平方向的路吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001002.png",
+    "image_name": "train_001002.png"
+  },
+  {
+    "id": 1142,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001713.png",
+    "image_name": "test_001713.png"
+  },
+  {
+    "id": 1152,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002291.png",
+    "image_name": "train_002291.png"
+  },
+  {
+    "id": 1162,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000202.png",
+    "image_name": "test_000202.png"
+  },
+  {
+    "id": 1172,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000436.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/B/val_000436.png"
+    ],
+    "image_name": "val_000436.png"
+  },
+  {
+    "id": 1182,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005946.png",
+    "image_name": "train_005946.png"
+  },
+  {
+    "id": 1192,
+    "query": "这张图里有多少块地？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002991.png",
+    "image_name": "train_002991.png"
+  },
+  {
+    "id": 1202,
+    "query": "能标出图中的建筑物位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002079.png",
+    "image_name": "train_002079.png"
+  },
+  {
+    "id": 1212,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001295.png",
+    "image_name": "train_001295.png"
+  },
+  {
+    "id": 1222,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001105.png",
+    "image_name": "test_001105.png"
+  },
+  {
+    "id": 1232,
+    "query": "这张图里的道路是倾斜的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001105.png",
+    "image_name": "test_001105.png"
+  },
+  {
+    "id": 1242,
+    "query": "能找出横向排列的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003831.png",
+    "image_name": "train_003831.png"
+  },
+  {
+    "id": 1252,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003718.png",
+    "image_name": "train_003718.png"
+  },
+  {
+    "id": 1262,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000652.png",
+    "image_name": "train_000652.png"
+  },
+  {
+    "id": 1272,
+    "query": "这张图上有云，能不能去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007184.png",
+    "image_name": "train_007184.png"
+  },
+  {
+    "id": 1282,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007485.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_007485.png"
+    ],
+    "image_name": "train_007485.png"
+  },
+  {
+    "id": 1292,
+    "query": "能让这个弯道的轮廓更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000601.png",
+    "image_name": "test_000601.png"
+  },
+  {
+    "id": 1302,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005921.png",
+    "image_name": "train_005921.png"
+  },
+  {
+    "id": 1312,
+    "query": "能找出图中的洞洞在哪里吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003882.png",
+    "image_name": "train_003882.png"
+  },
+  {
+    "id": 1322,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003410.png",
+    "image_name": "train_003410.png"
+  },
+  {
+    "id": 1332,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000561.png",
+    "image_name": "test_000561.png"
+  },
+  {
+    "id": 1342,
+    "query": "这些建筑是倾斜的，能不能找到它们？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000561.png",
+    "image_name": "test_000561.png"
+  },
+  {
+    "id": 1352,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006240.png",
+    "image_name": "train_006240.png"
+  },
+  {
+    "id": 1362,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001819.png",
+    "image_name": "train_001819.png"
+  },
+  {
+    "id": 1372,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002531.png",
+    "image_name": "train_002531.png"
+  },
+  {
+    "id": 1382,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_000124.png",
+    "image_name": "val_000124.png"
+  },
+  {
+    "id": 1392,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001603.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/B/test_001603.png"
+    ],
+    "image_name": "test_001603.png"
+  },
+  {
+    "id": 1402,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007256.png",
+    "image_name": "train_007256.png"
+  },
+  {
+    "id": 1412,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007565.png",
+    "image_name": "train_007565.png"
+  },
+  {
+    "id": 1422,
+    "query": "能找出图中的树木位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_000452.png",
+    "image_name": "train_000452.png"
+  },
+  {
+    "id": 1432,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000644.png",
+    "image_name": "test_000644.png"
+  },
+  {
+    "id": 1442,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005813.png",
+    "image_name": "train_005813.png"
+  },
+  {
+    "id": 1452,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005813.png",
+    "image_name": "train_005813.png"
+  },
+  {
+    "id": 1462,
+    "query": "能找出图中水平方向的路吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001345.png",
+    "image_name": "val_001345.png"
+  },
+  {
+    "id": 1472,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000821.png",
+    "image_name": "test_000821.png"
+  },
+  {
+    "id": 1482,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001736.png",
+    "image_name": "test_001736.png"
+  },
+  {
+    "id": 1492,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_000142.png",
+    "image_name": "test_000142.png"
+  },
+  {
+    "id": 1502,
+    "query": "这两张图看起来有点不一样，能帮我仔细看看吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005734.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_005734.png"
+    ],
+    "image_name": "train_005734.png"
+  },
+  {
+    "id": 1512,
+    "query": "能让这个森林的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002019.png",
+    "image_name": "train_002019.png"
+  },
+  {
+    "id": 1522,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/val/A/val_001218.png",
+    "image_name": "val_001218.png"
+  },
+  {
+    "id": 1532,
+    "query": "能找出图中的道路位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001733.png",
+    "image_name": "train_001733.png"
+  },
+  {
+    "id": 1542,
+    "query": "这张图看起来像是什么地方？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/316-3.png",
+    "image_name": "316-3.png"
+  },
+  {
+    "id": 1552,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/640-3.png",
+    "image_name": "640-3.png"
+  },
+  {
+    "id": 1562,
+    "query": "这些建筑是斜的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/640-3.png",
+    "image_name": "640-3.png"
+  },
+  {
+    "id": 1572,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/291-0.png",
+    "image_name": "291-0.png"
+  },
+  {
+    "id": 1582,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/88-3.png",
+    "image_name": "88-3.png"
+  },
+  {
+    "id": 1592,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/1176-1.png",
+    "image_name": "1176-1.png"
+  },
+  {
+    "id": 1602,
+    "query": "这张图上有云，能不能把云去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/989-1.png",
+    "image_name": "989-1.png"
+  },
+  {
+    "id": 1612,
+    "query": "这两张图中间那条线怎么不见了？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/954-2.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/954-2.png"
+    ],
+    "image_name": "954-2.png"
+  },
+  {
+    "id": 1622,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1023-2.png",
+    "image_name": "1023-2.png"
+  },
+  {
+    "id": 1632,
+    "query": "这里有多少辆卡车？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/146-1.png",
+    "image_name": "146-1.png"
+  },
+  {
+    "id": 1642,
+    "query": "能标出图中的汽车位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/228-1.png",
+    "image_name": "228-1.png"
+  },
+  {
+    "id": 1652,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/260-0.png",
+    "image_name": "260-0.png"
+  },
+  {
+    "id": 1662,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/35-1.png",
+    "image_name": "35-1.png"
+  },
+  {
+    "id": 1673,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/851-2.png",
+    "image_name": "851-2.png"
+  },
+  {
+    "id": 1683,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/851-2.png",
+    "image_name": "851-2.png"
+  },
+  {
+    "id": 1693,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/12-1.png",
+    "image_name": "12-1.png"
+  },
+  {
+    "id": 1703,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/765-1.png",
+    "image_name": "765-1.png"
+  },
+  {
+    "id": 1713,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/298-3.png",
+    "image_name": "298-3.png"
+  },
+  {
+    "id": 1723,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/864-1.png",
+    "image_name": "864-1.png"
+  },
+  {
+    "id": 1733,
+    "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/A/329-0.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/B/329-0.png"
+    ],
+    "image_name": "329-0.png"
+  },
+  {
+    "id": 1743,
+    "query": "能让这个田地的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/741-3.png",
+    "image_name": "741-3.png"
+  },
+  {
+    "id": 1753,
+    "query": "这张图里有多少条路？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/607-3.png",
+    "image_name": "607-3.png"
+  },
+  {
+    "id": 1763,
+    "query": "能标出图中的建筑物位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/577-1.png",
+    "image_name": "577-1.png"
+  },
+  {
+    "id": 1773,
+    "query": "这张图看起来像是住宅区吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/556-1.png",
+    "image_name": "556-1.png"
+  },
+  {
+    "id": 1783,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/632-3.png",
+    "image_name": "632-3.png"
+  },
+  {
+    "id": 1793,
+    "query": "这些建筑是斜的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/632-3.png",
+    "image_name": "632-3.png"
+  },
+  {
+    "id": 1803,
+    "query": "这张图上有水平方向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/497-0.png",
+    "image_name": "497-0.png"
+  },
+  {
+    "id": 1813,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/451-3.png",
+    "image_name": "451-3.png"
+  },
+  {
+    "id": 1823,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1124-2.png",
+    "image_name": "1124-2.png"
+  },
+  {
+    "id": 1833,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/594-0.png",
+    "image_name": "594-0.png"
+  },
+  {
+    "id": 1843,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/748-3.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/748-3.png"
+    ],
+    "image_name": "748-3.png"
+  },
+  {
+    "id": 1853,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/285-3.png",
+    "image_name": "285-3.png"
+  },
+  {
+    "id": 1863,
+    "query": "这张图里有多少个斑点？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/530-3.png",
+    "image_name": "530-3.png"
+  },
+  {
+    "id": 1873,
+    "query": "能找出图中的停车场和车辆位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/313-1.png",
+    "image_name": "313-1.png"
+  },
+  {
+    "id": 1883,
+    "query": "这张图看起来像是住宅区吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/550-2.png",
+    "image_name": "550-2.png"
+  },
+  {
+    "id": 1893,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/10-2.png",
+    "image_name": "10-2.png"
+  },
+  {
+    "id": 1903,
+    "query": "这些建筑是斜的，能不能检测一下？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/10-2.png",
+    "image_name": "10-2.png"
+  },
+  {
+    "id": 1913,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/571-1.png",
+    "image_name": "571-1.png"
+  },
+  {
+    "id": 1923,
+    "query": "图片有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/352-2.png",
+    "image_name": "352-2.png"
+  },
+  {
+    "id": 1933,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/116-0.png",
+    "image_name": "116-0.png"
+  },
+  {
+    "id": 1943,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/551-1.png",
+    "image_name": "551-1.png"
+  },
+  {
+    "id": 1953,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/A/231-1.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/B/231-1.png"
+    ],
+    "image_name": "231-1.png"
+  },
+  {
+    "id": 1963,
+    "query": "能让这个田地的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1149-2.png",
+    "image_name": "1149-2.png"
+  },
+  {
+    "id": 1973,
+    "query": "这里有多少个蓝色的帐篷？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/922-2.png",
+    "image_name": "922-2.png"
+  },
+  {
+    "id": 1983,
+    "query": "能找出图中的目标位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1066-0.png",
+    "image_name": "1066-0.png"
+  },
+  {
+    "id": 1993,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/887-1.png",
+    "image_name": "887-1.png"
+  },
+  {
+    "id": 2003,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1187-1.png",
+    "image_name": "1187-1.png"
+  },
+  {
+    "id": 2013,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1187-1.png",
+    "image_name": "1187-1.png"
+  },
+  {
+    "id": 2023,
+    "query": "能找出图中横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/51-2.png",
+    "image_name": "51-2.png"
+  },
+  {
+    "id": 2033,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/154-3.png",
+    "image_name": "154-3.png"
+  },
+  {
+    "id": 2043,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/615-2.png",
+    "image_name": "615-2.png"
+  },
+  {
+    "id": 2053,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/213-0.png",
+    "image_name": "213-0.png"
+  },
+  {
+    "id": 2063,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/378-3.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/378-3.png"
+    ],
+    "image_name": "378-3.png"
+  },
+  {
+    "id": 2073,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/344-2.png",
+    "image_name": "344-2.png"
+  },
+  {
+    "id": 2083,
+    "query": "这张图里有多少个集装箱？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/989-0.png",
+    "image_name": "989-0.png"
+  },
+  {
+    "id": 2093,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/226-0.png",
+    "image_name": "226-0.png"
+  },
+  {
+    "id": 2103,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/1171-1.png",
+    "image_name": "1171-1.png"
+  },
+  {
+    "id": 2113,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/550-1.png",
+    "image_name": "550-1.png"
+  },
+  {
+    "id": 2123,
+    "query": "这棵树看起来是倾斜的，能不能检测一下？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/550-1.png",
+    "image_name": "550-1.png"
+  },
+  {
+    "id": 2133,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/591-1.png",
+    "image_name": "591-1.png"
+  },
+  {
+    "id": 2143,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/845-3.png",
+    "image_name": "845-3.png"
+  },
+  {
+    "id": 2153,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/1021-2.png",
+    "image_name": "1021-2.png"
+  },
+  {
+    "id": 2163,
+    "query": "云挡住了视线，能不能去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1045-1.png",
+    "image_name": "1045-1.png"
+  },
+  {
+    "id": 2173,
+    "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/A/369-2.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/B/369-2.png"
+    ],
+    "image_name": "369-2.png"
+  },
+  {
+    "id": 2183,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/569-3.png",
+    "image_name": "569-3.png"
+  },
+  {
+    "id": 2193,
+    "query": "这张图里有多少块石头？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/405-0.png",
+    "image_name": "405-0.png"
+  },
+  {
+    "id": 2203,
+    "query": "能找出图中的起重机和挖掘机吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/136-2.png",
+    "image_name": "136-2.png"
+  },
+  {
+    "id": 2213,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/266-3.png",
+    "image_name": "266-3.png"
+  },
+  {
+    "id": 2223,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/210-0.png",
+    "image_name": "210-0.png"
+  },
+  {
+    "id": 2233,
+    "query": "这些建筑是斜的，能不能检测一下？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/210-0.png",
+    "image_name": "210-0.png"
+  },
+  {
+    "id": 2243,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/825-3.png",
+    "image_name": "825-3.png"
+  },
+  {
+    "id": 2253,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1114-3.png",
+    "image_name": "1114-3.png"
+  },
+  {
+    "id": 2263,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/145-2.png",
+    "image_name": "145-2.png"
+  },
+  {
+    "id": 2273,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/338-3.png",
+    "image_name": "338-3.png"
+  },
+  {
+    "id": 2283,
+    "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/683-3.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/683-3.png"
+    ],
+    "image_name": "683-3.png"
+  },
+  {
+    "id": 2293,
+    "query": "能让这个图像的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/657-2.png",
+    "image_name": "657-2.png"
+  },
+  {
+    "id": 2303,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/575-3.png",
+    "image_name": "575-3.png"
+  },
+  {
+    "id": 2313,
+    "query": "能标出图中的红色汽车位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/302-0.png",
+    "image_name": "302-0.png"
+  },
+  {
+    "id": 2323,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/303-0.png",
+    "image_name": "303-0.png"
+  },
+  {
+    "id": 2333,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/276-3.png",
+    "image_name": "276-3.png"
+  },
+  {
+    "id": 2343,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/276-3.png",
+    "image_name": "276-3.png"
+  },
+  {
+    "id": 2353,
+    "query": "这张图里有没有水平方向的建筑？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/428-3.png",
+    "image_name": "428-3.png"
+  },
+  {
+    "id": 2363,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/336-3.png",
+    "image_name": "336-3.png"
+  },
+  {
+    "id": 2373,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/377-1.png",
+    "image_name": "377-1.png"
+  },
+  {
+    "id": 2383,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/635-3.png",
+    "image_name": "635-3.png"
+  },
+  {
+    "id": 2393,
+    "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/A/82-3.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/B/82-3.png"
+    ],
+    "image_name": "82-3.png"
+  },
+  {
+    "id": 2403,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/590-2.png",
+    "image_name": "590-2.png"
+  },
+  {
+    "id": 2413,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/472-2.png",
+    "image_name": "472-2.png"
+  },
+  {
+    "id": 2423,
+    "query": "能标出图中的树木和建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/10-3.png",
+    "image_name": "10-3.png"
+  },
+  {
+    "id": 2433,
+    "query": "这张图看起来像是什么地方？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/577-3.png",
+    "image_name": "577-3.png"
+  },
+  {
+    "id": 2443,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1059-0.png",
+    "image_name": "1059-0.png"
+  },
+  {
+    "id": 2453,
+    "query": "这棵树看起来歪了，能检查一下吗？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1059-0.png",
+    "image_name": "1059-0.png"
+  },
+  {
+    "id": 2463,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/77-3.png",
+    "image_name": "77-3.png"
+  },
+  {
+    "id": 2473,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1087-2.png",
+    "image_name": "1087-2.png"
+  },
+  {
+    "id": 2483,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/221-3.png",
+    "image_name": "221-3.png"
+  },
+  {
+    "id": 2493,
+    "query": "这张图上有云，能不能把云去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/618-0.png",
+    "image_name": "618-0.png"
+  },
+  {
+    "id": 2503,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/665-0.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/665-0.png"
+    ],
+    "image_name": "665-0.png"
+  },
+  {
+    "id": 2514,
+    "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/537-0.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/537-0.png"
+    ],
+    "image_name": "537-0.png"
+  },
+  {
+    "id": 2524,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/275-1.png",
+    "image_name": "275-1.png"
+  },
+  {
+    "id": 2534,
+    "query": "这张图里有多少棵树？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/451-2.png",
+    "image_name": "451-2.png"
+  },
+  {
+    "id": 2544,
+    "query": "能标出图中的汽车位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/39-0.png",
+    "image_name": "39-0.png"
+  },
+  {
+    "id": 2554,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/618-1.png",
+    "image_name": "618-1.png"
+  },
+  {
+    "id": 2564,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/122-3.png",
+    "image_name": "122-3.png"
+  },
+  {
+    "id": 2574,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/122-3.png",
+    "image_name": "122-3.png"
+  },
+  {
+    "id": 2584,
+    "query": "能找出路上的车辆吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/141-0.png",
+    "image_name": "141-0.png"
+  },
+  {
+    "id": 2594,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/401-2.png",
+    "image_name": "401-2.png"
+  },
+  {
+    "id": 2604,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/838-0.png",
+    "image_name": "838-0.png"
+  },
+  {
+    "id": 2614,
+    "query": "这张图上有云，能不能去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/264-3.png",
+    "image_name": "264-3.png"
+  },
+  {
+    "id": 2624,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/198-3.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/198-3.png"
+    ],
+    "image_name": "198-3.png"
+  },
+  {
+    "id": 2634,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/355-1.png",
+    "image_name": "355-1.png"
+  },
+  {
+    "id": 2644,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/308-3.png",
+    "image_name": "308-3.png"
+  },
+  {
+    "id": 2654,
+    "query": "能找出图中的目标位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/920-2.png",
+    "image_name": "920-2.png"
+  },
+  {
+    "id": 2664,
+    "query": "这张图看起来像是什么类型的区域？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1022-2.png",
+    "image_name": "1022-2.png"
+  },
+  {
+    "id": 2674,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/634-0.png",
+    "image_name": "634-0.png"
+  },
+  {
+    "id": 2684,
+    "query": "这些建筑是斜的，能不能检测一下？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/634-0.png",
+    "image_name": "634-0.png"
+  },
+  {
+    "id": 2694,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/614-0.png",
+    "image_name": "614-0.png"
+  },
+  {
+    "id": 2704,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/261-3.png",
+    "image_name": "261-3.png"
+  },
+  {
+    "id": 2714,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/710-3.png",
+    "image_name": "710-3.png"
+  },
+  {
+    "id": 2724,
+    "query": "这张图上有云，能不能把云去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/408-1.png",
+    "image_name": "408-1.png"
+  },
+  {
+    "id": 2734,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/A/412-2.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/B/412-2.png"
+    ],
+    "image_name": "412-2.png"
+  },
+  {
+    "id": 2744,
+    "query": "能让这个树的轮廓更清楚吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1004-3.png",
+    "image_name": "1004-3.png"
+  },
+  {
+    "id": 2754,
+    "query": "这张图里有多少个圆形标记？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/404-2.png",
+    "image_name": "404-2.png"
+  },
+  {
+    "id": 2764,
+    "query": "能找出图中的红色车辆吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/949-3.png",
+    "image_name": "949-3.png"
+  },
+  {
+    "id": 2774,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/363-0.png",
+    "image_name": "363-0.png"
+  },
+  {
+    "id": 2784,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/62-1.png",
+    "image_name": "62-1.png"
+  },
+  {
+    "id": 2794,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/62-1.png",
+    "image_name": "62-1.png"
+  },
+  {
+    "id": 2804,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/533-1.png",
+    "image_name": "533-1.png"
+  },
+  {
+    "id": 2814,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/408-3.png",
+    "image_name": "408-3.png"
+  },
+  {
+    "id": 2824,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/659-1.png",
+    "image_name": "659-1.png"
+  },
+  {
+    "id": 2834,
+    "query": "这张图上有云，能不能把云去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/488-3.png",
+    "image_name": "488-3.png"
+  },
+  {
+    "id": 2844,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/504-1.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/504-1.png"
+    ],
+    "image_name": "504-1.png"
+  },
+  {
+    "id": 2854,
+    "query": "能让这个路口的线条更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/43-2.png",
+    "image_name": "43-2.png"
+  },
+  {
+    "id": 2864,
+    "query": "这张图上有多少辆车？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/995-0.png",
+    "image_name": "995-0.png"
+  },
+  {
+    "id": 2874,
+    "query": "能标出图中的建筑物位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/472-3.png",
+    "image_name": "472-3.png"
+  },
+  {
+    "id": 2884,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/405-2.png",
+    "image_name": "405-2.png"
+  },
+  {
+    "id": 2894,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1144-0.png",
+    "image_name": "1144-0.png"
+  },
+  {
+    "id": 2904,
+    "query": "这张图里的道路是倾斜的，能识别出来吗？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1144-0.png",
+    "image_name": "1144-0.png"
+  },
+  {
+    "id": 2914,
+    "query": "这张图上有没有水平方向的建筑？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/404-1.png",
+    "image_name": "404-1.png"
+  },
+  {
+    "id": 2924,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/755-0.png",
+    "image_name": "755-0.png"
+  },
+  {
+    "id": 2934,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1044-0.png",
+    "image_name": "1044-0.png"
+  },
+  {
+    "id": 2944,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/273-0.png",
+    "image_name": "273-0.png"
+  },
+  {
+    "id": 2954,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/786-3.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/786-3.png"
+    ],
+    "image_name": "786-3.png"
+  },
+  {
+    "id": 2964,
+    "query": "能让这个裂缝的边缘更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1049-2.png",
+    "image_name": "1049-2.png"
+  },
+  {
+    "id": 2974,
+    "query": "这里有多少个房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/334-3.png",
+    "image_name": "334-3.png"
+  },
+  {
+    "id": 2984,
+    "query": "能标出图中的房子位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/253-3.png",
+    "image_name": "253-3.png"
+  },
+  {
+    "id": 2994,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/863-2.png",
+    "image_name": "863-2.png"
+  },
+  {
+    "id": 3004,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/536-0.png",
+    "image_name": "536-0.png"
+  },
+  {
+    "id": 3014,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/536-0.png",
+    "image_name": "536-0.png"
+  },
+  {
+    "id": 3024,
+    "query": "能找出横向的铁路吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/546-0.png",
+    "image_name": "546-0.png"
+  },
+  {
+    "id": 3034,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/348-0.png",
+    "image_name": "348-0.png"
+  },
+  {
+    "id": 3044,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/251-2.png",
+    "image_name": "251-2.png"
+  },
+  {
+    "id": 3054,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/588-0.png",
+    "image_name": "588-0.png"
+  },
+  {
+    "id": 3064,
+    "query": "这两张图中间发生了什么变化？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/A/54-0.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/test/B/54-0.png"
+    ],
+    "image_name": "54-0.png"
+  },
+  {
+    "id": 3074,
+    "query": "能让这个停车场的轮廓更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/113-3.png",
+    "image_name": "113-3.png"
+  },
+  {
+    "id": 3084,
+    "query": "这张图里有多少块农田？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/274.png",
+    "image_name": "274.png"
+  },
+  {
+    "id": 3094,
+    "query": "能标出图中的湖泊和道路吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2529.png",
+    "image_name": "2529.png"
+  },
+  {
+    "id": 3104,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3173.png",
+    "image_name": "3173.png"
+  },
+  {
+    "id": 3114,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3166.png",
+    "image_name": "3166.png"
+  },
+  {
+    "id": 3124,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3166.png",
+    "image_name": "3166.png"
+  },
+  {
+    "id": 3134,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3250.png",
+    "image_name": "3250.png"
+  },
+  {
+    "id": 3144,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/161.png",
+    "image_name": "161.png"
+  },
+  {
+    "id": 3154,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/677.png",
+    "image_name": "677.png"
+  },
+  {
+    "id": 3164,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1639.png",
+    "image_name": "1639.png"
+  },
+  {
+    "id": 3174,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3342.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/3342.png"
+    ],
+    "image_name": "3342.png"
+  },
+  {
+    "id": 3184,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2957.png",
+    "image_name": "2957.png"
+  },
+  {
+    "id": 3194,
+    "query": "这张图里有多少栋建筑？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/90.png",
+    "image_name": "90.png"
+  },
+  {
+    "id": 3204,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1776.png",
+    "image_name": "1776.png"
+  },
+  {
+    "id": 3214,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3276.png",
+    "image_name": "3276.png"
+  },
+  {
+    "id": 3224,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1091.png",
+    "image_name": "1091.png"
+  },
+  {
+    "id": 3234,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1091.png",
+    "image_name": "1091.png"
+  },
+  {
+    "id": 3244,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1925.png",
+    "image_name": "1925.png"
+  },
+  {
+    "id": 3254,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3560.png",
+    "image_name": "3560.png"
+  },
+  {
+    "id": 3264,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1687.png",
+    "image_name": "1687.png"
+  },
+  {
+    "id": 3274,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3345.png",
+    "image_name": "3345.png"
+  },
+  {
+    "id": 3284,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2834.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/2834.png"
+    ],
+    "image_name": "2834.png"
+  },
+  {
+    "id": 3294,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1134.png",
+    "image_name": "1134.png"
+  },
+  {
+    "id": 3304,
+    "query": "这里有多少个蓝色屋顶的房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2112.png",
+    "image_name": "2112.png"
+  },
+  {
+    "id": 3314,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3918.png",
+    "image_name": "3918.png"
+  },
+  {
+    "id": 3324,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3896.png",
+    "image_name": "3896.png"
+  },
+  {
+    "id": 3334,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/86.png",
+    "image_name": "86.png"
+  },
+  {
+    "id": 3345,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2893.png",
+    "image_name": "2893.png"
+  },
+  {
+    "id": 3355,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2893.png",
+    "image_name": "2893.png"
+  },
+  {
+    "id": 3365,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/660.png",
+    "image_name": "660.png"
+  },
+  {
+    "id": 3375,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/828.png",
+    "image_name": "828.png"
+  },
+  {
+    "id": 3385,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3226.png",
+    "image_name": "3226.png"
+  },
+  {
+    "id": 3395,
+    "query": "云遮住了，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2603.png",
+    "image_name": "2603.png"
+  },
+  {
+    "id": 3405,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2143.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/2143.png"
+    ],
+    "image_name": "2143.png"
+  },
+  {
+    "id": 3415,
+    "query": "能让这个机场跑道的轮廓更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/535.png",
+    "image_name": "535.png"
+  },
+  {
+    "id": 3425,
+    "query": "这张图里有多少个蓝色的方块？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2256.png",
+    "image_name": "2256.png"
+  },
+  {
+    "id": 3435,
+    "query": "能标出图中的建筑物位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1159.png",
+    "image_name": "1159.png"
+  },
+  {
+    "id": 3445,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2325.png",
+    "image_name": "2325.png"
+  },
+  {
+    "id": 3455,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1326.png",
+    "image_name": "1326.png"
+  },
+  {
+    "id": 3465,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1326.png",
+    "image_name": "1326.png"
+  },
+  {
+    "id": 3475,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1239.png",
+    "image_name": "1239.png"
+  },
+  {
+    "id": 3485,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/211.png",
+    "image_name": "211.png"
+  },
+  {
+    "id": 3495,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1341.png",
+    "image_name": "1341.png"
+  },
+  {
+    "id": 3505,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3441.png",
+    "image_name": "3441.png"
+  },
+  {
+    "id": 3515,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/1466.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/val/B/1466.png"
+    ],
+    "image_name": "1466.png"
+  },
+  {
+    "id": 3525,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2965.png",
+    "image_name": "2965.png"
+  },
+  {
+    "id": 3535,
+    "query": "这张图里有多少个建筑物？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/261.png",
+    "image_name": "261.png"
+  },
+  {
+    "id": 3545,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1244.png",
+    "image_name": "1244.png"
+  },
+  {
+    "id": 3555,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1810.png",
+    "image_name": "1810.png"
+  },
+  {
+    "id": 3565,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3542.png",
+    "image_name": "3542.png"
+  },
+  {
+    "id": 3575,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3542.png",
+    "image_name": "3542.png"
+  },
+  {
+    "id": 3585,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/128.png",
+    "image_name": "128.png"
+  },
+  {
+    "id": 3595,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1998.png",
+    "image_name": "1998.png"
+  },
+  {
+    "id": 3605,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/358.png",
+    "image_name": "358.png"
+  },
+  {
+    "id": 3615,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/611.png",
+    "image_name": "611.png"
+  },
+  {
+    "id": 3625,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3027.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/3027.png"
+    ],
+    "image_name": "3027.png"
+  },
+  {
+    "id": 3635,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3912.png",
+    "image_name": "3912.png"
+  },
+  {
+    "id": 3645,
+    "query": "这里有多少个农场？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/test/A/3.png",
+    "image_name": "3.png"
+  },
+  {
+    "id": 3655,
+    "query": "能找出图中的湖泊和道路吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3552.png",
+    "image_name": "3552.png"
+  },
+  {
+    "id": 3665,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1069.png",
+    "image_name": "1069.png"
+  },
+  {
+    "id": 3675,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3914.png",
+    "image_name": "3914.png"
+  },
+  {
+    "id": 3685,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3914.png",
+    "image_name": "3914.png"
+  },
+  {
+    "id": 3695,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1832.png",
+    "image_name": "1832.png"
+  },
+  {
+    "id": 3705,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3306.png",
+    "image_name": "3306.png"
+  },
+  {
+    "id": 3715,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/468.png",
+    "image_name": "468.png"
+  },
+  {
+    "id": 3725,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3423.png",
+    "image_name": "3423.png"
+  },
+  {
+    "id": 3735,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2263.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/2263.png"
+    ],
+    "image_name": "2263.png"
+  },
+  {
+    "id": 3745,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3192.png",
+    "image_name": "3192.png"
+  },
+  {
+    "id": 3755,
+    "query": "这里有多少个村庄？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1157.png",
+    "image_name": "1157.png"
+  },
+  {
+    "id": 3765,
+    "query": "能找出图中的学校和运动场吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1144.png",
+    "image_name": "1144.png"
+  },
+  {
+    "id": 3775,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/test/A/5.png",
+    "image_name": "5.png"
+  },
+  {
+    "id": 3785,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2808.png",
+    "image_name": "2808.png"
+  },
+  {
+    "id": 3795,
+    "query": "这些建筑是倾斜的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2808.png",
+    "image_name": "2808.png"
+  },
+  {
+    "id": 3805,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3595.png",
+    "image_name": "3595.png"
+  },
+  {
+    "id": 3815,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1664.png",
+    "image_name": "1664.png"
+  },
+  {
+    "id": 3825,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1986.png",
+    "image_name": "1986.png"
+  },
+  {
+    "id": 3835,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1198.png",
+    "image_name": "1198.png"
+  },
+  {
+    "id": 3845,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/165.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/165.png"
+    ],
+    "image_name": "165.png"
+  },
+  {
+    "id": 3855,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2516.png",
+    "image_name": "2516.png"
+  },
+  {
+    "id": 3865,
+    "query": "这里有多少栋房子？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/904.png",
+    "image_name": "904.png"
+  },
+  {
+    "id": 3875,
+    "query": "能标出图中的建筑物位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2391.png",
+    "image_name": "2391.png"
+  },
+  {
+    "id": 3885,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/933.png",
+    "image_name": "933.png"
+  },
+  {
+    "id": 3895,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/9.png",
+    "image_name": "9.png"
+  },
+  {
+    "id": 3905,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/9.png",
+    "image_name": "9.png"
+  },
+  {
+    "id": 3915,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/3828.png",
+    "image_name": "3828.png"
+  },
+  {
+    "id": 3925,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1989.png",
+    "image_name": "1989.png"
+  },
+  {
+    "id": 3935,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3770.png",
+    "image_name": "3770.png"
+  },
+  {
+    "id": 3945,
+    "query": "这张图上有云，能不能把云去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/13.png",
+    "image_name": "13.png"
+  },
+  {
+    "id": 3955,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1703.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/1703.png"
+    ],
+    "image_name": "1703.png"
+  },
+  {
+    "id": 3965,
+    "query": "能让这个道路的轮廓更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2787.png",
+    "image_name": "2787.png"
+  },
+  {
+    "id": 3975,
+    "query": "这里有多少个湖泊？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3888.png",
+    "image_name": "3888.png"
+  },
+  {
+    "id": 3985,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3401.png",
+    "image_name": "3401.png"
+  },
+  {
+    "id": 3995,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2573.png",
+    "image_name": "2573.png"
+  },
+  {
+    "id": 4005,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1923.png",
+    "image_name": "1923.png"
+  },
+  {
+    "id": 4015,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1923.png",
+    "image_name": "1923.png"
+  },
+  {
+    "id": 4025,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2974.png",
+    "image_name": "2974.png"
+  },
+  {
+    "id": 4035,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3140.png",
+    "image_name": "3140.png"
+  },
+  {
+    "id": 4045,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3372.png",
+    "image_name": "3372.png"
+  },
+  {
+    "id": 4055,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1506.png",
+    "image_name": "1506.png"
+  },
+  {
+    "id": 4065,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/301.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/301.png"
+    ],
+    "image_name": "301.png"
+  },
+  {
+    "id": 4075,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/896.png",
+    "image_name": "896.png"
+  },
+  {
+    "id": 4085,
+    "query": "这张图里有多少个农场？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3937.png",
+    "image_name": "3937.png"
+  },
+  {
+    "id": 4095,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/69.png",
+    "image_name": "69.png"
+  },
+  {
+    "id": 4105,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2037.png",
+    "image_name": "2037.png"
+  },
+  {
+    "id": 4115,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3274.png",
+    "image_name": "3274.png"
+  },
+  {
+    "id": 4125,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3274.png",
+    "image_name": "3274.png"
+  },
+  {
+    "id": 4135,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2493.png",
+    "image_name": "2493.png"
+  },
+  {
+    "id": 4145,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1839.png",
+    "image_name": "1839.png"
+  },
+  {
+    "id": 4155,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/473.png",
+    "image_name": "473.png"
+  },
+  {
+    "id": 4165,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/538.png",
+    "image_name": "538.png"
+  },
+  {
+    "id": 4175,
+    "query": "这两张图看起来不一样，能看出有什么变化吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3826.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/3826.png"
+    ],
+    "image_name": "3826.png"
+  },
+  {
+    "id": 4186,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/817.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/817.png"
+    ],
+    "image_name": "817.png"
+  },
+  {
+    "id": 4196,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1971.png",
+    "image_name": "1971.png"
+  },
+  {
+    "id": 4206,
+    "query": "这里有多少个湖泊？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2579.png",
+    "image_name": "2579.png"
+  },
+  {
+    "id": 4216,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1485.png",
+    "image_name": "1485.png"
+  },
+  {
+    "id": 4226,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2641.png",
+    "image_name": "2641.png"
+  },
+  {
+    "id": 4236,
+    "query": "能描述一下这张图吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/678.png",
+    "image_name": "678.png"
+  },
+  {
+    "id": 4246,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/678.png",
+    "image_name": "678.png"
+  },
+  {
+    "id": 4256,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1766.png",
+    "image_name": "1766.png"
+  },
+  {
+    "id": 4266,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3599.png",
+    "image_name": "3599.png"
+  },
+  {
+    "id": 4276,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/372.png",
+    "image_name": "372.png"
+  },
+  {
+    "id": 4286,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2933.png",
+    "image_name": "2933.png"
+  },
+  {
+    "id": 4296,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2767.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/2767.png"
+    ],
+    "image_name": "2767.png"
+  },
+  {
+    "id": 4306,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1088.png",
+    "image_name": "1088.png"
+  },
+  {
+    "id": 4316,
+    "query": "这张图里有多少个建筑物？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/1984.png",
+    "image_name": "1984.png"
+  },
+  {
+    "id": 4326,
+    "query": "能标出图中的建筑物位置吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1246.png",
+    "image_name": "1246.png"
+  },
+  {
+    "id": 4336,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2854.png",
+    "image_name": "2854.png"
+  },
+  {
+    "id": 4346,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3449.png",
+    "image_name": "3449.png"
+  },
+  {
+    "id": 4356,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3449.png",
+    "image_name": "3449.png"
+  },
+  {
+    "id": 4366,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/947.png",
+    "image_name": "947.png"
+  },
+  {
+    "id": 4376,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2886.png",
+    "image_name": "2886.png"
+  },
+  {
+    "id": 4386,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2910.png",
+    "image_name": "2910.png"
+  },
+  {
+    "id": 4396,
+    "query": "云挡住了视线，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/527.png",
+    "image_name": "527.png"
+  },
+  {
+    "id": 4406,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3634.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/3634.png"
+    ],
+    "image_name": "3634.png"
+  },
+  {
+    "id": 4416,
+    "query": "能让这个图的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/716.png",
+    "image_name": "716.png"
+  },
+  {
+    "id": 4426,
+    "query": "这里有多少个建筑物？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/298.png",
+    "image_name": "298.png"
+  },
+  {
+    "id": 4436,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/370.png",
+    "image_name": "370.png"
+  },
+  {
+    "id": 4446,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1974.png",
+    "image_name": "1974.png"
+  },
+  {
+    "id": 4456,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3426.png",
+    "image_name": "3426.png"
+  },
+  {
+    "id": 4466,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3426.png",
+    "image_name": "3426.png"
+  },
+  {
+    "id": 4476,
+    "query": "能找出图中水平方向的路吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2471.png",
+    "image_name": "2471.png"
+  },
+  {
+    "id": 4486,
+    "query": "这张图看起来有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1894.png",
+    "image_name": "1894.png"
+  },
+  {
+    "id": 4496,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2328.png",
+    "image_name": "2328.png"
+  },
+  {
+    "id": 4506,
+    "query": "云遮住了，能不能把它们去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2331.png",
+    "image_name": "2331.png"
+  },
+  {
+    "id": 4516,
+    "query": "这两张图看起来不一样，能帮我分析一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2907.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/2907.png"
+    ],
+    "image_name": "2907.png"
+  },
+  {
+    "id": 4526,
+    "query": "能让这个区域的边界更清晰吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3798.png",
+    "image_name": "3798.png"
+  },
+  {
+    "id": 4536,
+    "query": "这里有多少个建筑物？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/753.png",
+    "image_name": "753.png"
+  },
+  {
+    "id": 4546,
+    "query": "能找出图中的建筑物吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1093.png",
+    "image_name": "1093.png"
+  },
+  {
+    "id": 4556,
+    "query": "这张图看起来像是哪里？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1859.png",
+    "image_name": "1859.png"
+  },
+  {
+    "id": 4566,
+    "query": "能描述一下这张图的内容吗？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3567.png",
+    "image_name": "3567.png"
+  },
+  {
+    "id": 4576,
+    "query": "这些建筑是斜着的，能不能检测出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3567.png",
+    "image_name": "3567.png"
+  },
+  {
+    "id": 4586,
+    "query": "能找出横向的建筑吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/2766.png",
+    "image_name": "2766.png"
+  },
+  {
+    "id": 4596,
+    "query": "这张图有点模糊，能处理一下吗？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/243.png",
+    "image_name": "243.png"
+  },
+  {
+    "id": 4606,
+    "query": "这张图有点模糊，能不能变得更清晰一些？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/838.png",
+    "image_name": "838.png"
+  },
+  {
+    "id": 4616,
+    "query": "这张图上有云，能不能去掉？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2716.png",
+    "image_name": "2716.png"
+  },
+  {
+    "id": 4626,
+    "query": "这两张图看起来有点不一样，感觉可能是这个地方发生了变化，你能帮我仔细对比一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006830.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_006830.png"
+    ],
+    "image_name": "train_006830.png"
+  },
+  {
+    "id": 4636,
+    "query": "这张图的边界看起来不太清晰，感觉是不是可以让我看到更明显的边缘轮廓呢？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007152.png",
+    "image_name": "train_007152.png"
+  },
+  {
+    "id": 4646,
+    "query": "这张图里感觉有很多树，但数不清楚到底有多少棵，能帮我统计一下吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001828.png",
+    "image_name": "train_001828.png"
+  },
+  {
+    "id": 4656,
+    "query": "我想看看这张图里有哪些建筑物，感觉可能有几栋，但不太清楚具体位置，能帮我标注一下吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003186.png",
+    "image_name": "train_003186.png"
+  },
+  {
+    "id": 4666,
+    "query": "这张图看起来不太清楚是什么地方，感觉可能是城市还是农村，能帮我判断一下吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_006160.png",
+    "image_name": "train_006160.png"
+  },
+  {
+    "id": 4676,
+    "query": "我看到这张图感觉像是荒地，但不太清楚具体是什么地方，能不能用文字描述一下里面有什么？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001950.png",
+    "image_name": "test_001950.png"
+  },
+  {
+    "id": 4686,
+    "query": "这张图里有一些斜着的建筑，感觉是不是可以用某种工具把它们都找出来呢？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/test/A/test_001950.png",
+    "image_name": "test_001950.png"
+  },
+  {
+    "id": 4696,
+    "query": "我想看看这张图里有没有横向摆放的房子，感觉可能有一些，能帮我检测一下吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_002542.png",
+    "image_name": "train_002542.png"
+  },
+  {
+    "id": 4706,
+    "query": "这张图感觉有点模糊，是不是有很多小颗粒和杂点，能不能帮我清理一下让它更清晰？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_007293.png",
+    "image_name": "train_007293.png"
+  },
+  {
+    "id": 4716,
+    "query": "这张图看起来有点模糊，感觉是不是可以变得更清晰一些呢？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_001380.png",
+    "image_name": "train_001380.png"
+  },
+  {
+    "id": 4726,
+    "query": "这张图上面有些云挡住了，看不清下面的内容，能不能把云层去掉让我看得更清楚？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003968.png",
+    "image_name": "train_003968.png"
+  },
+  {
+    "id": 4736,
+    "query": "这两张图看起来有点不一样，感觉可能是这个地方最近有了些变化，不知道具体哪里变了，能帮我仔细对比一下吗？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_003386.png",
+      "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/B/train_003386.png"
+    ],
+    "image_name": "train_003386.png"
+  },
+  {
+    "id": 4746,
+    "query": "这张图的边缘轮廓不太明显，感觉是不是可以处理一下让它们更清楚一些呢？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/LEVIR-MCI-dataset/images/train/A/train_005763.png",
+    "image_name": "train_005763.png"
+  },
+  {
+    "id": 4756,
+    "query": "这张图里感觉有很多小点，是不是可以帮我数一数到底有多少个？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/419-2.png",
+    "image_name": "419-2.png"
+  },
+  {
+    "id": 4766,
+    "query": "我想看看这张图里有哪些建筑物，感觉可能有好几栋，能帮我标注一下吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/val/A/223-0.png",
+    "image_name": "223-0.png"
+  },
+  {
+    "id": 4776,
+    "query": "这张图看起来像是个住宅区，感觉可能是郊区，能帮我判断一下吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/528-2.png",
+    "image_name": "528-2.png"
+  },
+  {
+    "id": 4786,
+    "query": "我看到这张图上有一些东西，但不太清楚具体是什么，能不能用文字描述一下里面都有些什么？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/899-0.png",
+    "image_name": "899-0.png"
+  },
+  {
+    "id": 4796,
+    "query": "这张图里有一些斜着的建筑，感觉可能是被旋转了，能不能帮我把它们找出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/899-0.png",
+    "image_name": "899-0.png"
+  },
+  {
+    "id": 4806,
+    "query": "我想看看这张图里有没有横向摆放的建筑物，感觉可能有一些，能帮我检测一下吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/28-0.png",
+    "image_name": "28-0.png"
+  },
+  {
+    "id": 4816,
+    "query": "这张图感觉有点模糊，是不是可以帮我清理一下，让它看起来更清晰一点？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/893-2.png",
+    "image_name": "893-2.png"
+  },
+  {
+    "id": 4826,
+    "query": "这张图看起来有点模糊，感觉是不是可以把它变得更高清一些呢？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/335-0.png",
+    "image_name": "335-0.png"
+  },
+  {
+    "id": 4836,
+    "query": "这张图上面有些云挡住了，看不清下面的内容，能不能把云层去掉让我看得更清楚？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/542-0.png",
+    "image_name": "542-0.png"
+  },
+  {
+    "id": 4846,
+    "query": "这两张图看起来有点不一样，感觉可能是这个地方最近有了些变化，能不能帮我仔细对比一下？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/A/874-1.png",
+      "/root/autodl-tmp/datasets/WHU-CD-256/train/B/874-1.png"
+    ],
+    "image_name": "874-1.png"
+  },
+  {
+    "id": 4856,
+    "query": "这张图的边界看起来不太清晰，感觉是不是可以做一些处理让它们更明显一些呢？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/1083-1.png",
+    "image_name": "1083-1.png"
+  },
+  {
+    "id": 4866,
+    "query": "这张图里好像有很多罐子，但我不太清楚到底有多少个，能帮我统计一下吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/test/A/63-2.png",
+    "image_name": "63-2.png"
+  },
+  {
+    "id": 4876,
+    "query": "我想看看这张图里有没有建筑物，感觉可能有一些，但不太清楚，能帮我标注一下吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/WHU-CD-256/train/A/981-2.png",
+    "image_name": "981-2.png"
+  },
+  {
+    "id": 4886,
+    "query": "这张图看起来不太清楚是什么地方，感觉可能是城市还是农村，能帮我判断一下吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/217.png",
+    "image_name": "217.png"
+  },
+  {
+    "id": 4896,
+    "query": "我看到这张图上有许多建筑物，感觉像是一个小镇，是不是可以帮我描述一下里面都有些什么东西？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3855.png",
+    "image_name": "3855.png"
+  },
+  {
+    "id": 4906,
+    "query": "这张图里有一些斜着的建筑，感觉像是被旋转了，能不能帮我把它们找出来？",
+    "tool": "RotatedDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3855.png",
+    "image_name": "3855.png"
+  },
+  {
+    "id": 4916,
+    "query": "我想看看这张图里有没有横向排列的田地，感觉可能是农业用地，能帮我检测一下吗？",
+    "tool": "HorizontalDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/574.png",
+    "image_name": "574.png"
+  },
+  {
+    "id": 4926,
+    "query": "这张图感觉有点模糊，是不是可以帮我清理一下，让它看起来更清晰一点？",
+    "tool": "Denoising",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3272.png",
+    "image_name": "3272.png"
+  },
+  {
+    "id": 4936,
+    "query": "这张图看起来有点模糊，感觉是不是可以把它变得更高清一些呢？",
+    "tool": "SuperResolution",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3812.png",
+    "image_name": "3812.png"
+  },
+  {
+    "id": 4946,
+    "query": "这张图上面有些云挡住了，看不清下面的内容，能不能把云层去掉让我看得更清楚？",
+    "tool": "CloudRemoval",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/631.png",
+    "image_name": "631.png"
+  },
+  {
+    "id": 4956,
+    "query": "这两张图看起来有点不一样，感觉可能是这片区域发生了变化，能不能帮我仔细对比一下？",
+    "tool": "ChangeDetection",
+    "image": [
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/220.png",
+      "/root/autodl-tmp/datasets/DSIFN-CD-256/train/B/220.png"
+    ],
+    "image_name": "220.png"
+  },
+  {
+    "id": 4966,
+    "query": "这张图的边界轮廓看起来不太明显，感觉是不是可以更清楚一些，能处理一下吗？",
+    "tool": "EdgeDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2896.png",
+    "image_name": "2896.png"
+  },
+  {
+    "id": 4976,
+    "query": "这张图里感觉有很多房子，但数不清楚到底有多少个，能帮我统计一下吗？",
+    "tool": "ObjectCounting",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1623.png",
+    "image_name": "1623.png"
+  },
+  {
+    "id": 4986,
+    "query": "我想找出这张图里的建筑物都在哪些位置，但自己看不太清楚，能帮我标注一下吗？",
+    "tool": "ObjectDetection",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1022.png",
+    "image_name": "1022.png"
+  },
+  {
+    "id": 4996,
+    "query": "这张图看起来不太清楚是什么地方，感觉可能是城市还是农村，能帮我判断一下吗？",
+    "tool": "SceneClassification",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1934.png",
+    "image_name": "1934.png"
+  },
+  {
+    "id": 5006,
+    "query": "我看到一张卫星图，感觉像是一个机场附近的地方，是不是可以帮我描述一下里面都有些什么？",
+    "tool": "ImageCaptioning",
+    "image": "/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3348.png",
+    "image_name": "3348.png"
+  }
+]

@@ -1,0 +1,1148 @@
+{
+  "mode": "优化模式",
+  "enable_optimization": true,
+  "test_file": "QAjsons/multiturn_qa_dataset_990.json",
+  "sample_limit": 99,
+  "last_completed_idx": 98,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "turns": []
+    },
+    {
+      "sample_id": 2,
+      "sample_idx": 1,
+      "turns": []
+    },
+    {
+      "sample_id": 3,
+      "sample_idx": 2,
+      "turns": []
+    },
+    {
+      "sample_id": 4,
+      "sample_idx": 3,
+      "turns": []
+    },
+    {
+      "sample_id": 5,
+      "sample_idx": 4,
+      "turns": []
+    },
+    {
+      "sample_id": 6,
+      "sample_idx": 5,
+      "turns": []
+    },
+    {
+      "sample_id": 7,
+      "sample_idx": 6,
+      "turns": []
+    },
+    {
+      "sample_id": 8,
+      "sample_idx": 7,
+      "turns": []
+    },
+    {
+      "sample_id": 9,
+      "sample_idx": 8,
+      "turns": []
+    },
+    {
+      "sample_id": 10,
+      "sample_idx": 9,
+      "turns": []
+    },
+    {
+      "sample_id": 11,
+      "sample_idx": 10,
+      "turns": []
+    },
+    {
+      "sample_id": 12,
+      "sample_idx": 11,
+      "turns": []
+    },
+    {
+      "sample_id": 13,
+      "sample_idx": 12,
+      "turns": []
+    },
+    {
+      "sample_id": 14,
+      "sample_idx": 13,
+      "turns": []
+    },
+    {
+      "sample_id": 15,
+      "sample_idx": 14,
+      "turns": []
+    },
+    {
+      "sample_id": 16,
+      "sample_idx": 15,
+      "turns": []
+    },
+    {
+      "sample_id": 17,
+      "sample_idx": 16,
+      "turns": []
+    },
+    {
+      "sample_id": 18,
+      "sample_idx": 17,
+      "turns": []
+    },
+    {
+      "sample_id": 19,
+      "sample_idx": 18,
+      "turns": []
+    },
+    {
+      "sample_id": 20,
+      "sample_idx": 19,
+      "turns": []
+    },
+    {
+      "sample_id": 21,
+      "sample_idx": 20,
+      "turns": []
+    },
+    {
+      "sample_id": 22,
+      "sample_idx": 21,
+      "turns": []
+    },
+    {
+      "sample_id": 23,
+      "sample_idx": 22,
+      "turns": []
+    },
+    {
+      "sample_id": 24,
+      "sample_idx": 23,
+      "turns": []
+    },
+    {
+      "sample_id": 25,
+      "sample_idx": 24,
+      "turns": []
+    },
+    {
+      "sample_id": 26,
+      "sample_idx": 25,
+      "turns": []
+    },
+    {
+      "sample_id": 27,
+      "sample_idx": 26,
+      "turns": []
+    },
+    {
+      "sample_id": 28,
+      "sample_idx": 27,
+      "turns": []
+    },
+    {
+      "sample_id": 29,
+      "sample_idx": 28,
+      "turns": []
+    },
+    {
+      "sample_id": 30,
+      "sample_idx": 29,
+      "turns": []
+    },
+    {
+      "sample_id": 31,
+      "sample_idx": 30,
+      "turns": []
+    },
+    {
+      "sample_id": 32,
+      "sample_idx": 31,
+      "turns": []
+    },
+    {
+      "sample_id": 33,
+      "sample_idx": 32,
+      "turns": []
+    },
+    {
+      "sample_id": 34,
+      "sample_idx": 33,
+      "turns": []
+    },
+    {
+      "sample_id": 35,
+      "sample_idx": 34,
+      "turns": []
+    },
+    {
+      "sample_id": 36,
+      "sample_idx": 35,
+      "turns": []
+    },
+    {
+      "sample_id": 37,
+      "sample_idx": 36,
+      "turns": []
+    },
+    {
+      "sample_id": 38,
+      "sample_idx": 37,
+      "turns": []
+    },
+    {
+      "sample_id": 39,
+      "sample_idx": 38,
+      "turns": []
+    },
+    {
+      "sample_id": 40,
+      "sample_idx": 39,
+      "turns": []
+    },
+    {
+      "sample_id": 41,
+      "sample_idx": 40,
+      "turns": []
+    },
+    {
+      "sample_id": 42,
+      "sample_idx": 41,
+      "turns": []
+    },
+    {
+      "sample_id": 43,
+      "sample_idx": 42,
+      "turns": []
+    },
+    {
+      "sample_id": 44,
+      "sample_idx": 43,
+      "turns": []
+    },
+    {
+      "sample_id": 45,
+      "sample_idx": 44,
+      "turns": []
+    },
+    {
+      "sample_id": 46,
+      "sample_idx": 45,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SuperResolution"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 47,
+      "sample_idx": 46,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SuperResolution"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 48,
+      "sample_idx": 47,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SuperResolution"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 49,
+      "sample_idx": 48,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SceneClassification"
+          ],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 50,
+      "sample_idx": 49,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 51,
+      "sample_idx": 50,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 52,
+      "sample_idx": 51,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 53,
+      "sample_idx": 52,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SuperResolution"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 54,
+      "sample_idx": 53,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectCounting"
+          ],
+          "actual_tools": [
+            "ObjectCounting",
+            "ImageCaptioning"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 55,
+      "sample_idx": 54,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectCounting"
+          ],
+          "actual_tools": [
+            "ObjectCounting"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 56,
+      "sample_idx": 55,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SceneClassification"
+          ],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 57,
+      "sample_idx": 56,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 58,
+      "sample_idx": 57,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SuperResolution"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 59,
+      "sample_idx": 58,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 60,
+      "sample_idx": 59,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "HorizontalDetection"
+          ],
+          "actual_tools": [
+            "HorizontalDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 61,
+      "sample_idx": 60,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "RotatedDetection"
+          ],
+          "actual_tools": [
+            "RotatedDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 62,
+      "sample_idx": 61,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 63,
+      "sample_idx": 62,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SuperResolution"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 64,
+      "sample_idx": 63,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "HorizontalDetection"
+          ],
+          "actual_tools": [
+            "HorizontalDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 65,
+      "sample_idx": 64,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "Denoising"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 66,
+      "sample_idx": 65,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SuperResolution"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 67,
+      "sample_idx": 66,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectCounting"
+          ],
+          "actual_tools": [
+            "ObjectCounting"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 68,
+      "sample_idx": 67,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "HorizontalDetection"
+          ],
+          "actual_tools": [
+            "HorizontalDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 69,
+      "sample_idx": 68,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SceneClassification"
+          ],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 70,
+      "sample_idx": 69,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "RotatedDetection"
+          ],
+          "actual_tools": [
+            "RotatedDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 71,
+      "sample_idx": 70,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "HorizontalDetection"
+          ],
+          "actual_tools": [
+            "HorizontalDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 72,
+      "sample_idx": 71,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "EdgeDetection"
+          ],
+          "actual_tools": [
+            "EdgeDetection",
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 73,
+      "sample_idx": 72,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "Denoising"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 74,
+      "sample_idx": 73,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectCounting"
+          ],
+          "actual_tools": [
+            "ObjectCounting"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 75,
+      "sample_idx": 74,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectDetection"
+          ],
+          "actual_tools": [
+            "ImageCaptioning",
+            "ObjectDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 76,
+      "sample_idx": 75,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "EdgeDetection"
+          ],
+          "actual_tools": [
+            "EdgeDetection",
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 77,
+      "sample_idx": 76,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "EdgeDetection"
+          ],
+          "actual_tools": [
+            "EdgeDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 78,
+      "sample_idx": 77,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SceneClassification"
+          ],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 79,
+      "sample_idx": 78,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "Denoising"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 80,
+      "sample_idx": 79,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "HorizontalDetection"
+          ],
+          "actual_tools": [
+            "HorizontalDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 81,
+      "sample_idx": 80,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ImageCaptioning"
+          ],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 82,
+      "sample_idx": 81,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "Denoising"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 83,
+      "sample_idx": 82,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 84,
+      "sample_idx": 83,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectDetection"
+          ],
+          "actual_tools": [
+            "ObjectDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 85,
+      "sample_idx": 84,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SceneClassification"
+          ],
+          "actual_tools": [
+            "ImageCaptioning",
+            "SceneClassification"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 86,
+      "sample_idx": 85,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "RotatedDetection"
+          ],
+          "actual_tools": [
+            "RotatedDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 87,
+      "sample_idx": 86,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "Denoising"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 88,
+      "sample_idx": 87,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "Denoising"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 89,
+      "sample_idx": 88,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectDetection"
+          ],
+          "actual_tools": [
+            "ObjectDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 90,
+      "sample_idx": 89,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "Denoising"
+          ],
+          "actual_tools": [
+            "SuperResolution"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 91,
+      "sample_idx": 90,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "EdgeDetection"
+          ],
+          "actual_tools": [
+            "EdgeDetection",
+            "SuperResolution"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 92,
+      "sample_idx": 91,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectDetection"
+          ],
+          "actual_tools": [
+            "ObjectDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 93,
+      "sample_idx": 92,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "SceneClassification"
+          ],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 94,
+      "sample_idx": 93,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "CloudRemoval"
+          ],
+          "actual_tools": [
+            "CloudRemoval"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 95,
+      "sample_idx": 94,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "RotatedDetection"
+          ],
+          "actual_tools": [
+            "RotatedDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 96,
+      "sample_idx": 95,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "RotatedDetection"
+          ],
+          "actual_tools": [
+            "RotatedDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 97,
+      "sample_idx": 96,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "HorizontalDetection"
+          ],
+          "actual_tools": [
+            "HorizontalDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 98,
+      "sample_idx": 97,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ImageCaptioning"
+          ],
+          "actual_tools": [
+            "SceneClassification"
+          ],
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "sample_id": 99,
+      "sample_idx": 98,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ObjectDetection"
+          ],
+          "actual_tools": [
+            "ImageCaptioning",
+            "RotatedDetection"
+          ],
+          "is_correct": false
+        }
+      ]
+    }
+  ],
+  "tool_stats": {
+    "SuperResolution": {
+      "total": 7,
+      "correct": 7
+    },
+    "SceneClassification": {
+      "total": 6,
+      "correct": 3
+    },
+    "CloudRemoval": {
+      "total": 8,
+      "correct": 8
+    },
+    "ObjectCounting": {
+      "total": 4,
+      "correct": 4
+    },
+    "HorizontalDetection": {
+      "total": 6,
+      "correct": 6
+    },
+    "RotatedDetection": {
+      "total": 5,
+      "correct": 5
+    },
+    "Denoising": {
+      "total": 7,
+      "correct": 0
+    },
+    "EdgeDetection": {
+      "total": 4,
+      "correct": 4
+    },
+    "ObjectDetection": {
+      "total": 5,
+      "correct": 4
+    },
+    "ImageCaptioning": {
+      "total": 2,
+      "correct": 0
+    }
+  },
+  "completed": true
+}

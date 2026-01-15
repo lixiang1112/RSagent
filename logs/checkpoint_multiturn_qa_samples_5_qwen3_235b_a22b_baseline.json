@@ -1,0 +1,181 @@
+{
+  "mode": "基线模式",
+  "enable_optimization": false,
+  "test_file": "QAjsons/multiturn_qa_samples.json",
+  "sample_limit": 5,
+  "last_completed_idx": 4,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "turns": []
+    },
+    {
+      "sample_id": 2,
+      "sample_idx": 1,
+      "turns": [
+        {
+          "turn": 6,
+          "expected_tools": [
+            "ChangeDetection"
+          ],
+          "actual_tools": [
+            "ChangeDetection"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 3,
+      "sample_idx": 2,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ImageCaptioning"
+          ],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 4,
+      "sample_idx": 3,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "ImageCaptioning"
+          ],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "sample_id": 5,
+      "sample_idx": 4,
+      "turns": [
+        {
+          "turn": 4,
+          "expected_tools": [
+            "EdgeDetection"
+          ],
+          "actual_tools": [
+            "EdgeDetection"
+          ],
+          "is_correct": true
+        },
+        {
+          "turn": 6,
+          "expected_tools": [
+            "ObjectCounting"
+          ],
+          "actual_tools": [
+            "ObjectCounting"
+          ],
+          "is_correct": true
+        },
+        {
+          "turn": 8,
+          "expected_tools": [
+            "ObjectDetection"
+          ],
+          "actual_tools": [
+            "ImageCaptioning"
+          ],
+          "is_correct": false
+        }
+      ]
+    }
+  ],
+  "tool_stats": {
+    "ChangeDetection": {
+      "total": 1,
+      "correct": 1
+    },
+    "ImageCaptioning": {
+      "total": 2,
+      "correct": 2
+    },
+    "EdgeDetection": {
+      "total": 1,
+      "correct": 1
+    },
+    "ObjectCounting": {
+      "total": 1,
+      "correct": 1
+    },
+    "ObjectDetection": {
+      "total": 1,
+      "correct": 0
+    }
+  },
+  "completed": true,
+  "summary": {
+    "test_file": "QAjsons/multiturn_qa_samples.json",
+    "sample_limit": 5,
+    "gpt_name": "qwen3-235b-a22b",
+    "baseline_accuracy": 83.33333333333334,
+    "optimized_accuracy": 66.66666666666666,
+    "improvement": -16.666666666666686,
+    "tool_comparison": {
+      "EdgeDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "ChangeDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 0
+        }
+      },
+      "ImageCaptioning": {
+        "baseline": {
+          "total": 2,
+          "correct": 2
+        },
+        "optimized": {
+          "total": 2,
+          "correct": 2
+        }
+      },
+      "ObjectCounting": {
+        "baseline": {
+          "total": 1,
+          "correct": 1
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 1
+        }
+      },
+      "ObjectDetection": {
+        "baseline": {
+          "total": 1,
+          "correct": 0
+        },
+        "optimized": {
+          "total": 1,
+          "correct": 0
+        }
+      }
+    }
+  }
+}

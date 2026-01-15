@@ -1,0 +1,5060 @@
+{
+  "mode": "基线模式",
+  "enable_optimization": false,
+  "test_file": "QAjsons/singleturn_qa_152_10pct.json",
+  "sample_limit": 501,
+  "last_completed_idx": 452,
+  "results": [
+    {
+      "sample_id": 1,
+      "sample_idx": 0,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 11,
+      "sample_idx": 1,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 21,
+      "sample_idx": 2,
+      "query": "这张图里有没有水平方向的路？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 31,
+      "sample_idx": 3,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 41,
+      "sample_idx": 4,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 51,
+      "sample_idx": 5,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 61,
+      "sample_idx": 6,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 71,
+      "sample_idx": 7,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 81,
+      "sample_idx": 8,
+      "query": "这张图里有多少棵树？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 91,
+      "sample_idx": 9,
+      "query": "能找出图中的绿色区域在哪里吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 101,
+      "sample_idx": 10,
+      "query": "这张图看起来像是什么地方？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 111,
+      "sample_idx": 11,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 121,
+      "sample_idx": 12,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 131,
+      "sample_idx": 13,
+      "query": "这张图里有没有水平方向的建筑？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning",
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 141,
+      "sample_idx": 14,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 151,
+      "sample_idx": 15,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 161,
+      "sample_idx": 16,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 171,
+      "sample_idx": 17,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 181,
+      "sample_idx": 18,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 191,
+      "sample_idx": 19,
+      "query": "这张图里有多少条路？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 201,
+      "sample_idx": 20,
+      "query": "能找出图中的树木和灌木丛吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 211,
+      "sample_idx": 21,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 221,
+      "sample_idx": 22,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 231,
+      "sample_idx": 23,
+      "query": "这些建筑是倾斜的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 241,
+      "sample_idx": 24,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 251,
+      "sample_idx": 25,
+      "query": "图片有些噪点，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "Denoising"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 261,
+      "sample_idx": 26,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 271,
+      "sample_idx": 27,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 281,
+      "sample_idx": 28,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 291,
+      "sample_idx": 29,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 301,
+      "sample_idx": 30,
+      "query": "这张图上有多少个大的深色斑块？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 311,
+      "sample_idx": 31,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 321,
+      "sample_idx": 32,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 331,
+      "sample_idx": 33,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 341,
+      "sample_idx": 34,
+      "query": "这棵树看起来歪了，能检查一下吗？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 351,
+      "sample_idx": 35,
+      "query": "这张图里有没有水平方向上的东西？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 361,
+      "sample_idx": 36,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 371,
+      "sample_idx": 37,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 381,
+      "sample_idx": 38,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 391,
+      "sample_idx": 39,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 401,
+      "sample_idx": 40,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 411,
+      "sample_idx": 41,
+      "query": "这张图里有多少条路？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 421,
+      "sample_idx": 42,
+      "query": "能标出图中的建筑位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 431,
+      "sample_idx": 43,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 441,
+      "sample_idx": 44,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 451,
+      "sample_idx": 45,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 461,
+      "sample_idx": 46,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 471,
+      "sample_idx": 47,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 481,
+      "sample_idx": 48,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 491,
+      "sample_idx": 49,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 501,
+      "sample_idx": 50,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 511,
+      "sample_idx": 51,
+      "query": "能让这个图像的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 521,
+      "sample_idx": 52,
+      "query": "这里有多少栋房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 531,
+      "sample_idx": 53,
+      "query": "能找出图中的目标位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 541,
+      "sample_idx": 54,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 551,
+      "sample_idx": 55,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 561,
+      "sample_idx": 56,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 571,
+      "sample_idx": 57,
+      "query": "能找出图中水平方向的铁路吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning",
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 581,
+      "sample_idx": 58,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 591,
+      "sample_idx": 59,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 601,
+      "sample_idx": 60,
+      "query": "云遮住了，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 611,
+      "sample_idx": 61,
+      "query": "这两张图中间是不是多了什么东西？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 621,
+      "sample_idx": 62,
+      "query": "能让这个森林的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 631,
+      "sample_idx": 63,
+      "query": "这张图里有多少个黑色的斑块？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "ObjectDetection",
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 641,
+      "sample_idx": 64,
+      "query": "能找出图中的道路吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "EdgeDetection",
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 651,
+      "sample_idx": 65,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 661,
+      "sample_idx": 66,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 671,
+      "sample_idx": 67,
+      "query": "这棵树看起来歪了，能检查一下吗？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "ImageCaptioning",
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 681,
+      "sample_idx": 68,
+      "query": "能找出图中水平方向的路吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 691,
+      "sample_idx": 69,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 701,
+      "sample_idx": 70,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 711,
+      "sample_idx": 71,
+      "query": "这张图上有云，能不能去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 721,
+      "sample_idx": 72,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 731,
+      "sample_idx": 73,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 741,
+      "sample_idx": 74,
+      "query": "这张图里有多少棵树？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 751,
+      "sample_idx": 75,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 761,
+      "sample_idx": 76,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 771,
+      "sample_idx": 77,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 781,
+      "sample_idx": 78,
+      "query": "这棵树看起来歪了，能不能检测一下？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 791,
+      "sample_idx": 79,
+      "query": "这张图里有哪些东西是水平排列的？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 801,
+      "sample_idx": 80,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 811,
+      "sample_idx": 81,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 821,
+      "sample_idx": 82,
+      "query": "这张图上有云，能不能去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 831,
+      "sample_idx": 83,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 842,
+      "sample_idx": 84,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 852,
+      "sample_idx": 85,
+      "query": "能让这个湖边的树木轮廓更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning",
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 862,
+      "sample_idx": 86,
+      "query": "这里有多少栋房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "ObjectDetection",
+        "HorizontalDetection",
+        "RotatedDetection",
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 872,
+      "sample_idx": 87,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 882,
+      "sample_idx": 88,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 892,
+      "sample_idx": 89,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 902,
+      "sample_idx": 90,
+      "query": "这些建筑是倾斜的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 912,
+      "sample_idx": 91,
+      "query": "能找出横向的路吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 922,
+      "sample_idx": 92,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 932,
+      "sample_idx": 93,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 942,
+      "sample_idx": 94,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 952,
+      "sample_idx": 95,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 962,
+      "sample_idx": 96,
+      "query": "能让这个道路的轮廓更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution",
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 972,
+      "sample_idx": 97,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 982,
+      "sample_idx": 98,
+      "query": "能标出图中的房子和树木位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 992,
+      "sample_idx": 99,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1002,
+      "sample_idx": 100,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1012,
+      "sample_idx": 101,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1022,
+      "sample_idx": 102,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1032,
+      "sample_idx": 103,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1042,
+      "sample_idx": 104,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1052,
+      "sample_idx": 105,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1062,
+      "sample_idx": 106,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1072,
+      "sample_idx": 107,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1082,
+      "sample_idx": 108,
+      "query": "这张图里有多少条路？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1092,
+      "sample_idx": 109,
+      "query": "能找出图中的道路吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1102,
+      "sample_idx": 110,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1112,
+      "sample_idx": 111,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1122,
+      "sample_idx": 112,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1132,
+      "sample_idx": 113,
+      "query": "能找出图中水平方向的路吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1142,
+      "sample_idx": 114,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1152,
+      "sample_idx": 115,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1162,
+      "sample_idx": 116,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1172,
+      "sample_idx": 117,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1182,
+      "sample_idx": 118,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1192,
+      "sample_idx": 119,
+      "query": "这张图里有多少块地？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection",
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1202,
+      "sample_idx": 120,
+      "query": "能标出图中的建筑物位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1212,
+      "sample_idx": 121,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1222,
+      "sample_idx": 122,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1232,
+      "sample_idx": 123,
+      "query": "这张图里的道路是倾斜的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1242,
+      "sample_idx": 124,
+      "query": "能找出横向排列的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1252,
+      "sample_idx": 125,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1262,
+      "sample_idx": 126,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1272,
+      "sample_idx": 127,
+      "query": "这张图上有云，能不能去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1282,
+      "sample_idx": 128,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1292,
+      "sample_idx": 129,
+      "query": "能让这个弯道的轮廓更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1302,
+      "sample_idx": 130,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1312,
+      "sample_idx": 131,
+      "query": "能找出图中的洞洞在哪里吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "EdgeDetection",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1322,
+      "sample_idx": 132,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1332,
+      "sample_idx": 133,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1342,
+      "sample_idx": 134,
+      "query": "这些建筑是倾斜的，能不能找到它们？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1352,
+      "sample_idx": 135,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1362,
+      "sample_idx": 136,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1372,
+      "sample_idx": 137,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1382,
+      "sample_idx": 138,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1392,
+      "sample_idx": 139,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1402,
+      "sample_idx": 140,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1412,
+      "sample_idx": 141,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1422,
+      "sample_idx": 142,
+      "query": "能找出图中的树木位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1432,
+      "sample_idx": 143,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1442,
+      "sample_idx": 144,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1452,
+      "sample_idx": 145,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1462,
+      "sample_idx": 146,
+      "query": "能找出图中水平方向的路吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning",
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1472,
+      "sample_idx": 147,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1482,
+      "sample_idx": 148,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1492,
+      "sample_idx": 149,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1502,
+      "sample_idx": 150,
+      "query": "这两张图看起来有点不一样，能帮我仔细看看吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1512,
+      "sample_idx": 151,
+      "query": "能让这个森林的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1522,
+      "sample_idx": 152,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1532,
+      "sample_idx": 153,
+      "query": "能找出图中的道路位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection",
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1542,
+      "sample_idx": 154,
+      "query": "这张图看起来像是什么地方？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1552,
+      "sample_idx": 155,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1562,
+      "sample_idx": 156,
+      "query": "这些建筑是斜的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1572,
+      "sample_idx": 157,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1582,
+      "sample_idx": 158,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1592,
+      "sample_idx": 159,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1602,
+      "sample_idx": 160,
+      "query": "这张图上有云，能不能把云去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1612,
+      "sample_idx": 161,
+      "query": "这两张图中间那条线怎么不见了？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1622,
+      "sample_idx": 162,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1632,
+      "sample_idx": 163,
+      "query": "这里有多少辆卡车？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1642,
+      "sample_idx": 164,
+      "query": "能标出图中的汽车位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1652,
+      "sample_idx": 165,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1662,
+      "sample_idx": 166,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1673,
+      "sample_idx": 167,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1683,
+      "sample_idx": 168,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1693,
+      "sample_idx": 169,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1703,
+      "sample_idx": 170,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1713,
+      "sample_idx": 171,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1723,
+      "sample_idx": 172,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1733,
+      "sample_idx": 173,
+      "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1743,
+      "sample_idx": 174,
+      "query": "能让这个田地的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1753,
+      "sample_idx": 175,
+      "query": "这张图里有多少条路？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "ObjectDetection",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1763,
+      "sample_idx": 176,
+      "query": "能标出图中的建筑物位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1773,
+      "sample_idx": 177,
+      "query": "这张图看起来像是住宅区吗？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1783,
+      "sample_idx": 178,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1793,
+      "sample_idx": 179,
+      "query": "这些建筑是斜的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1803,
+      "sample_idx": 180,
+      "query": "这张图上有水平方向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1813,
+      "sample_idx": 181,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1823,
+      "sample_idx": 182,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1833,
+      "sample_idx": 183,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1843,
+      "sample_idx": 184,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1853,
+      "sample_idx": 185,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1863,
+      "sample_idx": 186,
+      "query": "这张图里有多少个斑点？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1873,
+      "sample_idx": 187,
+      "query": "能找出图中的停车场和车辆位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1883,
+      "sample_idx": 188,
+      "query": "这张图看起来像是住宅区吗？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1893,
+      "sample_idx": 189,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1903,
+      "sample_idx": 190,
+      "query": "这些建筑是斜的，能不能检测一下？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1913,
+      "sample_idx": 191,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1923,
+      "sample_idx": 192,
+      "query": "图片有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1933,
+      "sample_idx": 193,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1943,
+      "sample_idx": 194,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1953,
+      "sample_idx": 195,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1963,
+      "sample_idx": 196,
+      "query": "能让这个田地的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1973,
+      "sample_idx": 197,
+      "query": "这里有多少个蓝色的帐篷？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 1983,
+      "sample_idx": 198,
+      "query": "能找出图中的目标位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 1993,
+      "sample_idx": 199,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2003,
+      "sample_idx": 200,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2013,
+      "sample_idx": 201,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2023,
+      "sample_idx": 202,
+      "query": "能找出图中横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2033,
+      "sample_idx": 203,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2043,
+      "sample_idx": 204,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2053,
+      "sample_idx": 205,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2063,
+      "sample_idx": 206,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2073,
+      "sample_idx": 207,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2083,
+      "sample_idx": 208,
+      "query": "这张图里有多少个集装箱？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2093,
+      "sample_idx": 209,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2103,
+      "sample_idx": 210,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2113,
+      "sample_idx": 211,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2123,
+      "sample_idx": 212,
+      "query": "这棵树看起来是倾斜的，能不能检测一下？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2133,
+      "sample_idx": 213,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2143,
+      "sample_idx": 214,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2153,
+      "sample_idx": 215,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2163,
+      "sample_idx": 216,
+      "query": "云挡住了视线，能不能去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2173,
+      "sample_idx": 217,
+      "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2183,
+      "sample_idx": 218,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2193,
+      "sample_idx": 219,
+      "query": "这张图里有多少块石头？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2203,
+      "sample_idx": 220,
+      "query": "能找出图中的起重机和挖掘机吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2213,
+      "sample_idx": 221,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2223,
+      "sample_idx": 222,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2233,
+      "sample_idx": 223,
+      "query": "这些建筑是斜的，能不能检测一下？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2243,
+      "sample_idx": 224,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2253,
+      "sample_idx": 225,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2263,
+      "sample_idx": 226,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2273,
+      "sample_idx": 227,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2283,
+      "sample_idx": 228,
+      "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2293,
+      "sample_idx": 229,
+      "query": "能让这个图像的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2303,
+      "sample_idx": 230,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2313,
+      "sample_idx": 231,
+      "query": "能标出图中的红色汽车位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2323,
+      "sample_idx": 232,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2333,
+      "sample_idx": 233,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2343,
+      "sample_idx": 234,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2353,
+      "sample_idx": 235,
+      "query": "这张图里有没有水平方向的建筑？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2363,
+      "sample_idx": 236,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2373,
+      "sample_idx": 237,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2383,
+      "sample_idx": 238,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2393,
+      "sample_idx": 239,
+      "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2403,
+      "sample_idx": 240,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2413,
+      "sample_idx": 241,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2423,
+      "sample_idx": 242,
+      "query": "能标出图中的树木和建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2433,
+      "sample_idx": 243,
+      "query": "这张图看起来像是什么地方？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2443,
+      "sample_idx": 244,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2453,
+      "sample_idx": 245,
+      "query": "这棵树看起来歪了，能检查一下吗？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2463,
+      "sample_idx": 246,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2473,
+      "sample_idx": 247,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2483,
+      "sample_idx": 248,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2493,
+      "sample_idx": 249,
+      "query": "这张图上有云，能不能把云去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2503,
+      "sample_idx": 250,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2514,
+      "sample_idx": 251,
+      "query": "这两张图看起来有点不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2524,
+      "sample_idx": 252,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2534,
+      "sample_idx": 253,
+      "query": "这张图里有多少棵树？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2544,
+      "sample_idx": 254,
+      "query": "能标出图中的汽车位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2554,
+      "sample_idx": 255,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2564,
+      "sample_idx": 256,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2574,
+      "sample_idx": 257,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2584,
+      "sample_idx": 258,
+      "query": "能找出路上的车辆吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2594,
+      "sample_idx": 259,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2604,
+      "sample_idx": 260,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2614,
+      "sample_idx": 261,
+      "query": "这张图上有云，能不能去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2624,
+      "sample_idx": 262,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2634,
+      "sample_idx": 263,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2644,
+      "sample_idx": 264,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2654,
+      "sample_idx": 265,
+      "query": "能找出图中的目标位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ImageCaptioning",
+        "HorizontalDetection"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2664,
+      "sample_idx": 266,
+      "query": "这张图看起来像是什么类型的区域？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2674,
+      "sample_idx": 267,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2684,
+      "sample_idx": 268,
+      "query": "这些建筑是斜的，能不能检测一下？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2694,
+      "sample_idx": 269,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2704,
+      "sample_idx": 270,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2714,
+      "sample_idx": 271,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2724,
+      "sample_idx": 272,
+      "query": "这张图上有云，能不能把云去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2734,
+      "sample_idx": 273,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2744,
+      "sample_idx": 274,
+      "query": "能让这个树的轮廓更清楚吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2754,
+      "sample_idx": 275,
+      "query": "这张图里有多少个圆形标记？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection",
+        "RotatedDetection",
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2764,
+      "sample_idx": 276,
+      "query": "能找出图中的红色车辆吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2774,
+      "sample_idx": 277,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2784,
+      "sample_idx": 278,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2794,
+      "sample_idx": 279,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ObjectDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2804,
+      "sample_idx": 280,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2814,
+      "sample_idx": 281,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2824,
+      "sample_idx": 282,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2834,
+      "sample_idx": 283,
+      "query": "这张图上有云，能不能把云去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2844,
+      "sample_idx": 284,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2854,
+      "sample_idx": 285,
+      "query": "能让这个路口的线条更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2864,
+      "sample_idx": 286,
+      "query": "这张图上有多少辆车？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2874,
+      "sample_idx": 287,
+      "query": "能标出图中的建筑物位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2884,
+      "sample_idx": 288,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2894,
+      "sample_idx": 289,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2904,
+      "sample_idx": 290,
+      "query": "这张图里的道路是倾斜的，能识别出来吗？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2914,
+      "sample_idx": 291,
+      "query": "这张图上有没有水平方向的建筑？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2924,
+      "sample_idx": 292,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 2934,
+      "sample_idx": 293,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2944,
+      "sample_idx": 294,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: 'image/273-0.png'"
+    },
+    {
+      "sample_id": 2954,
+      "sample_idx": 295,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2964,
+      "sample_idx": 296,
+      "query": "能让这个裂缝的边缘更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2974,
+      "sample_idx": 297,
+      "query": "这里有多少个房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2984,
+      "sample_idx": 298,
+      "query": "能标出图中的房子位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 2994,
+      "sample_idx": 299,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3004,
+      "sample_idx": 300,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3014,
+      "sample_idx": 301,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3024,
+      "sample_idx": 302,
+      "query": "能找出横向的铁路吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3034,
+      "sample_idx": 303,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 3044,
+      "sample_idx": 304,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3054,
+      "sample_idx": 305,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3064,
+      "sample_idx": 306,
+      "query": "这两张图中间发生了什么变化？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3074,
+      "sample_idx": 307,
+      "query": "能让这个停车场的轮廓更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3084,
+      "sample_idx": 308,
+      "query": "这张图里有多少块农田？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/274.png'"
+    },
+    {
+      "sample_id": 3094,
+      "sample_idx": 309,
+      "query": "能标出图中的湖泊和道路吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3104,
+      "sample_idx": 310,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3114,
+      "sample_idx": 311,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3124,
+      "sample_idx": 312,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3134,
+      "sample_idx": 313,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3144,
+      "sample_idx": 314,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/161.png'"
+    },
+    {
+      "sample_id": 3154,
+      "sample_idx": 315,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/677.png'"
+    },
+    {
+      "sample_id": 3164,
+      "sample_idx": 316,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1639.png'"
+    },
+    {
+      "sample_id": 3174,
+      "sample_idx": 317,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3184,
+      "sample_idx": 318,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2957.png'"
+    },
+    {
+      "sample_id": 3194,
+      "sample_idx": 319,
+      "query": "这张图里有多少栋建筑？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection",
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3204,
+      "sample_idx": 320,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3214,
+      "sample_idx": 321,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3224,
+      "sample_idx": 322,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3234,
+      "sample_idx": 323,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3244,
+      "sample_idx": 324,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1925.png'"
+    },
+    {
+      "sample_id": 3254,
+      "sample_idx": 325,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 3264,
+      "sample_idx": 326,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3274,
+      "sample_idx": 327,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3284,
+      "sample_idx": 328,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3294,
+      "sample_idx": 329,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3304,
+      "sample_idx": 330,
+      "query": "这里有多少个蓝色屋顶的房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2112.png'"
+    },
+    {
+      "sample_id": 3314,
+      "sample_idx": 331,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3918.png'"
+    },
+    {
+      "sample_id": 3324,
+      "sample_idx": 332,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3896.png'"
+    },
+    {
+      "sample_id": 3334,
+      "sample_idx": 333,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/86.png'"
+    },
+    {
+      "sample_id": 3345,
+      "sample_idx": 334,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3355,
+      "sample_idx": 335,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3365,
+      "sample_idx": 336,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/660.png'"
+    },
+    {
+      "sample_id": 3375,
+      "sample_idx": 337,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 3385,
+      "sample_idx": 338,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3395,
+      "sample_idx": 339,
+      "query": "云遮住了，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2603.png'"
+    },
+    {
+      "sample_id": 3405,
+      "sample_idx": 340,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3415,
+      "sample_idx": 341,
+      "query": "能让这个机场跑道的轮廓更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution",
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3425,
+      "sample_idx": 342,
+      "query": "这张图里有多少个蓝色的方块？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2256.png'"
+    },
+    {
+      "sample_id": 3435,
+      "sample_idx": 343,
+      "query": "能标出图中的建筑物位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 3445,
+      "sample_idx": 344,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3455,
+      "sample_idx": 345,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3465,
+      "sample_idx": 346,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3475,
+      "sample_idx": 347,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1239.png'"
+    },
+    {
+      "sample_id": 3485,
+      "sample_idx": 348,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/211.png'"
+    },
+    {
+      "sample_id": 3495,
+      "sample_idx": 349,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1341.png'"
+    },
+    {
+      "sample_id": 3505,
+      "sample_idx": 350,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3515,
+      "sample_idx": 351,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/1466.png'"
+    },
+    {
+      "sample_id": 3525,
+      "sample_idx": 352,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3535,
+      "sample_idx": 353,
+      "query": "这张图里有多少个建筑物？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "HorizontalDetection",
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3545,
+      "sample_idx": 354,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3555,
+      "sample_idx": 355,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1810.png'"
+    },
+    {
+      "sample_id": 3565,
+      "sample_idx": 356,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3542.png'"
+    },
+    {
+      "sample_id": 3575,
+      "sample_idx": 357,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3542.png'"
+    },
+    {
+      "sample_id": 3585,
+      "sample_idx": 358,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3595,
+      "sample_idx": 359,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1998.png'"
+    },
+    {
+      "sample_id": 3605,
+      "sample_idx": 360,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3615,
+      "sample_idx": 361,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3625,
+      "sample_idx": 362,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3027.png'"
+    },
+    {
+      "sample_id": 3635,
+      "sample_idx": 363,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3645,
+      "sample_idx": 364,
+      "query": "这里有多少个农场？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/test/A/3.png'"
+    },
+    {
+      "sample_id": 3655,
+      "sample_idx": 365,
+      "query": "能找出图中的湖泊和道路吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3665,
+      "sample_idx": 366,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3675,
+      "sample_idx": 367,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3685,
+      "sample_idx": 368,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3695,
+      "sample_idx": 369,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3705,
+      "sample_idx": 370,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 3715,
+      "sample_idx": 371,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3725,
+      "sample_idx": 372,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3735,
+      "sample_idx": 373,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3745,
+      "sample_idx": 374,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3192.png'"
+    },
+    {
+      "sample_id": 3755,
+      "sample_idx": 375,
+      "query": "这里有多少个村庄？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3765,
+      "sample_idx": 376,
+      "query": "能找出图中的学校和运动场吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1144.png'"
+    },
+    {
+      "sample_id": 3775,
+      "sample_idx": 377,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/test/A/5.png'"
+    },
+    {
+      "sample_id": 3785,
+      "sample_idx": 378,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2808.png'"
+    },
+    {
+      "sample_id": 3795,
+      "sample_idx": 379,
+      "query": "这些建筑是倾斜的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2808.png'"
+    },
+    {
+      "sample_id": 3805,
+      "sample_idx": 380,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3815,
+      "sample_idx": 381,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 3825,
+      "sample_idx": 382,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1986.png'"
+    },
+    {
+      "sample_id": 3835,
+      "sample_idx": 383,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1198.png'"
+    },
+    {
+      "sample_id": 3845,
+      "sample_idx": 384,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3855,
+      "sample_idx": 385,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2516.png'"
+    },
+    {
+      "sample_id": 3865,
+      "sample_idx": 386,
+      "query": "这里有多少栋房子？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3875,
+      "sample_idx": 387,
+      "query": "能标出图中的建筑物位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3885,
+      "sample_idx": 388,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3895,
+      "sample_idx": 389,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/9.png'"
+    },
+    {
+      "sample_id": 3905,
+      "sample_idx": 390,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/9.png'"
+    },
+    {
+      "sample_id": 3915,
+      "sample_idx": 391,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/3828.png'"
+    },
+    {
+      "sample_id": 3925,
+      "sample_idx": 392,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1989.png'"
+    },
+    {
+      "sample_id": 3935,
+      "sample_idx": 393,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3770.png'"
+    },
+    {
+      "sample_id": 3945,
+      "sample_idx": 394,
+      "query": "这张图上有云，能不能把云去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3955,
+      "sample_idx": 395,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3965,
+      "sample_idx": 396,
+      "query": "能让这个道路的轮廓更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3975,
+      "sample_idx": 397,
+      "query": "这里有多少个湖泊？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3888.png'"
+    },
+    {
+      "sample_id": 3985,
+      "sample_idx": 398,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 3995,
+      "sample_idx": 399,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4005,
+      "sample_idx": 400,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4015,
+      "sample_idx": 401,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4025,
+      "sample_idx": 402,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2974.png'"
+    },
+    {
+      "sample_id": 4035,
+      "sample_idx": 403,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 4045,
+      "sample_idx": 404,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4055,
+      "sample_idx": 405,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4065,
+      "sample_idx": 406,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4075,
+      "sample_idx": 407,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4085,
+      "sample_idx": 408,
+      "query": "这张图里有多少个农场？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4095,
+      "sample_idx": 409,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/69.png'"
+    },
+    {
+      "sample_id": 4105,
+      "sample_idx": 410,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2037.png'"
+    },
+    {
+      "sample_id": 4115,
+      "sample_idx": 411,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4125,
+      "sample_idx": 412,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4135,
+      "sample_idx": 413,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4145,
+      "sample_idx": 414,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1839.png'"
+    },
+    {
+      "sample_id": 4155,
+      "sample_idx": 415,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/473.png'"
+    },
+    {
+      "sample_id": 4165,
+      "sample_idx": 416,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4175,
+      "sample_idx": 417,
+      "query": "这两张图看起来不一样，能看出有什么变化吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4186,
+      "sample_idx": 418,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4196,
+      "sample_idx": 419,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4206,
+      "sample_idx": 420,
+      "query": "这里有多少个湖泊？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2579.png'"
+    },
+    {
+      "sample_id": 4216,
+      "sample_idx": 421,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4226,
+      "sample_idx": 422,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4236,
+      "sample_idx": 423,
+      "query": "能描述一下这张图吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4246,
+      "sample_idx": 424,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4256,
+      "sample_idx": 425,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4266,
+      "sample_idx": 426,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 4276,
+      "sample_idx": 427,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4286,
+      "sample_idx": 428,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [
+        "CloudRemoval"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4296,
+      "sample_idx": 429,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4306,
+      "sample_idx": 430,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 4316,
+      "sample_idx": 431,
+      "query": "这张图里有多少个建筑物？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/1984.png'"
+    },
+    {
+      "sample_id": 4326,
+      "sample_idx": 432,
+      "query": "能标出图中的建筑物位置吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4336,
+      "sample_idx": 433,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [
+        "SceneClassification"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4346,
+      "sample_idx": 434,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4356,
+      "sample_idx": 435,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4366,
+      "sample_idx": 436,
+      "query": "能找出横向的建筑吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/947.png'"
+    },
+    {
+      "sample_id": 4376,
+      "sample_idx": 437,
+      "query": "这张图有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [
+        "SuperResolution",
+        "ImageCaptioning"
+      ],
+      "is_correct": false,
+      "error": null
+    },
+    {
+      "sample_id": 4386,
+      "sample_idx": 438,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4396,
+      "sample_idx": 439,
+      "query": "云挡住了视线，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/527.png'"
+    },
+    {
+      "sample_id": 4406,
+      "sample_idx": 440,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/3634.png'"
+    },
+    {
+      "sample_id": 4416,
+      "sample_idx": 441,
+      "query": "能让这个图的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/val/A/716.png'"
+    },
+    {
+      "sample_id": 4426,
+      "sample_idx": 442,
+      "query": "这里有多少个建筑物？",
+      "expected_tool": "ObjectCounting",
+      "actual_tools": [
+        "ObjectCounting",
+        "HorizontalDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4436,
+      "sample_idx": 443,
+      "query": "能找出图中的建筑物吗？",
+      "expected_tool": "ObjectDetection",
+      "actual_tools": [
+        "ObjectDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4446,
+      "sample_idx": 444,
+      "query": "这张图看起来像是哪里？",
+      "expected_tool": "SceneClassification",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1974.png'"
+    },
+    {
+      "sample_id": 4456,
+      "sample_idx": 445,
+      "query": "能描述一下这张图的内容吗？",
+      "expected_tool": "ImageCaptioning",
+      "actual_tools": [
+        "ImageCaptioning"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4466,
+      "sample_idx": 446,
+      "query": "这些建筑是斜着的，能不能检测出来？",
+      "expected_tool": "RotatedDetection",
+      "actual_tools": [
+        "RotatedDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4476,
+      "sample_idx": 447,
+      "query": "能找出图中水平方向的路吗？",
+      "expected_tool": "HorizontalDetection",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2471.png'"
+    },
+    {
+      "sample_id": 4486,
+      "sample_idx": 448,
+      "query": "这张图看起来有点模糊，能处理一下吗？",
+      "expected_tool": "Denoising",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/1894.png'"
+    },
+    {
+      "sample_id": 4496,
+      "sample_idx": 449,
+      "query": "这张图有点模糊，能不能变得更清晰一些？",
+      "expected_tool": "SuperResolution",
+      "actual_tools": [
+        "SuperResolution"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4506,
+      "sample_idx": 450,
+      "query": "云遮住了，能不能把它们去掉？",
+      "expected_tool": "CloudRemoval",
+      "actual_tools": [],
+      "is_correct": false,
+      "error": "[Errno 2] No such file or directory: '/root/autodl-tmp/datasets/DSIFN-CD-256/train/A/2331.png'"
+    },
+    {
+      "sample_id": 4516,
+      "sample_idx": 451,
+      "query": "这两张图看起来不一样，能帮我分析一下吗？",
+      "expected_tool": "ChangeDetection",
+      "actual_tools": [
+        "ChangeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    },
+    {
+      "sample_id": 4526,
+      "sample_idx": 452,
+      "query": "能让这个区域的边界更清晰吗？",
+      "expected_tool": "EdgeDetection",
+      "actual_tools": [
+        "EdgeDetection"
+      ],
+      "is_correct": true,
+      "error": null
+    }
+  ],
+  "tool_stats": {
+    "ImageCaptioning": {
+      "total": 43,
+      "correct": 39
+    },
+    "RotatedDetection": {
+      "total": 41,
+      "correct": 35
+    },
+    "HorizontalDetection": {
+      "total": 41,
+      "correct": 33
+    },
+    "Denoising": {
+      "total": 41,
+      "correct": 1
+    },
+    "SuperResolution": {
+      "total": 41,
+      "correct": 36
+    },
+    "CloudRemoval": {
+      "total": 41,
+      "correct": 35
+    },
+    "ChangeDetection": {
+      "total": 44,
+      "correct": 41
+    },
+    "EdgeDetection": {
+      "total": 41,
+      "correct": 32
+    },
+    "ObjectCounting": {
+      "total": 40,
+      "correct": 33
+    },
+    "ObjectDetection": {
+      "total": 40,
+      "correct": 31
+    },
+    "SceneClassification": {
+      "total": 40,
+      "correct": 35
+    }
+  },
+  "completed": false
+}

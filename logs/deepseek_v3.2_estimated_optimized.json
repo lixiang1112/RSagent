@@ -1,0 +1,95 @@
+{
+  "baseline": {
+    "ImageCaptioning": {
+      "total": 43,
+      "correct": 39
+    },
+    "RotatedDetection": {
+      "total": 41,
+      "correct": 35
+    },
+    "HorizontalDetection": {
+      "total": 41,
+      "correct": 33
+    },
+    "Denoising": {
+      "total": 41,
+      "correct": 1
+    },
+    "SuperResolution": {
+      "total": 41,
+      "correct": 36
+    },
+    "CloudRemoval": {
+      "total": 41,
+      "correct": 35
+    },
+    "ChangeDetection": {
+      "total": 44,
+      "correct": 41
+    },
+    "EdgeDetection": {
+      "total": 41,
+      "correct": 32
+    },
+    "ObjectCounting": {
+      "total": 40,
+      "correct": 33
+    },
+    "ObjectDetection": {
+      "total": 40,
+      "correct": 31
+    },
+    "SceneClassification": {
+      "total": 40,
+      "correct": 35
+    }
+  },
+  "optimized_estimated": {
+    "ImageCaptioning": {
+      "total": 43,
+      "correct": 39
+    },
+    "RotatedDetection": {
+      "total": 41,
+      "correct": 39
+    },
+    "HorizontalDetection": {
+      "total": 41,
+      "correct": 33
+    },
+    "Denoising": {
+      "total": 41,
+      "correct": 9
+    },
+    "SuperResolution": {
+      "total": 41,
+      "correct": 36
+    },
+    "CloudRemoval": {
+      "total": 41,
+      "correct": 35
+    },
+    "ChangeDetection": {
+      "total": 44,
+      "correct": 41
+    },
+    "EdgeDetection": {
+      "total": 41,
+      "correct": 32
+    },
+    "ObjectCounting": {
+      "total": 40,
+      "correct": 33
+    },
+    "ObjectDetection": {
+      "total": 40,
+      "correct": 34
+    },
+    "SceneClassification": {
+      "total": 40,
+      "correct": 33
+    }
+  },
+  "note": "这是基于gpt-4o-mini和qwen3-235b-a22b优化效果模式推测的值"
+}

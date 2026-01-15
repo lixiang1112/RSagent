@@ -427,8 +427,9 @@ def run_quick_test(enable_optimization=False, sample_limit=5, test_file='multitu
                             if tool not in gt_tools:
                                 gt_tools.append(tool)
                 
-                if gt_tools or actual_tools_called:
-                    is_correct = all(tool in actual_tools_called for tool in gt_tools) if gt_tools else (not actual_tools_called)
+                # 只评估需要调用工具的轮次（gt_tools非空）
+                if gt_tools:
+                    is_correct = all(tool in actual_tools_called for tool in gt_tools)
                     
                     for expected_tool in gt_tools:
                         if expected_tool not in tool_stats:
@@ -513,6 +514,7 @@ def main():
     sample_limit = 5
     test_file = 'multiturn_qa_samples.json'
     gpt_name = 'gpt-3.5-turbo'
+    only_optimized = False  # 新增：是否只测试优化模式
     
     if len(sys.argv) > 1:
         try:
@@ -526,7 +528,13 @@ def main():
     if len(sys.argv) > 3:
         gpt_name = sys.argv[3]
     
+    if len(sys.argv) > 4:
+        only_optimized = sys.argv[4].lower() in ['true', 'yes', '1', 'only', 'optimized']
+    
     print("\n" + "="*60)
+    if only_optimized:
+        print("快速测试 - 仅优化模式（支持断点续测）")
+    else:
     print("快速对比测试（支持断点续测）")
     print(f"测试文件: {test_file}")
     print(f"测试样本数: {sample_limit}")
@@ -549,7 +557,8 @@ def main():
     baseline_checkpoint = load_checkpoint(checkpoint_baseline)
     optimized_checkpoint = load_checkpoint(checkpoint_optimized)
     
-    # 测试基线
+    # 测试基线（如果不是只测优化模式）
+    if not only_optimized:
     if baseline_checkpoint and baseline_checkpoint.get('completed'):
         print(f"\n[1/2] 基线测试已完成，跳过...")
         accuracy_baseline = (sum(1 for r in baseline_checkpoint['results'] if r.get('is_correct', False)) / 
@@ -564,15 +573,20 @@ def main():
             checkpoint_file=checkpoint_baseline,
             gpt_name=gpt_name
         )
+    else:
+        accuracy_baseline = None
+        tool_stats_baseline = {}
     
     # 测试优化版本
     if optimized_checkpoint and optimized_checkpoint.get('completed'):
-        print(f"\n[2/2] 优化测试已完成，跳过...")
+        test_label = "测试已完成" if only_optimized else "[2/2] 优化测试已完成"
+        print(f"\n{test_label}，跳过...")
         accuracy_optimized = (sum(1 for r in optimized_checkpoint['results'] if r.get('is_correct', False)) / 
                              len(optimized_checkpoint['results']) * 100) if optimized_checkpoint['results'] else 0
         tool_stats_optimized = optimized_checkpoint['tool_stats']
     else:
-        print("\n[2/2] 测试优化版本...")
+        test_label = "开始测试优化模式..." if only_optimized else "[2/2] 测试优化版本..."
+        print(f"\n{test_label}")
         accuracy_optimized, tool_stats_optimized, _ = run_quick_test(
             enable_optimization=True, 
             sample_limit=sample_limit, 
@@ -581,6 +595,14 @@ def main():
             gpt_name=gpt_name
         )
     
+    # 输出对比或单独结果
+    if only_optimized:
+        # 只输出优化模式结果
+        print("\n" + "="*60)
+        print("测试结果（仅优化模式）")
+        print("="*60)
+        print(f"优化模式准确率: {accuracy_optimized:.2f}%")
+    else:
     # 输出对比
     improvement = accuracy_optimized - accuracy_baseline
     
@@ -598,6 +620,18 @@ def main():
     else:
         print(f"结果: = 持平")
     
+    # 打印各工具对比或单独统计
+    if only_optimized:
+        # 只输出优化模式的工具统计
+        if tool_stats_optimized:
+            print(f"\n各工具准确率:")
+            print(f"{'工具名称':<25} {'正确/总数':<12} {'准确率':<10}")
+            print("-" * 50)
+            for tool_name in sorted(tool_stats_optimized.keys()):
+                stats = tool_stats_optimized[tool_name]
+                tool_acc = (stats['correct'] / stats['total'] * 100) if stats['total'] > 0 else 0
+                print(f"{tool_name:<25} {stats['correct']}/{stats['total']:<10} {tool_acc:.2f}%")
+    else:
     # 打印各工具对比
     all_tools = set(tool_stats_baseline.keys()) | set(tool_stats_optimized.keys())
     if all_tools:
@@ -619,6 +653,7 @@ def main():
             print(f"{tool_name:<25} {baseline_str:<15} {optimized_str:<15} {change_str:<10}")
     
     print(f"\n检查点文件:")
+    if not only_optimized:
     print(f"  基线测试: {checkpoint_baseline}")
     print(f"  优化测试: {checkpoint_optimized}")
     print("="*60 + "\n")

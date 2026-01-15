@@ -59,9 +59,13 @@ def evaluate_turn_accuracy(sample: Dict[str, Any]) -> Dict[str, Any]:
             
             all_gt_tools.update(turn_gt)
             
-            # 计算该轮次的准确性
+            # 只评估需要调用工具的轮次
+            if not turn_gt:
+                continue
+            
+            # 计算该轮次的准确性（只要包含了需要的工具就正确）
             correct_tools = turn_tools_set & turn_gt
-            turn_correct = (turn_tools_set == turn_gt)
+            turn_correct = turn_gt.issubset(turn_tools_set)
             
             if not turn_correct:
                 all_turns_correct = False

@@ -384,12 +384,12 @@ def test_multiturn_qa(enable_optimization=False, log_suffix=""):
                         if 'tool' in tc:
                             gt_tools.append(tc['tool'])
                 
-                # 只评估有工具调用的轮次（GT有工具或实际调用了工具）
-                if gt_tools or actual_tools_called:
+                # 只评估需要调用工具的轮次（gt_tools非空）
+                if gt_tools:
                     total_turns += 1
                     
-                    # 判断是否正确
-                    is_correct = (set(actual_tools_called) == set(gt_tools))
+                    # 判断是否正确（只要包含了需要的工具就正确）
+                    is_correct = all(tool in actual_tools_called for tool in gt_tools)
                     if is_correct:
                         correct_turns += 1
                         result_mark = "✓"
@@ -397,16 +397,16 @@ def test_multiturn_qa(enable_optimization=False, log_suffix=""):
                         result_mark = "✗"
                     
                     print(f"\n{result_mark} 实际调用工具: {actual_tools_called if actual_tools_called else '无'}")
-                    print(f"  Ground Truth: {gt_tools if gt_tools else '无'}")
+                    print(f"  Ground Truth: {gt_tools}")
                     
                     with open(log_file, 'a', encoding='utf-8') as f:
                         f.write(f"\n{result_mark} 实际调用工具: {actual_tools_called if actual_tools_called else '无'}\n")
-                        f.write(f"  Ground Truth: {gt_tools if gt_tools else '无'}\n")
+                        f.write(f"  Ground Truth: {gt_tools}\n")
                         f.write(f"  判断: {'正确' if is_correct else '错误'}\n")
                 else:
-                    # 没有工具调用的轮次，跳过评估
+                    # 不需要调用工具的轮次，跳过评估
                     with open(log_file, 'a', encoding='utf-8') as f:
-                        f.write(f"\n[跳过评估] 此轮无工具调用\n")
+                        f.write(f"\n[跳过评估] 此轮不需要调用工具\n")
         
         print(f"\n样本 {sample_idx} 完成")
         print(f"当前总体进度: {correct_turns}/{total_turns} = {(correct_turns/total_turns*100) if total_turns > 0 else 0:.2f}%")

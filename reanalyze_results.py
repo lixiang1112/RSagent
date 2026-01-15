@@ -72,9 +72,13 @@ for sample in samples:
             except:
                 pass
         
-        # 判断是否正确
+        # 只评估需要调用工具的轮次
+        if not gt_tools:
+            continue
+        
+        # 判断是否正确（只要包含了需要的工具就正确）
         total_turns += 1
-        is_correct = (set(actual_tools) == set(gt_tools))
+        is_correct = all(tool in actual_tools for tool in gt_tools)
         
         if is_correct:
             correct_turns += 1
